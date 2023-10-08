@@ -1,0 +1,214 @@
+/* Estilos para telefonos moviles pequeños */
+@media (max-width: 380px) {
+    .divNavbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        flex-shrink: 0;
+        align-self: stretch;
+        gap: 5%;
+        background-color: #1c1c21;
+        height: 100px;
+        width: 100%;
+        .divImagen {
+            width: 80%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-self: stretch;
+            .imagenNav {
+                width: 200px
+            }
+        }
+        .divOpciones {
+            display: none;
+        }
+        .divIconMenu {
+            width: 25%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-self: stretch;
+            .iconMenu {
+                width: 35px;
+            }
+        }
+        .divMenu {
+            position: fixed;
+            top: 0;
+            right: 0;
+            width: 50%;
+            height: 100%;
+            background-color: #1c1c21;
+            border-left: 1.5px solid white;
+            z-index: 1000; /* Asegura que esté por encima de otros elementos */
+            overflow-y: auto; /* Agregar scroll si el contenido es largo */
+            padding: 3%; /* Espacio interior del menú */
+            gap: 20px;
+            .listMenu {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin-top: 20px;
+            }
+        }
+    }
+}
+/* Estilos para telefonos moviles medianos */
+@media (min-width: 381px) and (max-width: 767px) {
+    .divNavbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        align-self: stretch;
+        gap: 5%;
+        background-color: #1c1c21;
+        height: 100px;
+        width: 100%;
+        .divImagen {
+            width: 75%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .imagenNav {
+                width: 200px
+            }
+        }
+        .divOpciones {
+            display: none;
+        }
+        .divIconMenu {
+            width: 25%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .iconMenu {
+                width: 35px;
+            }
+        }
+        .divMenu {
+            position: fixed;
+            top: 0;
+            right: 0;
+            width: 50%;
+            height: 100%;
+            background-color: #1c1c21;
+            border-left: 1.5px solid white;
+            z-index: 1000; /* Asegura que esté por encima de otros elementos */
+            overflow-y: auto; /* Agregar scroll si el contenido es largo */
+            padding: 3%; /* Espacio interior del menú */
+            gap: 20px;
+            .listMenu {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin-top: 20px;
+            }
+        }
+    }
+}
+/* Estilos para tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .divNavbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        align-self: stretch;
+        gap: 3%;
+        background-color: #1c1c21;
+        height: 100px;
+        width: 100%;
+        .divImagen {
+            display: flex;
+            .imagenNav {
+                width: 150px
+            }
+        }
+        .divOpciones {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            flex-shrink: 0;
+            align-self: stretch;
+            gap: 5px;
+        }
+        .divIconMenu {
+            display: none;
+        }
+        .divMenu {
+            display: none;
+        }
+    }
+}
+/* Estilos para escritorio */
+@media (min-width: 1024px) {
+    .divNavbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        align-items: center;
+        flex-shrink: 0;
+        align-self: stretch;
+        gap: 5%;
+        background-color: #1c1c21;
+        height: 100px;
+        width: 100%;
+        margin-left: 50px;
+        .divImagen {
+            display: flex;
+            .imagenNav {
+                width: 200px
+            }
+        }
+        .divOpciones {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            flex-shrink: 0;
+            align-self: stretch;
+            gap: 30px;
+        }
+        .divIconMenu {
+            display: none;
+        }
+        .divMenu {
+            display: none;
+        }
+    }
+}
+
+
+/* Botones de navegación */
+.offNavBar {
+    border: none;
+    font-size: 0.9rem;
+    padding: 5px 20px 5px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    position: relative;
+    transition: 0.2s;
+    color: #00acca;
+    background-color: #1c1c21;
+    transition: 0.3s;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    transition: .5s, color .10s;
+        -webkit-transition: .5s, color .10s;
+        -moz-transition: .5s, color .10s;
+}
+.offNavBar:hover{
+    color: #00acca;
+    transform: scale3d(1.1, 1.1, 0.3);
+        -webkit-transform: scale3d(1.1, 1.1, 0.3);
+        -moz-transform: scale3d(1.1, 1.1, 0.3);
+}
