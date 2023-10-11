@@ -24,10 +24,12 @@ const NavBar = () => {
     return (
         <div className={style.divNavbar}>
             <div className={style.divImagen}>
+                <NavLink to="/">
                 <img className={style.imagenNav} src="https://res.cloudinary.com/dfmsezslx/image/upload/v1696731568/TECDE/Tecde_horizontal_white_a2nqve.png" alt="LogoBlancoTECDE" />
+                </NavLink>
             </div>
             <div className={style.divOpciones}>
-                <Link>
+                <Link to="/nosotros">
                 <button className={style.offNavBar}>Nosotros</button>
                 </Link>
                 <Link>
@@ -48,6 +50,9 @@ const NavBar = () => {
             {isMenuOpen && (
             <div ref={menuRef} className={style.divMenu}>
                 <div className={style.listMenu}>
+                    <NavLink to="/">
+                        <button className={style.offNavBar}>Incio</button>
+                    </NavLink>
                     <NavLink to="/nosotros">
                         <button className={style.offNavBar}>Nosotros</button>
                     </NavLink>
