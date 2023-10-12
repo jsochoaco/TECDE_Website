@@ -82,6 +82,61 @@
             -webkit-transform: scale3d(1.1, 1.1, 0.3);
             -moz-transform: scale3d(1.1, 1.1, 0.3);
         }
+        .divContacto {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            align-self: stretch;
+            flex-wrap: wrap;
+            gap: 5%;
+            padding-top: 8%;
+            margin-top: 4%;
+            margin-bottom: 2%;
+            padding-bottom: 4%;
+            border-top: 1.5px solid #00ACCA;
+            .divForm {
+                display: flex;
+                padding: 10px;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 15px;
+                flex: 1 0 0;
+                width: 35%;
+                .imgForm {
+                    width: 180px;
+                }
+            }
+            .divTextoContacto {
+                display: flex;
+                padding: 10px;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 5px;
+                flex: 1 0 0;
+                width: 65%;
+                .contactoTitulo {
+                    margin: 0px;
+                    color: white;
+                    text-align: center;
+                    font-size: 1.2rem;
+                    font-style: normal;
+                    line-height: normal;
+                }
+                .contactoParrafo {
+                    color: white;
+                    text-align: left;
+                    font-size: 0.8rem;
+                    font-style: normal;
+                    font-weight: 10;
+                    line-height: normal;
+                    text-align: center;
+                }
+            }
+        }
     }
 }
 @media (min-width: 381px) and (max-width: 767px) {
@@ -167,6 +222,61 @@
             transform: scale3d(1.1, 1.1, 0.3);
             -webkit-transform: scale3d(1.1, 1.1, 0.3);
             -moz-transform: scale3d(1.1, 1.1, 0.3);
+        }
+        .divContacto {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            align-self: stretch;
+            flex-wrap: wrap;
+            gap: 5%;
+            padding-top: 8%;
+            margin-top: 4%;
+            margin-bottom: 2%;
+            padding-bottom: 4%;
+            border-top: 1.5px solid #00ACCA;
+            .divForm {
+                display: flex;
+                padding: 10px;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 15px;
+                flex: 1 0 0;
+                width: 35%;
+                .imgForm {
+                    width: 180px;
+                }
+            }
+            .divTextoContacto {
+                display: flex;
+                padding: 10px;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 5px;
+                flex: 1 0 0;
+                width: 65%;
+                .contactoTitulo {
+                    margin: 0px;
+                    color: white;
+                    text-align: center;
+                    font-size: 1.2rem;
+                    font-style: normal;
+                    line-height: normal;
+                }
+                .contactoParrafo {
+                    color: white;
+                    text-align: left;
+                    font-size: 0.8rem;
+                    font-style: normal;
+                    font-weight: 10;
+                    line-height: normal;
+                    text-align: center;
+                }
+            }
         }
     }
 }
@@ -256,6 +366,61 @@
             -webkit-transform: scale3d(1.1, 1.1, 0.3);
             -moz-transform: scale3d(1.1, 1.1, 0.3);
         }
+        .divContacto {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            align-self: stretch;
+            flex-wrap: wrap;
+            gap: 5%;
+            padding-top: 8%;
+            margin-top: 4%;
+            margin-bottom: 2%;
+            padding-bottom: 4%;
+            border-top: 1.5px solid #00ACCA;
+            .divForm {
+                display: flex;
+                padding: 10px;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 15px;
+                flex: 1 0 0;
+                width: 35%;
+                .imgForm {
+                    width: 300px;
+                }
+            }
+            .divTextoContacto {
+                display: flex;
+                padding: 10px;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 5px;
+                flex: 1 0 0;
+                width: 65%;
+                .contactoTitulo {
+                    margin: 0px;
+                    color: white;
+                    text-align: center;
+                    font-size: 1.5rem;
+                    font-style: normal;
+                    line-height: normal;
+                }
+                .contactoParrafo {
+                    color: white;
+                    text-align: left;
+                    font-size: 1rem;
+                    font-style: normal;
+                    font-weight: 10;
+                    line-height: normal;
+                    text-align: center;
+                }
+            }
+        }
     }
 }
 @media (min-width: 1024px)  {
@@ -295,7 +460,6 @@
             width: 100%;
             margin-top: 10px;
             cursor: pointer;
-
             .card {
                 display: flex;
                 padding: 2px;
@@ -354,5 +518,61 @@
                 -webkit-transform: scale3d(1.1, 1.1, 0.3);
                 -moz-transform: scale3d(1.1, 1.1, 0.3);
             }
-        }    
+        }
+        .divContacto {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            align-self: stretch;
+            flex-wrap: wrap;
+            gap: 5%;
+            padding-top: 10%;
+            margin-top: 5%;
+            margin-bottom: 2.5%;
+            padding-bottom: 5%;
+            border-top: 2px solid #00ACCA;
+            width: 100%;
+            .divForm {
+                display: flex;
+                padding: 10px;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 15px;
+                flex: 1 0 0;
+                width: 40%;
+                .imgForm {
+                    width: 400px;
+                }
+            }
+            .divTextoContacto {
+                display: flex;
+                padding: 10px;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 5px;
+                flex: 1 0 0;
+                width: 60%;
+                .contactoTitulo {
+                    margin: 0px;
+                    color: white;
+                    text-align: center;
+                    font-size: 2rem;
+                    font-style: normal;
+                    line-height: normal;
+                }
+                .contactoParrafo {
+                    color: white;
+                    text-align: left;
+                    font-size: 1.2rem;
+                    font-style: normal;
+                    font-weight: 10;
+                    line-height: normal;
+                    text-align: center;
+                }
+            }
+        }
 }}

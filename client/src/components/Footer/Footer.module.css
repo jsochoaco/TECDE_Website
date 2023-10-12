@@ -1,0 +1,511 @@
+@media (max-width: 380px) {
+    h4 {
+        color: black;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 100;
+        line-height: normal;
+        text-align: center;
+        margin: 0px;
+    }
+    .footerContenedor {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        align-self: stretch;
+        flex-wrap: wrap;
+        gap: 5%;
+        width: 100%;
+        background-color: white;
+        .footerContacto {
+            display: flex;
+            padding: 10px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 30%;
+            flex: 1 0 0;
+            .divRedesTotal {
+                display: flex;
+                padding: 10px;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                flex: 1 0 0;
+                .divRedes {
+                    display: flex;
+                    padding: 5px;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 10px;
+                    flex: 1 0 0;
+                    .iconoRedes {
+                        width: 30px;
+                    }
+                    .red {
+                        text-decoration: underline white;
+                        color: #00acca;
+                        text-align: left;
+                        font-size: 0.8rem;
+                        font-style: normal;
+                        font-weight: 10;
+                        line-height: normal;
+                        text-align: center;
+                        margin: 0px;
+                    }
+                }
+            }
+            .divContacto {
+                display: flex;
+                padding: 10px;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 5px;
+                .divContactData {
+                    display: flex;
+                    padding: 5px;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 5px;
+                    .iconoRedes {
+                        width: 30px;
+                    }
+                    .red {
+                        text-decoration: underline white;
+                        color: #00acca;
+                        text-align: left;
+                        font-size: 0.8rem;
+                        font-style: normal;
+                        font-weight: 10;
+                        line-height: normal;
+                        text-align: center;
+                        margin: 0px;
+                    }
+                }
+            }
+        }
+        .divMarca {
+            flex-direction: column;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 3px;
+            margin: 0px;
+            color: white;
+            background-color: #1C1C21;
+            width: 100%;
+    
+            .marcaTECDE {
+                margin: 0px;
+            }
+            .marcaPropia{
+                margin: 0px;
+                font-size: 0.7rem;
+                text-decoration: underline #1C1C21;
+                color: white;
+                text-align: left;
+                font-style: normal;
+                line-height: normal;
+                text-align: center;
+            }
+            .nameDev {
+                margin: 0px;
+                text-decoration: underline #1C1C21;
+                font-size: 0.85rem;
+                color: #00acca;
+                text-align: left;
+                font-style: normal;
+                line-height: normal;
+                text-align: center;
+            }
+        }
+    } 
+}
+@media (min-width: 381px) and (max-width: 767px){
+    h4 {
+        color: black;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 100;
+        line-height: normal;
+        text-align: center;
+        margin: 0px;
+    }
+    .footerContenedor {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        align-self: stretch;
+        flex-wrap: wrap;
+        gap: 5%;
+        width: 100%;
+        background-color: white;
+        .footerContacto {
+            display: flex;
+            padding: 10px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 30%;
+            flex: 1 0 0;
+            .divRedesTotal {
+                display: flex;
+                padding: 10px;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                flex: 1 0 0;
+                .divRedes {
+                    display: flex;
+                    padding: 5px;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 10px;
+                    flex: 1 0 0;
+                    .iconoRedes {
+                        width: 30px;
+                    }
+                    .red {
+                        text-decoration: underline white;
+                        color: #00acca;
+                        text-align: left;
+                        font-size: 0.8rem;
+                        font-style: normal;
+                        font-weight: 10;
+                        line-height: normal;
+                        text-align: center;
+                        margin: 0px;
+                    }
+                }
+            }
+            .divContacto {
+                display: flex;
+                padding: 10px;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 5px;
+                .divContactData {
+                    display: flex;
+                    padding: 5px;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 5px;
+                    .iconoRedes {
+                        width: 30px;
+                    }
+                    .red {
+                        text-decoration: underline white;
+                        color: #00acca;
+                        text-align: left;
+                        font-size: 0.8rem;
+                        font-style: normal;
+                        font-weight: 10;
+                        line-height: normal;
+                        text-align: center;
+                        margin: 0px;
+                    }
+                }
+            }
+        }
+        .divMarca {
+            flex-direction: column;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 3px;
+            margin: 0px;
+            color: white;
+            background-color: #1C1C21;
+            width: 100%;
+    
+            .marcaTECDE {
+                margin: 0px;
+            }
+            .marcaPropia{
+                margin: 0px;
+                font-size: 0.7rem;
+                text-decoration: underline #1C1C21;
+                color: white;
+                text-align: left;
+                font-style: normal;
+                line-height: normal;
+                text-align: center;
+            }
+            .nameDev {
+                margin: 0px;
+                text-decoration: underline #1C1C21;
+                font-size: 0.85rem;
+                color: #00acca;
+                text-align: left;
+                font-style: normal;
+                line-height: normal;
+                text-align: center;
+            }
+        }
+    } 
+}
+@media (min-width: 768px) and (max-width: 1023px){
+    h4 {
+        color: black;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 100;
+        line-height: normal;
+        text-align: center;
+        margin: 0px;
+    }
+    .footerContenedor {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        align-self: stretch;
+        flex-wrap: wrap;
+        gap: 5%;
+        width: 100%;
+        background-color: white;
+        .footerContacto {
+            display: flex;
+            padding: 10px;
+            flex-direction: row;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 12%;
+            flex: 1 0 0;
+            .divRedesTotal {
+                display: flex;
+                padding: 10px;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                flex: 1 0 0;
+                .divRedes {
+                    display: flex;
+                    padding: 5px;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 10px;
+                    flex: 1 0 0;
+                    .iconoRedes {
+                        width: 30px;
+                    }
+                    .red {
+                        text-decoration: underline white;
+                        color: #00acca;
+                        text-align: left;
+                        font-size: 0.8rem;
+                        font-style: normal;
+                        font-weight: 10;
+                        line-height: normal;
+                        text-align: center;
+                        margin: 0px;
+                    }
+                }
+            }
+            .divContacto {
+                display: flex;
+                padding: 10px;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 5px;
+                .divContactData {
+                    display: flex;
+                    padding: 5px;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 5px;
+                    .iconoRedes {
+                        width: 30px;
+                    }
+                    .red {
+                        text-decoration: underline white;
+                        color: #00acca;
+                        text-align: left;
+                        font-size: 0.8rem;
+                        font-style: normal;
+                        font-weight: 10;
+                        line-height: normal;
+                        text-align: center;
+                        margin: 0px;
+                    }
+                }
+            }
+        }
+        .divMarca {
+            flex-direction: column;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 3px;
+            margin: 0px;
+            color: white;
+            background-color: #1C1C21;
+            width: 100%;
+    
+            .marcaTECDE {
+                margin: 0px;
+            }
+            .marcaPropia{
+                margin: 0px;
+                font-size: 0.7rem;
+                text-decoration: underline #1C1C21;
+                color: white;
+                text-align: left;
+                font-style: normal;
+                line-height: normal;
+                text-align: center;
+            }
+            .nameDev {
+                margin: 0px;
+                text-decoration: underline #1C1C21;
+                font-size: 0.85rem;
+                color: #00acca;
+                text-align: left;
+                font-style: normal;
+                line-height: normal;
+                text-align: center;
+            }
+        }
+    }
+}
+@media (min-width: 1024px) {
+    .footerContenedor {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        align-self: stretch;
+        flex-wrap: wrap;
+        gap: 5%;
+        width: 100%;
+        background-color: white;
+        .footerContacto {
+            display: flex;
+            padding: 10px;
+            flex-direction: row;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 30%;
+            flex: 1 0 0;
+            .divRedesTotal {
+                display: flex;
+                padding: 10px;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                flex: 1 0 0;
+                .divRedes {
+                    display: flex;
+                    padding: 5px;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 10px;
+                    flex: 1 0 0;
+                    .iconoRedes {
+                        width: 30px;
+                    }
+                    .red {
+                        text-decoration: underline white;
+                        color: #00acca;
+                        text-align: left;
+                        font-size: 1rem;
+                        font-style: normal;
+                        font-weight: 10;
+                        line-height: normal;
+                        text-align: center;
+                        margin: 0px;
+                    }
+                }
+            }
+            .divContacto {
+                display: flex;
+                padding: 10px;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 5px;
+                .divContactData {
+                    display: flex;
+                    padding: 5px;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 5px;
+                    .iconoRedes {
+                        width: 30px;
+                    }
+                    .red {
+                        text-decoration: underline white;
+                        color: #00acca;
+                        text-align: left;
+                        font-size: 1rem;
+                        font-style: normal;
+                        font-weight: 10;
+                        line-height: normal;
+                        text-align: center;
+                        margin: 0px;
+                    }
+                }
+            }
+        }
+        .divMarca {
+            flex-direction: column;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 3px;
+            margin: 0px;
+            color: white;
+            background-color: #1C1C21;
+            width: 100%;
+    
+            .marcaTECDE {
+                margin: 0px;
+            }
+            .marcaPropia{
+                margin: 0px;
+                font-size: 0.8rem;
+                text-decoration: underline #1C1C21;
+                color: white;
+                text-align: left;
+                font-style: normal;
+                line-height: normal;
+                text-align: center;
+            }
+            .nameDev {
+                margin: 0px;
+                text-decoration: underline #1C1C21;
+                font-size: 1rem;
+                color: #00acca;
+                text-align: left;
+                font-style: normal;
+                line-height: normal;
+                text-align: center;
+            }
+        }
+    }
+}
+.footerLogo {
+    width: 250px;
+    padding: 10px;
+}
