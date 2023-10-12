@@ -1,9 +1,10 @@
 import { useState, useEffect, useRef } from "react";
 import style from "./navbar.module.css"
-import { Link, NavLink } from "react-router-dom"
+import { Link, NavLink, useLocation } from "react-router-dom"
 
 const NavBar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const location = useLocation()
     const menuRef = useRef(null);
     useEffect(() => {
       function handleDocumentClick(event) {
@@ -29,11 +30,14 @@ const NavBar = () => {
                 </NavLink>
             </div>
             <div className={style.divOpciones}>
-                <Link to="/nosotros">
-                <button className={style.offNavBar}>Nosotros</button>
+                <Link to="/">
+                <button className={location.pathname === "/" ? style.onNavBar : style.offNavBar}>Incio</button>
                 </Link>
-                <Link>
-                <button className={style.offNavBar}>Servicios</button>
+                <Link to="/nosotros">
+                <button className={location.pathname === "/nosotros" ? style.onNavBar : style.offNavBar}>Nosotros</button>
+                </Link>
+                <Link to = "/servicios" >
+                <button className={location.pathname === "/servicios" ? style.onNavBar : style.offNavBar}>Servicios</button>
                 </Link>
                 <Link>
                 <button className={style.offNavBar}>Trayectoria</button>
@@ -51,19 +55,19 @@ const NavBar = () => {
             <div ref={menuRef} className={style.divMenu}>
                 <div className={style.listMenu}>
                     <NavLink to="/">
-                        <button className={style.offNavBar}>Incio</button>
+                        <button className={location.pathname === "/" ? style.onNavBar : style.offNavBar}>Incio</button>
                     </NavLink>
                     <NavLink to="/nosotros">
-                        <button className={style.offNavBar}>Nosotros</button>
+                        <button className={location.pathname === "/nosotros" ? style.onNavBar : style.offNavBar}>Nosotros</button>
                     </NavLink>
                     <NavLink to="/servicios"> 
-                        <button className={style.offNavBar}>Servicios</button>
+                        <button className={location.pathname === "/servicios" ? style.onNavBar : style.offNavBar}>Servicios</button>
                     </NavLink>
                     <NavLink to="/trayectoria"> 
-                        <button className={style.offNavBar}>Trayectoria</button>
+                        <button className={location.pathname === "/trayectoria" ? style.onNavBar : style.offNavBar}>Trayectoria</button>
                     </NavLink>
                     <NavLink to="/contacto"> 
-                        <button className={style.offNavBar}>Contacto</button>
+                        <button className={location.pathname === "/contacto" ? style.onNavBar : style.offNavBar}>Contacto</button>
                     </NavLink>
                 </div>
             </div>)}

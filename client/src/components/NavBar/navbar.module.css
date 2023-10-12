@@ -187,11 +187,10 @@
     }
 }
 
-
 /* Botones de navegación */
 .offNavBar {
     border: none;
-    font-size: 0.9rem;
+    font-size: 1rem;
     padding: 5px 20px 5px 20px;
     border-radius: 50px;
     cursor: pointer;
@@ -207,6 +206,30 @@
         -moz-transition: .5s, color .10s;
 }
 .offNavBar:hover{
+    color: white;
+    transform: scale3d(1.1, 1.1, 0.3);
+        -webkit-transform: scale3d(1.1, 1.1, 0.3);
+        -moz-transform: scale3d(1.1, 1.1, 0.3);
+}
+
+.onNavBar {
+    border: none;
+    font-size: 1.1rem;
+    padding: 5px 20px 5px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    position: relative;
+    transition: 0.2s;
+    color: white;
+    background-color: #1c1c21;
+    transition: 0.3s;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    transition: .5s, color .10s;
+        -webkit-transition: .5s, color .10s;
+        -moz-transition: .5s, color .10s;
+}
+.onNavBar:hover{
     color: white;
     transform: scale3d(1.1, 1.1, 0.3);
         -webkit-transform: scale3d(1.1, 1.1, 0.3);

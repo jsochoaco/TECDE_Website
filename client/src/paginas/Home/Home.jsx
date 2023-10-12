@@ -1,6 +1,6 @@
 import Banner from "../../components/Banner/Banner"
-import NavBar from "../../components/NavBar/NavBar"
 import SecondBanner from "../../components/SecondBanner/Banner/SecondBanner"
+import Carousel from "../../components/SecondBanner/Banner/Carrousel"
 import style from "./home.module.css"
 
 
@@ -8,9 +8,9 @@ const Home = () => {
     return (
         <>
         <div className={style.divContenedor}>
-            <NavBar/>
             <Banner/>
             <SecondBanner/>
+            <Carousel/>
         </div>
 
         </>

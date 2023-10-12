@@ -1,5 +1,5 @@
+import Carousel from "./Carrousel"
 import style from "./secondbanner.module.css"
-
 
 
 const SecondBanner = () => {
@@ -17,8 +17,6 @@ const SecondBanner = () => {
                         <h4 className={style.parrafoBanner}>Diseñamos y damos soluciones de alta ingeniería que resuelven problemas de la industria en el marco de la transformación tecnológica, la automatización de procesos y eficiencia operativa.</h4>
                     </div>
                 </div>
-            </div>
-            <div className={style.divFantasma}>
             </div>
         </div>
     )
