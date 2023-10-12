@@ -1,4 +1,3 @@
-import Carousel from "./Carrousel"
 import style from "./secondbanner.module.css"
 
 

@@ -1,7 +1,8 @@
 import Banner from "../../components/Banner/Banner"
-import SecondBanner from "../../components/SecondBanner/Banner/SecondBanner"
-import Carousel from "../../components/SecondBanner/Banner/Carrousel"
+import SecondBanner from "../../components/SecondBanner/SecondBanner"
+import Carousel from "../../components/SecondBanner/Carrousel"
 import style from "./home.module.css"
+import ThreeBanner from "../../components/ThreeBanner/ThreeBanner"
 
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
             <Banner/>
             <SecondBanner/>
             <Carousel/>
+            <ThreeBanner/>
         </div>
 
         </>

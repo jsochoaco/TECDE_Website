@@ -1,0 +1,66 @@
+@media (max-width: 380px) {
+    .divBanner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        align-self: stretch;
+        flex-wrap: wrap;
+        gap: 5%;
+        width: 100%;
+        .divTexto {
+            display: flex;
+            padding: 10px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            flex: 1 0 0;
+            .tituloBanner {
+                margin: 0px;
+                color: white;
+                text-align: center;
+                font-size: 1.35rem;
+                font-style: normal;
+                line-height: normal;
+            }
+        .cardsThree {
+            display: flex;
+            padding: 15px;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 3px;
+
+            .card {
+                display: flex;
+                padding: 2px;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                background-color: #00ACCA;
+                border-radius: 10px;
+                width: 80%;
+            }
+            .imgCard {
+                width: 125px
+            }
+            .parrafoCard {
+                color: white;
+                text-align: left;
+                font-size: 0.85rem;
+                font-style: normal;
+                font-weight: 10;
+                line-height: normal;
+                text-align: justify;
+                margin: 0px 5px 0px 8px;
+            }
+        }
+        }
+        .divFantasma {
+            display: none;
+        }
+    }
+}
