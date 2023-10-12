@@ -1,0 +1,235 @@
+@media (max-width: 380px) {
+    .carousel {
+        position: relative;
+        width: 90%;
+        max-width: 600px;
+        background-color: #1c1c21;
+        margin-top: 20px;
+      }
+      .carouselSlide {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 5px;
+        overflow: hidden;
+        flex-wrap: wrap;
+        width: 100%;
+        min-height: 300px
+      }
+      .carouseImg {
+        width: 220px;
+        height: 180px;
+        border-radius: 50px;
+      }
+      .parrafoSlide {
+        color: white;
+        text-align: left;
+        font-size: 0.85rem;
+        font-style: normal;
+        font-weight: 10;
+        line-height: normal;
+        text-align: justify;
+        padding: 8px;
+        width: 80%;
+    }
+      .prevButton,
+      .nextButton {
+        position: absolute;
+        top: 35%;
+        transform: translateY(-50%);
+        width: 30px;
+        height: 30px;
+        background-color: transparent;
+        color: #fff;
+        border: none;
+        border-radius: 50%;
+        cursor: pointer;
+        font-size: 2.5rem;
+      }
+      
+      .prevButton {
+        left: 0px;
+      }
+      
+      .nextButton {
+        right: 0px;
+      }
+}
+@media (min-width: 381px) and (max-width: 767px) {
+    .carousel {
+        position: relative;
+        width: 90%;
+        max-width: 600px;
+        background-color: #1c1c21;
+        margin-top: 20px;
+      }
+      
+      .carouselSlide {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 5px;
+        overflow: hidden;
+        flex-wrap: wrap;
+        width: 100%;
+        min-height: 300px
+      }
+      .carouseImg {
+        width: 220px;
+        height: 180px;
+        border-radius: 50px;
+      }
+      .parrafoSlide {
+        color: white;
+        text-align: left;
+        font-size: 0.85rem;
+        font-style: normal;
+        font-weight: 10;
+        line-height: normal;
+        text-align: justify;
+        padding: 8px;
+        width: 80%;
+    }
+      .prevButton,
+      .nextButton {
+        position: absolute;
+        top: 35%;
+        transform: translateY(-50%);
+        width: 30px;
+        height: 30px;
+        background-color: transparent;
+        color: #fff;
+        border: none;
+        border-radius: 50%;
+        cursor: pointer;
+        font-size: 2.5rem;
+      }
+      
+      .prevButton {
+        left: 0px;
+      }
+      
+      .nextButton {
+        right: 0px;
+      }
+}
+@media (min-width: 768px) and (max-width: 1023px)  {
+    .carousel {
+        position: relative;
+        width: 90%;
+        max-width: 600px;
+        background-color: #1c1c21;
+        margin-top: 10px;
+      }
+      .carouselSlide {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 5px;
+        overflow: hidden;
+        flex-wrap: wrap;
+        width: 100%;
+        min-height: 300px
+      }
+      .carouseImg {
+        width: 300px;
+        height: 200px;
+        border-radius: 50px;
+      }
+      .parrafoSlide {
+        color: white;
+        text-align: left;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 10;
+        line-height: normal;
+        text-align: justify;
+        padding: 8px;
+        width: 80%;
+    }
+      .prevButton,
+      .nextButton {
+        position: absolute;
+        top: 35%;
+        transform: translateY(-50%);
+        width: 30px;
+        height: 30px;
+        background-color: transparent;
+        color: #fff;
+        border: none;
+        border-radius: 50%;
+        cursor: pointer;
+        font-size: 2.5rem;
+      }
+      
+      .prevButton {
+        left: 0px;
+      }
+      
+      .nextButton {
+        right: 0px;
+      }
+}
+@media (min-width: 1024px) {
+    .carousel {
+        position: relative;
+        width: 100%;
+        max-width: 600px;
+        margin-top: 3%;
+        background-color: #1c1c21;
+      }
+      
+      .carouselSlide {
+        padding: 10px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 10%;
+        overflow: hidden;
+        width: 110%;
+        min-height: 400px
+      }
+      
+      .carouseImg {
+        width: 400px;
+        height: auto;
+        padding: 5px;
+        border-radius: 50px;
+      }
+      .parrafoSlide {
+        color: white;
+        text-align: left;
+        font-size: 1.1rem;
+        font-style: normal;
+        font-weight: 10;
+        line-height: normal;
+        text-align: justify;
+    }
+      
+      .prevButton,
+      .nextButton {
+        position: absolute;
+        top: 35%;
+        transform: translateY(-50%);
+        width: 30px;
+        height: 30px;
+        background-color: transparent;
+        color: #fff;
+        border: none;
+        border-radius: 50%;
+        cursor: pointer;
+        font-size: 3rem;
+      }
+      
+      .prevButton {
+        left: -150px;
+      }
+      
+      .nextButton {
+        right: -150px;
+      }
+}

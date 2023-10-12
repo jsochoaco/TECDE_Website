@@ -1,0 +1,225 @@
+@media (max-width: 380px) {
+    .divBanner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        align-self: stretch;
+        flex-wrap: wrap;
+        gap: 5%;
+        width: 100%;
+        background-image: linear-gradient(rgba(28, 28, 33, 0.98), rgba(28, 28, 33, 0.98)), url("https://res.cloudinary.com/dfmsezslx/image/upload/v1696741175/TECDE/TCDv2_siw1kr.png");
+        .divTexto {
+            display: flex;
+            padding: 10px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            flex: 1 0 0;
+            .tituloBanner {
+                margin: 0px;
+                color: white;
+                text-align: left;
+                font-size: 1.35rem;
+                font-style: normal;
+                line-height: normal;
+            }
+        .bannerUs {
+            display: flex;
+            padding: 15px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 3px;
+            .imgBanner {
+                width: 150px
+            }
+            .parrafoBanner {
+                color: white;
+
+                text-align: left;
+                font-size: 0.85rem;
+                font-style: normal;
+                font-weight: 10;
+                line-height: normal;
+                text-align: justify;
+            }
+        }
+        }
+        .divFantasma {
+            display: none;
+        }
+    }
+}
+@media (min-width: 381px) and (max-width: 767px) {
+    .divBanner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        gap: 10px 55px;
+        align-self: stretch;
+        flex-wrap: wrap;
+        gap: 5%;
+        width: 100%;
+        background-image: linear-gradient(rgba(28, 28, 33, 0.98), rgba(28, 28, 33, 0.98)), url("https://res.cloudinary.com/dfmsezslx/image/upload/v1696741175/TECDE/TCDv2_siw1kr.png");
+        .divTexto {
+            display: flex;
+            padding: 10px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            flex: 1 0 0;
+            .tituloBanner {
+                margin: 0px;
+                color: white;
+                text-align: left;
+                font-size: 1.35rem;
+                font-style: normal;
+                line-height: normal;
+            }
+        .bannerUs {
+            display: flex;
+            padding: 5px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 3px;
+            .imgBanner {
+                width: 150px
+            }
+            .parrafoBanner {
+                color: white;
+                text-align: left;
+                font-size: 0.85rem;
+                font-style: normal;
+                font-weight: 10;
+                line-height: normal;
+                text-align: justify;
+            }
+        }
+        }
+        .divFantasma {
+            display: none;
+        }
+    }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+    .divBanner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        align-self: stretch;
+        flex-wrap: wrap;
+        gap: 5%;
+        width: 100%;
+        .divTexto {
+            display: flex;
+            padding: 10px;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 5px;
+            flex: 1 0 0;
+            .tituloBanner {
+                margin-top: 0px;
+                color: white;
+                text-align: left;
+                font-size: 1.35rem;
+                font-style: normal;
+                line-height: normal;
+            }
+        .bannerUs {
+            display: flex;
+            padding: 5px;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 3px;
+            .componentUs {
+                width: 50%;
+            }
+            .imgBanner {
+                width: 250px
+            }
+            .parrafoBanner {
+                color: white;
+                text-align: left;
+                font-size: 0.85rem;
+                font-style: normal;
+                font-weight: 10;
+                line-height: normal;
+                text-align: justify;
+                width: 90%;
+            }
+        }
+        }
+        .divFantasma {
+            display: none;
+        }
+    }
+}
+@media (min-width: 1024px) {
+    .divBanner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        align-self: stretch;
+        flex-wrap: wrap;
+        gap: 5%;
+        width: 100%;
+        margin-top: 3%;
+        background-image: linear-gradient(rgba(28, 28, 33, 0.98), rgba(28, 28, 33, 0.98)), url("https://res.cloudinary.com/dfmsezslx/image/upload/v1696741175/TECDE/TCDv2_siw1kr.png");
+        .divTexto {
+            display: flex;
+            padding: 10px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            flex: 1 0 0;
+            .tituloBanner {
+                margin: 0px;
+                color: white;
+                text-align: left;
+                font-size: 2.3rem;
+                font-style: normal;
+                line-height: normal;
+            }
+        .bannerUs {
+            display: flex;
+            padding: 5px;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 3px;
+            .componentUs {
+                width: 50%;
+            }
+            .imgBanner {
+                width: 350px;
+            }
+            .parrafoBanner {
+                color: white;
+                text-align: left;
+                font-size: 1.25rem;
+                font-style: normal;
+                font-weight: 10;
+                line-height: normal;
+                text-align: justify;
+                width: 75%;
+            }
+        }
+        }
+        .divFantasma {
+            display: none;
+        }
+    }
+}
+
+
+

@@ -1,0 +1,578 @@
+@media (max-width: 380px) {
+    .divBanner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        align-self: stretch;
+        flex-wrap: wrap;
+        gap: 5%;
+        width: 100%;
+        .divTexto {
+            display: flex;
+            padding: 10px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            flex: 1 0 0;
+            .tituloBanner {
+                margin: 0px;
+                color: white;
+                text-align: center;
+                font-size: 1.35rem;
+                font-style: normal;
+                line-height: normal;
+            }
+        .cardsThree {
+            display: flex;
+            padding: 15px;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            width: 90%;
+            .card {
+                display: flex;
+                padding: 10px;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                background-color: #00ACCA;
+                border-radius: 5px;
+                width: 80%;
+            }
+            .imgCard {
+                width: 135px
+            }
+            .parrafoCard {
+                color: white;
+                text-align: left;
+                font-size: 0.85rem;
+                font-style: normal;
+                font-weight: 10;
+                line-height: normal;
+                text-align: center;
+            }
+        }
+        }
+        .callBoton {
+            border: none;
+            font-size: 1rem;
+            margin-top: 3%;
+            padding: 5px 20px 5px 20px;
+            border-radius: 50px;
+            cursor: pointer;
+            position: relative;
+            transition: 0.2s;
+            color: white;
+            background-color: #00ACCA;
+            /* border: 2px solid #00ACCA; */
+            transition: 0.3s;
+            font-family: "Gotham", sans-serif;
+            text-align: center;
+            border-radius: 5px;
+        }
+        .callBoton:hover{
+            color: #00ACCA;
+            background-color: white;
+            transform: scale3d(1.1, 1.1, 0.3);
+            -webkit-transform: scale3d(1.1, 1.1, 0.3);
+            -moz-transform: scale3d(1.1, 1.1, 0.3);
+        }
+        .divContacto {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            align-self: stretch;
+            flex-wrap: wrap;
+            gap: 5%;
+            padding-top: 8%;
+            margin-top: 4%;
+            margin-bottom: 2%;
+            padding-bottom: 4%;
+            border-top: 1.5px solid #00ACCA;
+            .divForm {
+                display: flex;
+                padding: 10px;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 15px;
+                flex: 1 0 0;
+                width: 35%;
+                .imgForm {
+                    width: 180px;
+                }
+            }
+            .divTextoContacto {
+                display: flex;
+                padding: 10px;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 5px;
+                flex: 1 0 0;
+                width: 65%;
+                .contactoTitulo {
+                    margin: 0px;
+                    color: white;
+                    text-align: center;
+                    font-size: 1.2rem;
+                    font-style: normal;
+                    line-height: normal;
+                }
+                .contactoParrafo {
+                    color: white;
+                    text-align: left;
+                    font-size: 0.8rem;
+                    font-style: normal;
+                    font-weight: 10;
+                    line-height: normal;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+@media (min-width: 381px) and (max-width: 767px) {
+    .divBanner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        align-self: stretch;
+        flex-wrap: wrap;
+        gap: 5%;
+        width: 100%;
+        .divTexto {
+            display: flex;
+            padding: 10px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            flex: 1 0 0;
+            .tituloBanner {
+                margin: 0px;
+                color: white;
+                text-align: center;
+                font-size: 1.35rem;
+                font-style: normal;
+                line-height: normal;
+            }
+        .cardsThree {
+            display: flex;
+            padding: 15px;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            width: 90%;
+            .card {
+                display: flex;
+                padding: 10px;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                background-color: #00ACCA;
+                border-radius: 5px;
+                width: 80%;
+            }
+            .imgCard {
+                width: 125px
+            }
+            .parrafoCard {
+                color: white;
+                text-align: left;
+                font-size: 0.95rem;
+                font-style: normal;
+                font-weight: 10;
+                line-height: normal;
+                text-align: center;
+            }
+        }
+        }
+        .callBoton {
+            border: none;
+            font-size: 1.05rem;
+            margin-top: 3%;
+            padding: 5px 20px 5px 20px;
+            border-radius: 50px;
+            cursor: pointer;
+            position: relative;
+            transition: 0.2s;
+            color: white;
+            background-color: #00ACCA;
+            /* border: 2px solid #00ACCA; */
+            transition: 0.3s;
+            font-family: "Gotham", sans-serif;
+            text-align: center;
+            border-radius: 5px;
+        }
+        .callBoton:hover{
+            color: #00ACCA;
+            background-color: white;
+            transform: scale3d(1.1, 1.1, 0.3);
+            -webkit-transform: scale3d(1.1, 1.1, 0.3);
+            -moz-transform: scale3d(1.1, 1.1, 0.3);
+        }
+        .divContacto {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            align-self: stretch;
+            flex-wrap: wrap;
+            gap: 5%;
+            padding-top: 8%;
+            margin-top: 4%;
+            margin-bottom: 2%;
+            padding-bottom: 4%;
+            border-top: 1.5px solid #00ACCA;
+            .divForm {
+                display: flex;
+                padding: 10px;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 15px;
+                flex: 1 0 0;
+                width: 35%;
+                .imgForm {
+                    width: 180px;
+                }
+            }
+            .divTextoContacto {
+                display: flex;
+                padding: 10px;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 5px;
+                flex: 1 0 0;
+                width: 65%;
+                .contactoTitulo {
+                    margin: 0px;
+                    color: white;
+                    text-align: center;
+                    font-size: 1.2rem;
+                    font-style: normal;
+                    line-height: normal;
+                }
+                .contactoParrafo {
+                    color: white;
+                    text-align: left;
+                    font-size: 0.8rem;
+                    font-style: normal;
+                    font-weight: 10;
+                    line-height: normal;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+    .divBanner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        align-self: stretch;
+        flex-wrap: wrap;
+        gap: 5%;
+        width: 100%;
+        .divTexto {
+            display: flex;
+            padding: 10px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            flex: 1 0 0;
+            .tituloBanner {
+                margin: 0px;
+                color: white;
+                text-align: center;
+                font-size: 1.35rem;
+                font-style: normal;
+                line-height: normal;
+            }
+        .cardsThree {
+            display: flex;
+            padding: 15px;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 5%;
+            width: 100%;
+            .card {
+                display: flex;
+                padding: 2px;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                background-color: #00ACCA;
+                border-radius: 5px;
+                width: 20%;
+                height: 210px;
+            }
+            .imgCard {
+                margin-top: 15px;
+                width: 125px
+            }
+            .parrafoCard {
+                color: white;
+                text-align: left;
+                font-size: 0.85rem;
+                font-style: normal;
+                font-weight: 10;
+                line-height: normal;
+                text-align: center;
+            }
+        }
+        }
+        .callBoton {
+            border: none;
+            font-size: 1.15rem;
+            margin-top: 3%;
+            padding: 5px 20px 5px 20px;
+            border-radius: 50px;
+            cursor: pointer;
+            position: relative;
+            transition: 0.2s;
+            color: white;
+            background-color: #00ACCA;
+            /* border: 2px solid #00ACCA; */
+            transition: 0.3s;
+            font-family: "Gotham", sans-serif;
+            text-align: center;
+            border-radius: 5px;
+        }
+        .callBoton:hover{
+            color: #00ACCA;
+            background-color: white;
+            transform: scale3d(1.1, 1.1, 0.3);
+            -webkit-transform: scale3d(1.1, 1.1, 0.3);
+            -moz-transform: scale3d(1.1, 1.1, 0.3);
+        }
+        .divContacto {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            align-self: stretch;
+            flex-wrap: wrap;
+            gap: 5%;
+            padding-top: 8%;
+            margin-top: 4%;
+            margin-bottom: 2%;
+            padding-bottom: 4%;
+            border-top: 1.5px solid #00ACCA;
+            .divForm {
+                display: flex;
+                padding: 10px;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 15px;
+                flex: 1 0 0;
+                width: 35%;
+                .imgForm {
+                    width: 300px;
+                }
+            }
+            .divTextoContacto {
+                display: flex;
+                padding: 10px;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 5px;
+                flex: 1 0 0;
+                width: 65%;
+                .contactoTitulo {
+                    margin: 0px;
+                    color: white;
+                    text-align: center;
+                    font-size: 1.5rem;
+                    font-style: normal;
+                    line-height: normal;
+                }
+                .contactoParrafo {
+                    color: white;
+                    text-align: left;
+                    font-size: 1rem;
+                    font-style: normal;
+                    font-weight: 10;
+                    line-height: normal;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+@media (min-width: 1024px)  {
+    .divBanner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        align-self: stretch;
+        flex-wrap: wrap;
+        gap: 5%;
+        width: 100%;
+        .divTexto {
+            display: flex;
+            padding: 10px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            flex: 1 0 0;
+            .tituloBanner {
+                margin: 0px;
+                color: white;
+                text-align: center;
+                font-size: 2.3rem;
+                font-style: normal;
+                line-height: normal;
+            }
+        .cardsThree {
+            display: flex;
+            padding: 15px;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 5%;
+            width: 100%;
+            margin-top: 10px;
+            cursor: pointer;
+            .card {
+                display: flex;
+                padding: 2px;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+                gap: 10px;
+                background-color: #00ACCA;
+                width: 20%;
+                height: 300px;
+                border-radius: 5px;
+                transition: .5s, color .10s;
+                -webkit-transition: .5s, color .10s;
+                -moz-transition: .5s, color .10s;
+            }
+            .imgCard {
+                margin-top: 15px;
+                width: 180px
+            }
+            .parrafoCard {
+                color: white;
+                text-align: left;
+                font-size: 1.2rem;
+                font-style: normal;
+                font-weight: 10;
+                line-height: normal;
+                text-align: center;
+            }}
+            .card:hover{
+                transform: scale3d(1.1, 1.1, 0.3);
+                    -webkit-transform: scale3d(1.1, 1.1, 0.3);
+                    -moz-transform: scale3d(1.1, 1.1, 0.3);
+            }
+            .callBoton {
+                border: none;
+                font-size: 1.25rem;
+                margin-top: 3%;
+                padding: 5px 20px 5px 20px;
+                border-radius: 50px;
+                cursor: pointer;
+                position: relative;
+                transition: 0.2s;
+                color: white;
+                background-color: #00ACCA;
+                /* border: 2px solid #00ACCA; */
+                transition: 0.3s;
+                font-family: "Gotham", sans-serif;
+                text-align: center;
+                border-radius: 5px;
+            }
+            .callBoton:hover{
+                color: #00ACCA;
+                background-color: white;
+                transform: scale3d(1.1, 1.1, 0.3);
+                -webkit-transform: scale3d(1.1, 1.1, 0.3);
+                -moz-transform: scale3d(1.1, 1.1, 0.3);
+            }
+        }
+        .divContacto {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            align-self: stretch;
+            flex-wrap: wrap;
+            gap: 5%;
+            padding-top: 10%;
+            margin-top: 5%;
+            margin-bottom: 2.5%;
+            padding-bottom: 5%;
+            border-top: 2px solid #00ACCA;
+            width: 100%;
+            .divForm {
+                display: flex;
+                padding: 10px;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 15px;
+                flex: 1 0 0;
+                width: 40%;
+                .imgForm {
+                    width: 400px;
+                }
+            }
+            .divTextoContacto {
+                display: flex;
+                padding: 10px;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 5px;
+                flex: 1 0 0;
+                width: 60%;
+                .contactoTitulo {
+                    margin: 0px;
+                    color: white;
+                    text-align: center;
+                    font-size: 2rem;
+                    font-style: normal;
+                    line-height: normal;
+                }
+                .contactoParrafo {
+                    color: white;
+                    text-align: left;
+                    font-size: 1.2rem;
+                    font-style: normal;
+                    font-weight: 10;
+                    line-height: normal;
+                    text-align: center;
+                }
+            }
+        }
+}}
