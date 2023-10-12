@@ -4,8 +4,8 @@
         width: 90%;
         max-width: 600px;
         background-color: #1c1c21;
+        margin-top: 20px;
       }
-      
       .carouselSlide {
         display: flex;
         flex-direction: column;
@@ -31,6 +31,7 @@
         line-height: normal;
         text-align: justify;
         padding: 8px;
+        width: 80%;
     }
       .prevButton,
       .nextButton {
@@ -48,11 +49,11 @@
       }
       
       .prevButton {
-        left: 10px;
+        left: 0px;
       }
       
       .nextButton {
-        right: 10px;
+        right: 0px;
       }
 }
 @media (min-width: 381px) and (max-width: 767px) {
@@ -61,6 +62,7 @@
         width: 90%;
         max-width: 600px;
         background-color: #1c1c21;
+        margin-top: 20px;
       }
       
       .carouselSlide {
@@ -88,6 +90,7 @@
         line-height: normal;
         text-align: justify;
         padding: 8px;
+        width: 80%;
     }
       .prevButton,
       .nextButton {
@@ -105,11 +108,11 @@
       }
       
       .prevButton {
-        left: 10px;
+        left: 0px;
       }
       
       .nextButton {
-        right: 10px;
+        right: 0px;
       }
 }
 @media (min-width: 768px) and (max-width: 1023px)  {
@@ -118,6 +121,7 @@
         width: 90%;
         max-width: 600px;
         background-color: #1c1c21;
+        margin-top: 10px;
       }
       .carouselSlide {
         display: flex;
@@ -131,8 +135,8 @@
         min-height: 300px
       }
       .carouseImg {
-        width: 350px;
-        height: 250px;
+        width: 300px;
+        height: 200px;
         border-radius: 50px;
       }
       .parrafoSlide {
@@ -144,6 +148,7 @@
         line-height: normal;
         text-align: justify;
         padding: 8px;
+        width: 80%;
     }
       .prevButton,
       .nextButton {
@@ -161,11 +166,11 @@
       }
       
       .prevButton {
-        left: 10px;
+        left: 0px;
       }
       
       .nextButton {
-        right: 10px;
+        right: 0px;
       }
 }
 @media (min-width: 1024px) {
@@ -180,7 +185,7 @@
       .carouselSlide {
         padding: 10px;
         display: flex;
-        flex-direction: row;
+        flex-direction: row-reverse;
         justify-content: flex-start;
         align-items: center;
         gap: 10%;

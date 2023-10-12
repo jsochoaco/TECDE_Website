@@ -35,7 +35,7 @@
                 font-weight: 10;
                 line-height: normal;
             }
-            .callBoton {
+            .callBotonBan {
                 border: none;
                 font-size: 1rem;
                 margin-top: 3%;
@@ -50,12 +50,17 @@
                 /* border: 2px solid #00ACCA; */
                 transition: 0.3s;
                 font-family: "Gotham", sans-serif;
-                text-align: left;
+                text-align: center;
                 font-weight: bold;
+                border-radius: 5px;
+                width: 100%;
             }
-            .callBoton:hover{
+            .callBotonBan :hover{
                 color: white;
                 background-color: #00ACCA;
+                transform: scale3d(1.1, 1.1, 0.3);
+                -webkit-transform: scale3d(1.1, 1.1, 0.3);
+                -moz-transform: scale3d(1.1, 1.1, 0.3);
             }
         }
         .divFantasma {
@@ -100,7 +105,7 @@
                 font-weight: 10;
                 line-height: normal;
             }
-            .callBoton {
+            .callBotonBan  {
                 border: none;
                 font-size: 1rem;
                 margin-top: 3%;
@@ -117,10 +122,15 @@
                 font-family: "Gotham", sans-serif;
                 text-align: left;
                 font-weight: bold;
+                border-radius: 5px;
+                width: 100%;
             }
-            .callBoton:hover{
+            .callBotonBan:hover{
                 color: white;
                 background-color: #00ACCA;
+                transform: scale3d(1.1, 1.1, 0.3);
+                -webkit-transform: scale3d(1.1, 1.1, 0.3);
+                -moz-transform: scale3d(1.1, 1.1, 0.3);
             }
         }
         .divFantasma {
@@ -166,7 +176,7 @@
                 line-height: normal;
                 text-align: justify;
             }
-            .callBoton {
+            .callBotonBan  {
                 border: none;
                 font-size: 1rem;
                 margin-top: 3%;
@@ -183,10 +193,15 @@
                 font-family: "Gotham", sans-serif;
                 text-align: left;
                 font-weight: bold;
+                border-radius: 5px;
+                width: 100%;
             }
-            .callBoton:hover{
+            .callBotonBan :hover{
                 color: white;
                 background-color: #00ACCA;
+                transform: scale3d(1.1, 1.1, 0.3);
+                -webkit-transform: scale3d(1.1, 1.1, 0.3);
+                -moz-transform: scale3d(1.1, 1.1, 0.3);
             }
         }
         .divFantasma {
@@ -241,7 +256,7 @@
                 line-height: normal;
                 text-align: justify;
             }
-            .callBoton {
+            .callBotonBan  {
                 border: none;
                 font-size: 1.25rem;
                 margin-top: 3%;
@@ -259,10 +274,14 @@
                 text-align: center;
                 font-weight: bold;
                 width: 50%;
+                border-radius: 5px;
             }
-            .callBoton:hover{
+            .callBotonBan:hover{
                 color: white;
                 background-color: #00ACCA;
+                transform: scale3d(1.1, 1.1, 0.3);
+                -webkit-transform: scale3d(1.1, 1.1, 0.3);
+                -moz-transform: scale3d(1.1, 1.1, 0.3);
             }
         }
         .divFantasma {

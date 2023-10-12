@@ -18,9 +18,8 @@ function Carousel() {
   return (
     <div className={styles.carousel}>
       <div className={styles.carouselSlide}>
-        <h4 className={styles.parrafoSlide}> {texto[currentSlide]}</h4>
         <img className={styles.carouseImg} src={images[currentSlide]} alt={`Slide ${currentSlide + 1}`} />
-
+        <h4 className={styles.parrafoSlide}> {texto[currentSlide]}</h4>
       </div>
       <button className={styles.prevButton} onClick={prevSlide}>&#8249;</button>
       <button className={styles.nextButton} onClick={nextSlide}>&#8250;</button>
