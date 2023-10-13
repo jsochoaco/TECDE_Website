@@ -213,7 +213,6 @@
 @media (min-width: 1024px) {
     .divBanner {
         display: flex;
-        padding: 10px;
         justify-content: center;
         align-items: center;
         align-content: center;

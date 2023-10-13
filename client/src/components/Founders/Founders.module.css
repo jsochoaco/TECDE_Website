@@ -2,10 +2,10 @@
   .divContenedorFounders {
     flex-direction: column;
     display: flex;
-    width: 100%;
     gap: 15px;
     height: auto;
     margin-bottom: 25px;
+    width: 100%;
 }
 .tituloCarrusel {
   margin: 0px;
@@ -22,7 +22,6 @@
     margin-top: 15px;
     justify-content: center;
     gap: 5%;
-    width: 100%;
   }
   
   .carousel-card {
@@ -74,7 +73,7 @@
     }
   }
   .carousel-card-small {
-    visibility: hidden;
+    display: none;
     flex: 0 0 18%;
     transition: transform 0.5s;
     height: 400px;
@@ -195,7 +194,7 @@
     }
   }
   .carousel-card-small {
-    visibility: hidden;
+    display: none;
     flex: 0 0 18%;
     transition: transform 0.5s;
     height: 400px;
