@@ -2,8 +2,6 @@ import style from "./Footer.module.css"
 import { Link, NavLink} from "react-router-dom"
 
 const Footer = () => {
-
-
     return (
         <div className={style.footerContenedor}>
         <div className={style.footerContacto}>
@@ -12,13 +10,13 @@ const Footer = () => {
                 <h4>Siguenos</h4>
                 <div className={style.divRedes}>
                     <img className={style.iconoRedes} src="https://api.iconify.design/line-md:linkedin.svg?color=%2300acca" alt="insta"/>
-                    <NavLink to="https://www.facebook.com/fixershoes/" className={style.link} target="_blank">    
+                    <NavLink to="https://www.linkedin.com/company/tecde-ingeniería/?viewAsMember=true" className={style.link} target="_blank">    
                         <h5 className={style.red}>LinkedIn</h5>
                     </NavLink>
                 </div>
                 <div className={style.divRedes}>
                         <img className={style.iconoRedes} src="https://api.iconify.design/line-md:twitter-x.svg?color=%2300acca" alt="insta"/>
-                    <NavLink to="https://www.facebook.com/fixershoes/" className={style.link} target="_blank">    
+                    <NavLink to="https://twitter.com/tecdeing" className={style.link} target="_blank">    
                     <h5 className={style.red}>X - Twitter</h5>
                     </NavLink>
                 </div>

@@ -6,9 +6,7 @@ const Proposito = () => {
     return (
         <>
         <div className={style.divContenedor}>
-            soy el proposityo
         </div>
-
         </>
 
     )

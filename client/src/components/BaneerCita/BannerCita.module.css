@@ -1,0 +1,253 @@
+@media (max-width: 380px) {
+    .divContenedorCita {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-direction: column;
+        gap: 5%;
+        width: 100%;
+        .divMensaje {
+            display: flex;
+            padding: 10px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            flex: 1 0 0;
+            background-color: #00ACCA;
+            .textoMensaje{
+                margin: 0px;
+                color: white;
+                text-align: center;
+                font-size: 1rem;
+                font-style: normal;
+                line-height: normal;
+                padding: 15px;
+                width: 40%;
+            }
+            .imgMensaje {
+                width: 40%;
+            }
+        }
+        .divBoton {
+            .botonCalendar{
+                border: none;
+                font-size: 0.8rem;
+                margin-top: 3%;
+                margin-left: 5%;
+                margin-bottom: 10%;
+                padding: 10px 20px 10px 20px;
+                cursor: pointer;
+                position: relative;
+                transition: 0.2s;
+                color: #00ACCA;
+                background-color: white;
+                /* border: 2px solid #00ACCA; */
+                transition: 0.3s;
+                font-family: "Gotham", sans-serif;
+                text-align: center;
+                font-weight: bold;
+                width: 100%;
+                border-radius: 5px;
+            }
+            .botonCalendar:hover{
+                color: white;
+                background-color: #00ACCA;
+                transform: scale3d(1.1, 1.1, 0.3);
+                -webkit-transform: scale3d(1.1, 1.1, 0.3);
+                -moz-transform: scale3d(1.1, 1.1, 0.3);
+            }
+        }
+    }
+}
+@media (min-width: 381px) and (max-width: 767px){
+    .divContenedorCita {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-direction: column;
+        gap: 5%;
+        width: 100%;
+        .divMensaje {
+            display: flex;
+            padding: 10px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            flex: 1 0 0;
+            background-color: #00ACCA;
+            .textoMensaje{
+                margin: 0px;
+                color: white;
+                text-align: center;
+                font-size: 1.2rem;
+                font-style: normal;
+                line-height: normal;
+                padding: 15px;
+                width: 40%;
+            }
+            .imgMensaje {
+                width: 40%;
+            }
+        }
+        .divBoton {
+            .botonCalendar{
+                border: none;
+                font-size: 0.75rem;
+                margin-top: 3%;
+                margin-left: 5%;
+                margin-bottom: 10%;
+                padding: 10px 20px 10px 20px;
+                cursor: pointer;
+                position: relative;
+                transition: 0.2s;
+                color: #00ACCA;
+                background-color: white;
+                /* border: 2px solid #00ACCA; */
+                transition: 0.3s;
+                font-family: "Gotham", sans-serif;
+                text-align: center;
+                font-weight: bold;
+                width: 100%;
+                border-radius: 5px;
+            }
+            .botonCalendar:hover{
+                color: white;
+                background-color: #00ACCA;
+                transform: scale3d(1.1, 1.1, 0.3);
+                -webkit-transform: scale3d(1.1, 1.1, 0.3);
+                -moz-transform: scale3d(1.1, 1.1, 0.3);
+            }
+        }
+    }
+
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+    .divContenedorCita {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-direction: column;
+        gap: 5%;
+        width: 100%;
+        .divMensaje {
+            display: flex;
+            padding: 10px;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            flex: 1 0 0;
+            background-color: #00ACCA;
+            .textoMensaje{
+                margin: 0px;
+                color: white;
+                text-align: center;
+                font-size: 1.5rem;
+                font-style: normal;
+                line-height: normal;
+                padding: 15px;
+                width: 40%;
+            }
+            .imgMensaje {
+                width: 20%;
+            }
+        }
+        .divBoton {
+            .botonCalendar{
+                border: none;
+                font-size: 0.85rem;
+                margin-top: 3%;
+                margin-left: 5%;
+                margin-bottom: 10%;
+                padding: 10px 20px 10px 20px;
+                cursor: pointer;
+                position: relative;
+                transition: 0.2s;
+                color: #00ACCA;
+                background-color: white;
+                /* border: 2px solid #00ACCA; */
+                transition: 0.3s;
+                font-family: "Gotham", sans-serif;
+                text-align: center;
+                font-weight: bold;
+                width: 100%;
+                border-radius: 5px;
+            }
+            .botonCalendar:hover{
+                color: white;
+                background-color: #00ACCA;
+                transform: scale3d(1.1, 1.1, 0.3);
+                -webkit-transform: scale3d(1.1, 1.1, 0.3);
+                -moz-transform: scale3d(1.1, 1.1, 0.3);
+            }
+        }
+    }
+}
+@media (min-width: 1024px) {
+    .divContenedorCita {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-direction: column;
+        gap: 5%;
+        width: 100%;
+        .divMensaje {
+            display: flex;
+            padding: 10px;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            flex: 1 0 0;
+            background-color: #00ACCA;
+            .textoMensaje{
+                margin: 0px;
+                color: white;
+                text-align: center;
+                font-size: 1.9rem;
+                font-style: normal;
+                line-height: normal;
+                padding: 15px;
+                width: 40%;
+            }
+            .imgMensaje {
+                width: 20%;
+            }
+        }
+        .divBoton {
+            .botonCalendar{
+                border: none;
+                font-size: 1rem;
+                margin-top: 3%;
+                margin-left: 5%;
+                margin-bottom: 10%;
+                padding: 10px 20px 10px 20px;
+                cursor: pointer;
+                position: relative;
+                transition: 0.2s;
+                color: #00ACCA;
+                background-color: white;
+                /* border: 2px solid #00ACCA; */
+                transition: 0.3s;
+                font-family: "Gotham", sans-serif;
+                text-align: center;
+                font-weight: bold;
+                width: 100%;
+                border-radius: 5px;
+            }
+            .botonCalendar:hover{
+                color: white;
+                background-color: #00ACCA;
+                transform: scale3d(1.1, 1.1, 0.3);
+                -webkit-transform: scale3d(1.1, 1.1, 0.3);
+                -moz-transform: scale3d(1.1, 1.1, 0.3);
+            }
+        }
+    }
+}

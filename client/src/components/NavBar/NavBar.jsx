@@ -39,11 +39,11 @@ const NavBar = () => {
                 <Link to = "/servicios" >
                 <button className={location.pathname === "/servicios" ? style.onNavBar : style.offNavBar}>Servicios</button>
                 </Link>
-                <Link>
-                <button className={style.offNavBar}>Trayectoria</button>
-                </Link>
-                <Link>
-                <button className={style.offNavBar}>Contacto</button>
+                {/* <Link>
+                <button className={location.pathname === "/trayectoria" ? style.onNavBar : style.offNavBar}>Trayectoria</button>
+                </Link> */}
+                <Link to = "/contacto">
+                <button className={location.pathname === "/contacto" ? style.onNavBar : style.offNavBar}>Contacto</button>
                 </Link>
             </div>
             <div className={style.divIconMenu}>
@@ -63,9 +63,9 @@ const NavBar = () => {
                     <NavLink to="/servicios"> 
                         <button className={location.pathname === "/servicios" ? style.onNavBar : style.offNavBar}>Servicios</button>
                     </NavLink>
-                    <NavLink to="/trayectoria"> 
+                    {/* <NavLink to="/trayectoria"> 
                         <button className={location.pathname === "/trayectoria" ? style.onNavBar : style.offNavBar}>Trayectoria</button>
-                    </NavLink>
+                    </NavLink> */}
                     <NavLink to="/contacto"> 
                         <button className={location.pathname === "/contacto" ? style.onNavBar : style.offNavBar}>Contacto</button>
                     </NavLink>

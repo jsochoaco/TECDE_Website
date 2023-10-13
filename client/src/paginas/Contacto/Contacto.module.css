@@ -1,0 +1,216 @@
+@media (max-width: 380px) {
+    .divBanner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-direction: column;
+        margin-top: 20px;
+        width: 100%;
+        .divTextoContacto {
+            display: flex;
+            padding: 10px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            flex: 1 0 0;
+            width: 60%;
+            .contactoTitulo {
+                margin: 0px;
+                color: #00acca;
+                text-align: center;
+                font-size: 1.5rem;
+                font-style: normal;
+                line-height: normal;
+            }
+            .contactoParrafo {
+                color: white;
+                text-align: left;
+                font-size: 1rem;
+                font-style: normal;
+                font-weight: 10;
+                line-height: normal;
+                text-align: center;
+            }
+        }
+        .divForm {
+            display: flex;
+            padding: 10px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            flex: 1 0 0;
+            width: 100%;
+            margin-bottom: 40px;
+            .butonForm {
+                display: flex;
+                justify-content: center;
+                width: 100%;
+            }
+        }
+    }
+}
+@media (min-width: 381px) and (max-width: 767px) {
+    .divBanner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-direction: column;
+        margin-top: 20px;
+        width: 100%;
+        .divTextoContacto {
+            display: flex;
+            padding: 10px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            flex: 1 0 0;
+            width: 60%;
+            .contactoTitulo {
+                margin: 0px;
+                color: #00acca;
+                text-align: center;
+                font-size: 1.5rem;
+                font-style: normal;
+                line-height: normal;
+            }
+            .contactoParrafo {
+                color: white;
+                text-align: left;
+                font-size: 1rem;
+                font-style: normal;
+                font-weight: 10;
+                line-height: normal;
+                text-align: center;
+            }
+        }
+        .divForm {
+            display: flex;
+            padding: 10px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            flex: 1 0 0;
+            width: 100%;
+            margin-bottom: 40px;
+            .butonForm {
+                display: flex;
+                justify-content: center;
+                width: 100%;
+            }
+        }
+    }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+    .divBanner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-direction: column;
+        margin-top: 20px;
+        width: 100%;
+        .divTextoContacto {
+            display: flex;
+            padding: 10px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            flex: 1 0 0;
+            width: 60%;
+            .contactoTitulo {
+                margin: 0px;
+                color: #00acca;
+                text-align: center;
+                font-size: 1.7rem;
+                font-style: normal;
+                line-height: normal;
+            }
+            .contactoParrafo {
+                color: white;
+                text-align: left;
+                font-size: 1.1rem;
+                font-style: normal;
+                font-weight: 10;
+                line-height: normal;
+                text-align: center;
+            }
+        }
+        .divForm {
+            display: flex;
+            padding: 10px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            flex: 1 0 0;
+            width: 100%;
+            margin-bottom: 40px;
+            .butonForm {
+                display: flex;
+                justify-content: center;
+                width: 100%;
+            }
+        }
+    }
+}
+@media (min-width: 1024px) {
+    .divBanner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-direction: column;
+        margin-top: 20px;
+        width: 100%;
+        .divTextoContacto {
+            display: flex;
+            padding: 10px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            flex: 1 0 0;
+            width: 60%;
+            .contactoTitulo {
+                margin: 0px;
+                color: #00acca;
+                text-align: center;
+                font-size: 2rem;
+                font-style: normal;
+                line-height: normal;
+            }
+            .contactoParrafo {
+                color: white;
+                text-align: left;
+                font-size: 1.2rem;
+                font-style: normal;
+                font-weight: 10;
+                line-height: normal;
+                text-align: center;
+            }
+        }
+        .divForm {
+            display: flex;
+            padding: 10px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            flex: 1 0 0;
+            width: 100%;
+            margin-bottom: 40px;
+            .butonForm {
+                display: flex;
+                justify-content: center;
+                width: 100%;
+            }
+        }
+    }
+}
