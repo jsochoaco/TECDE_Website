@@ -19,7 +19,6 @@
     "redux-thunk": "^2.4.2",
     "web-vitals": "^3.4.0"
   },
-  "homepage": "https://jsochoaco.github.io/TECDE_Website/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
