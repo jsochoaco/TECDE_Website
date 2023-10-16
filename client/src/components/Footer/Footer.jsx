@@ -9,19 +9,25 @@ const Footer = () => {
             <div className={style.divRedesTotal}>
                 <h4>Siguenos</h4>
                 <div className={style.divRedes}>
+                    <NavLink to="https://www.linkedin.com/company/tecde-ingeniería/?viewAsMember=true" className={style.link} target="_blank">    
                     <img className={style.iconoRedes} src="https://api.iconify.design/line-md:linkedin.svg?color=%2300acca" alt="insta"/>
+                    </NavLink>
                     <NavLink to="https://www.linkedin.com/company/tecde-ingeniería/?viewAsMember=true" className={style.link} target="_blank">    
                         <h5 className={style.red}>LinkedIn</h5>
                     </NavLink>
                 </div>
                 <div className={style.divRedes}>
-                        <img className={style.iconoRedes} src="https://api.iconify.design/line-md:twitter-x.svg?color=%2300acca" alt="insta"/>
+                    <NavLink to="https://twitter.com/tecdeing" className={style.link} target="_blank">    
+                    <img className={style.iconoRedes} src="https://api.iconify.design/line-md:twitter-x.svg?color=%2300acca" alt="insta"/>
+                    </NavLink>
                     <NavLink to="https://twitter.com/tecdeing" className={style.link} target="_blank">    
                     <h5 className={style.red}>X - Twitter</h5>
                     </NavLink>
                 </div>
                 <div className={style.divRedes}>
-                    <img className={style.iconoRedes} src="https://api.iconify.design/line-md:instagram.svg?color=%2300acca" alt="insta"/>
+                    <NavLink to="https://www.instagram.com/tecde.ingenieria/?hl=es" className={style.link} target="_blank">
+                        <img className={style.iconoRedes} src="https://api.iconify.design/line-md:instagram.svg?color=%2300acca" alt="insta"/>
+                    </NavLink>
                     <NavLink to="https://www.instagram.com/tecde.ingenieria/?hl=es" className={style.link} target="_blank">
                         <h5 className={style.red}>Instagram</h5>
                     </NavLink>
@@ -30,12 +36,28 @@ const Footer = () => {
             <div className={style.divContacto}>
                 <h4>Contactanos</h4>
                 <div className={style.divContactData}>
+                    <a href="mailto:ingenieria@tecde.co">
                     <img className={style.iconoRedes} src="https://api.iconify.design/ic:baseline-email.svg?color=%2300acca" alt="insta"/>
+                    </a>
+                    <a href="mailto:ingenieria@tecde.co">
                     <h5 className={style.red}>ingenieria@tecde.co</h5>
+                    </a>
                 </div>
                 <div className={style.divContactData}>
-                    <img className={style.iconoRedes} src="https://api.iconify.design/ic:outline-whatsapp.svg?color=%2300acca" alt="insta"/>
-                    <h5 className={style.red}>+57 3136146430</h5>
+                    <NavLink to="https://api.whatsapp.com/send/?phone=573136146430&text=Hola,%20estoy%20interesado(a)%20en%20saber%20más%20información%20acerca%20de%20TECDE%20Ingeniería%20y%20sus%20servicios%20" className={style.link} target="_blank">
+                        <img className={style.iconoRedes} src="https://api.iconify.design/ic:outline-whatsapp.svg?color=%2300acca" alt="insta"/>
+                    </NavLink>
+                    <NavLink to="https://api.whatsapp.com/send/?phone=573136146430&text=Hola,%20estoy%20interesado(a)%20en%20saber%20más%20información%20acerca%20de%20TECDE%20Ingeniería%20y%20sus%20servicios%20" className={style.link} target="_blank">
+                        <h5 className={style.red}>Contactános</h5>
+                    </NavLink>
+                </div>
+                <div className={style.divContactData}>
+                    <a href="tel:+573136146430">
+                        <img className={style.iconoRedes} src="https://api.iconify.design/material-symbols:call.svg?color=%2300acca" alt="insta"/>
+                    </a>
+                    <a href="tel:+573136146430">
+                        <h5 className={style.red}>+57 3136146430</h5>
+                    </a>
                 </div>
             </div>
         </div>

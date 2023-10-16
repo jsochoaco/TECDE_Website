@@ -177,7 +177,7 @@
     .carousel {
         position: relative;
         width: 100%;
-        max-width: 600px;
+        max-width: 900px;
         margin-top: 3%;
         background-color: #1c1c21;
       }
@@ -190,12 +190,12 @@
         align-items: center;
         gap: 10%;
         overflow: hidden;
-        width: 110%;
+        width: auto;
         min-height: 400px
       }
       
       .carouseImg {
-        width: 400px;
+        width: 380px;
         height: auto;
         padding: 5px;
         border-radius: 50px;
@@ -226,10 +226,10 @@
       }
       
       .prevButton {
-        left: -150px;
+        left: -100px;
       }
       
       .nextButton {
-        right: -150px;
+        right: -100px;
       }
 }

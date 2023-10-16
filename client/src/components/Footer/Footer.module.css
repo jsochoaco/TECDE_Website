@@ -126,6 +126,10 @@
                 margin-bottom: 5px;
             }
         }
+        .footerLogo {
+            width: 195px;
+            padding: 10px;
+        }
     } 
 }
 @media (min-width: 381px) and (max-width: 767px){

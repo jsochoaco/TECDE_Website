@@ -55,19 +55,19 @@ const NavBar = () => {
             <div ref={menuRef} className={style.divMenu}>
                 <div className={style.listMenu}>
                     <NavLink to="/">
-                        <button className={location.pathname === "/" ? style.onNavBar : style.offNavBar}>Incio</button>
+                        <button className={location.pathname === "/" ? style.onNavBar : style.offNavBar} onClick={()=> setIsMenuOpen(false)}>Incio</button>
                     </NavLink>
                     <NavLink to="/nosotros">
-                        <button className={location.pathname === "/nosotros" ? style.onNavBar : style.offNavBar}>Nosotros</button>
+                        <button className={location.pathname === "/nosotros" ? style.onNavBar : style.offNavBar} onClick={()=> setIsMenuOpen(false)}>Nosotros</button>
                     </NavLink>
                     <NavLink to="/servicios"> 
-                        <button className={location.pathname === "/servicios" ? style.onNavBar : style.offNavBar}>Servicios</button>
+                        <button className={location.pathname === "/servicios" ? style.onNavBar : style.offNavBar} onClick={()=> setIsMenuOpen(false)}>Servicios</button>
                     </NavLink>
                     {/* <NavLink to="/trayectoria"> 
                         <button className={location.pathname === "/trayectoria" ? style.onNavBar : style.offNavBar}>Trayectoria</button>
                     </NavLink> */}
                     <NavLink to="/contacto"> 
-                        <button className={location.pathname === "/contacto" ? style.onNavBar : style.offNavBar}>Contacto</button>
+                        <button className={location.pathname === "/contacto" ? style.onNavBar : style.offNavBar} onClick={()=> setIsMenuOpen(false)} >Contacto</button>
                     </NavLink>
                 </div>
             </div>)}
