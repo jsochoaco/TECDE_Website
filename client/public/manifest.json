@@ -1,24 +1,15 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "TECDE",
+  "name": "TECDE Ingeniería",
+  "description": "TECDE Ingeniería ofrece soluciones de ingeniería para diversas industrias. Visita nuestro sitio para conocer más.",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "https://res.cloudinary.com/dfmsezslx/image/upload/v1696731571/TECDE/LogoTECDECuadrado_aj0n5l.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
-    },
-    {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
     }
   ],
-  "start_url": ".",
+  "start_url": "https://tecde.co",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"

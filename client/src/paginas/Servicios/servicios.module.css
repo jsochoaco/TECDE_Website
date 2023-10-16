@@ -1,0 +1,128 @@
+@media (max-width: 380px) {
+    .divBannerServ {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-direction: column;
+        margin-bottom: 200px;
+        width: 100%;
+        .ServiciosTitulo {
+            margin: 0px;
+            padding: 2%;
+            color: #00acca;
+            text-align: center;
+            font-size: 1.6rem;
+            font-style: normal;
+            line-height: normal;
+        }
+        .Secundario {
+            margin: 0px;
+            color: white;
+            text-align: center;
+            font-size: 1.2rem;
+            font-style: normal;
+            line-height: normal;
+        }
+        .imgUnder {
+            width: 50%;
+            padding: 3%;
+        }
+    }
+}
+@media (min-width: 381px) and (max-width: 767px) {
+    .divBannerServ {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-direction: column;
+        margin-bottom: 200px;
+        width: 100%;
+        .ServiciosTitulo {
+            margin: 0px;
+            padding: 2%;
+            color: #00acca;
+            text-align: center;
+            font-size: 1.6rem;
+            font-style: normal;
+            line-height: normal;
+        }
+        .Secundario {
+            margin: 0px;
+            color: white;
+            text-align: center;
+            font-size: 1.2rem;
+            font-style: normal;
+            line-height: normal;
+        }
+        .imgUnder {
+            width: 50%;
+            padding: 3%;
+        }
+    }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+    .divBannerServ {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-direction: column;
+        margin-bottom: 50px;
+        width: 100%;
+        .ServiciosTitulo {
+            margin: 0px;
+            padding: 2%;
+            color: #00acca;
+            text-align: center;
+            font-size: 2rem;
+            font-style: normal;
+            line-height: normal;
+        }
+        .Secundario {
+            margin: 0px;
+            color: white;
+            text-align: center;
+            font-size: 1.3rem;
+            font-style: normal;
+            line-height: normal;
+        }
+        .imgUnder {
+            width: 50%;
+            padding: 3%;
+        }
+    }
+}
+@media (min-width: 1024px) {
+    .divBannerServ {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-direction: column;
+        margin-bottom: 50px;
+        width: 100%;
+        .ServiciosTitulo {
+            margin: 0px;
+            padding: 2%;
+            color: #00acca;
+            text-align: center;
+            font-size: 2.3rem;
+            font-style: normal;
+            line-height: normal;
+        }
+        .Secundario {
+            margin: 0px;
+            color: white;
+            text-align: center;
+            font-size: 1.6rem;
+            font-style: normal;
+            line-height: normal;
+        }
+        .imgUnder {
+            width: 50%;
+            padding: 3%;
+        }
+    }
+}

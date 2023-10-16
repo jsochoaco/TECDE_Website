@@ -7,21 +7,21 @@ const FounderCarousel = () => {
         {
           name: 'Nelson Andrés Moreno',
           role: 'Gerente',
-          image: 'https://res.cloudinary.com/dfmsezslx/image/upload/v1697157794/TECDE/Nelson_owmkoj.jpg',
+          image: 'https://res.cloudinary.com/dfmsezslx/image/upload/v1697494203/TECDE/PNG_Socios_TECDE_Mesa_de_trabajo_1_abksdi.png',
           background: "Ingeniero Mecánico especializado en Administración",
           linkedIn: "https://www.linkedin.com/in/nelson-andres-moreno-arias-50b9a3232/"
         },
         {
           name: 'Luis Miguel Gonzalez',
           role: 'Director de Tecnología',
-          image: 'https://res.cloudinary.com/dfmsezslx/image/upload/v1697157794/TECDE/Luis_ye0tl9.jpg',
+          image: 'https://res.cloudinary.com/dfmsezslx/image/upload/v1697494204/TECDE/PNG_Socios_TECDE-03_yswkks.png',
           background: "Ingeniero especializado en Inteligencia Artificial",
           linkedIn: "https://www.linkedin.com/in/luis-gonzález-b910711b7/"
         },
         {
             name: 'Juan Sebastián Ochoa',
             role: 'Director de Ingeniería',
-            image: 'https://res.cloudinary.com/dfmsezslx/image/upload/v1697155185/TECDE/Ochoa_pky7xy.png',
+            image: 'https://res.cloudinary.com/dfmsezslx/image/upload/v1697494203/TECDE/PNG_Socios_TECDE-02_esjirc.png',
             background: "Ingeniero Mecánico especializado en Diseño y Desarrollo de Software",
             linkedIn: "https://www.linkedin.com/in/juanochoa-fullstack/"
           },

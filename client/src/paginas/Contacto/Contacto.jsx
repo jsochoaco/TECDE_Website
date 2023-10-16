@@ -19,8 +19,8 @@ const Contacto = () => {
     return (
         <div className={style.divBanner}>
             <div className={style.divTextoContacto}>
-                <h3 className={style.contactoTitulo}>No pierdas la oportunidad de llevar tu empresa a otro nivel de ingeniería y  tecnología</h3>
-                <h4 className={style.contactoParrafo}>¡Dejános tus datos y juntos hagamos crecer tu empresa!</h4>
+                <h1 className={style.contactoTitulo}>No pierdas la oportunidad de llevar tu empresa a otro nivel de ingeniería y tecnología con TECDE</h1>
+                <h2 className={style.contactoParrafo}>¡Dejános tus datos y juntos hagamos crecer tu empresa!</h2>
             </div>
             <div className={style.divForm}>
                 <div className={style.butonForm} data-tf-live="01HCK33EZ7TRCT9FHSA7GC4QDS"></div>
