@@ -1,5 +1,6 @@
 import './App.css';
 import { Routes, Route } from "react-router-dom";
+import { useEffect } from 'react';
 import Home from './paginas/Home/Home';
 import Nosotros from './paginas/Nosotros/Nosotros';
 import NavBar from './components/NavBar/NavBar';
@@ -8,6 +9,12 @@ import Contacto from './paginas/Contacto/Contacto';
 import Servicios from './paginas/Servicios/Servicios';
 
 function App() {
+  useEffect(() => {
+    const currentPath = window.location.pathname;
+    if (currentPath !== '/') {
+      window.location.href = '/'; // Redirigir a la página de inicio
+    }
+  }, []);
   return (
     <>
       <NavBar/>
