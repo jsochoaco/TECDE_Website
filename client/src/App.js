@@ -9,7 +9,7 @@ import Servicios from './paginas/Servicios/Servicios';
 
 function App() {
   return (
-    <div className="App">
+    <>
       <NavBar/>
       <Routes>
         <Route path='/' element={<Home/>} />
@@ -18,8 +18,9 @@ function App() {
         <Route path='/servicios' element={<Servicios/>} />
       </Routes>
       <Footer/>
-    </div>
+    </>
   );
 }
 
 export default App;
+
