@@ -12,7 +12,7 @@ function App() {
   useEffect(() => {
     const currentPath = window.location.pathname;
     if (currentPath !== '/') {
-      window.location.href = '/'; // Redirigir a la página de inicio
+      window.location.pathname = '/'; // Redirigir a la página de inicio
     }
   }, []);
   return (
