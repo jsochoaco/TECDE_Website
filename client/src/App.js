@@ -1,5 +1,5 @@
 import './App.css';
-import { Route, Switch } from "react-router-dom";  // Importar Route y Switch, no Routes
+import { Routes, Route } from "react-router-dom";
 import Home from './paginas/Home/Home';
 import Nosotros from './paginas/Nosotros/Nosotros';
 import NavBar from './components/NavBar/NavBar';
@@ -11,12 +11,12 @@ function App() {
   return (
     <div className="App">
       <NavBar/>
-      <Switch> {/* Cambiar de Routes a Switch */}
+      <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/nosotros' element={<Nosotros/>} />
         <Route path='/contacto' element={<Contacto/>} />
         <Route path='/servicios' element={<Servicios/>} />
-      </Switch>
+      </Routes>
       <Footer/>
     </div>
   );
