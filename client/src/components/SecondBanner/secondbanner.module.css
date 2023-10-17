@@ -32,7 +32,7 @@
             justify-content: center;
             align-items: center;
             gap: 3px;
-            .imgBanner {
+            .imgBanners {
                 width: 150px
             }
             .parrafoBanner {
@@ -197,11 +197,12 @@
             justify-content: center;
             align-items: center;
             gap: 3px;
+            width: 100%;
             .componentUs {
-                width: 50%;
-            }
-            .imgBanner {
-                width: 350px;
+                width: 40%;
+                .imgBanners {
+                    width: 400px;
+                }
             }
             .parrafoBanner {
                 color: white;

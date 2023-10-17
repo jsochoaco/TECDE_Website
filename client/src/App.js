@@ -9,12 +9,6 @@ import Contacto from './paginas/Contacto/Contacto';
 import Servicios from './paginas/Servicios/Servicios';
 
 function App() {
-  useEffect(() => {
-    const currentPath = window.location.pathname;
-    if (currentPath !== '/') {
-      window.location.pathname = '/'; // Redirigir a la página de inicio
-    }
-  }, []);
   return (
     <>
       <NavBar/>
