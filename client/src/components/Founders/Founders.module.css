@@ -383,78 +383,82 @@
     justify-content: center;
     gap: 10%;
     width: 100%;
+    .carousel-card {
+      flex: 0 0 33.33%;
+      transition: transform 0.5s;
+      height: 400px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      .imgFounder {
+          width: 200px;
+          border-radius: 50%;
+      }
+      .founderName {
+          margin: 0px;
+          padding: 4px 10px 4px 10px;
+          border-radius: 5px;
+          color: white;
+          background-color: #00ACCA;
+          font-size: 1.3rem;
+          font-style: normal;
+          font-weight: 10;
+          line-height: normal;
+          text-align: center;
+  
+      }
+      .founderRole {
+          color: #00ACCA;
+          margin: 0px;
+          padding: 4px;
+          font-size: 1.15rem;
+          font-style: normal;
+          font-weight: 10;
+          line-height: normal;
+          text-align: center;
+      }
+      .founderBack {
+          color: white;
+          margin: 0px;
+          padding: 4px;
+          font-size: 0.75rem;
+          font-style: normal;
+          font-weight: 10;
+          line-height: normal;
+          text-align: center;
+  
+      }
+    }
+    .carousel-card-small {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      flex: 0 0 18%;
+      transition: transform 0.5s;
+      height: 400px;
+      .imgFounder {
+          width: 180px;
+          border-radius: 50%;
+      }
+      .founderName {
+          color: #00ACCA;
+          font-size: 1rem;
+          margin: 0px;
+          font-style: normal;
+          font-weight: 10;
+          line-height: normal;
+          text-align: center;
+      }
+    }
+    
+    .carousel-card.active {
+      transform: scale(1.2);
+    }
   }
   
-  .carousel-card {
-    flex: 0 0 33.33%;
-    transition: transform 0.5s;
-    height: 400px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    .imgFounder {
-        width: 200px;
-        border-radius: 50%;
-    }
-    .founderName {
-        margin: 0px;
-        padding: 4px 10px 4px 10px;
-        border-radius: 5px;
-        color: white;
-        background-color: #00ACCA;
-        font-size: 1.3rem;
-        font-style: normal;
-        font-weight: 10;
-        line-height: normal;
-        text-align: center;
-
-    }
-    .founderRole {
-        color: #00ACCA;
-        margin: 0px;
-        padding: 4px;
-        font-size: 1.15rem;
-        font-style: normal;
-        font-weight: 10;
-        line-height: normal;
-        text-align: center;
-    }
-    .founderBack {
-        color: white;
-        margin: 0px;
-        padding: 4px;
-        font-size: 0.75rem;
-        font-style: normal;
-        font-weight: 10;
-        line-height: normal;
-        text-align: center;
-
-    }
-  }
-  .carousel-card-small {
-    flex: 0 0 18%;
-    transition: transform 0.5s;
-    height: 400px;
-    .imgFounder {
-        width: 180px;
-        border-radius: 50%;
-    }
-    .founderName {
-        color: #00ACCA;
-        font-size: 1rem;
-        margin: 0px;
-        font-style: normal;
-        font-weight: 10;
-        line-height: normal;
-        text-align: center;
-    }
-  }
-  
-  .carousel-card.active {
-    transform: scale(1.2);
-  }
   
   .prevButton,
   .nextButton {
