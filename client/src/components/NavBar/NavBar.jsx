@@ -1,8 +1,12 @@
 import { useState, useEffect, useRef } from "react";
+import { useDispatch, useSelector } from "react-redux"
 import style from "./navbar.module.css"
 import { Link, NavLink, useLocation } from "react-router-dom"
+import { setIdioma } from "../../redux/actions";
 
 const NavBar = () => {
+    const dispatch = useDispatch()
+    const idiomaActual = useSelector((state) => state.idioma)
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const location = useLocation()
     const menuRef = useRef(null);
@@ -22,6 +26,16 @@ const NavBar = () => {
         event.stopPropagation(); // Evita que el evento se propague al documento
         setIsMenuOpen(!isMenuOpen);
     };
+
+    const handleIdioma = () => {
+        if(idiomaActual === "es") {
+            dispatch(setIdioma("en"))
+        }
+        else if(idiomaActual === "en") {
+            dispatch(setIdioma("es"))
+        }
+    }
+
     return (
         <div className={style.divNavbar}>
             <div className={style.divImagen}>
@@ -31,20 +45,21 @@ const NavBar = () => {
             </div>
             <div className={style.divOpciones}>
                 <Link to="/">
-                <button className={location.pathname === "/" ? style.onNavBar : style.offNavBar}>Incio</button>
+                <button className={location.pathname === "/" ? style.onNavBar : style.offNavBar}>{idiomaActual === "es" ? "Inicio" : "Home"}</button>
                 </Link>
                 <Link to="/nosotros">
-                <button className={location.pathname === "/nosotros" ? style.onNavBar : style.offNavBar}>Nosotros</button>
+                <button className={location.pathname === "/nosotros" ? style.onNavBar : style.offNavBar}>{idiomaActual === "es" ? "Nosotros" : "About Us"}</button>
                 </Link>
                 <Link to = "/servicios" >
-                <button className={location.pathname === "/servicios" ? style.onNavBar : style.offNavBar}>Servicios</button>
+                <button className={location.pathname === "/servicios" ? style.onNavBar : style.offNavBar}>{idiomaActual === "es" ? "Servicios" : "Services"}</button>
                 </Link>
                 {/* <Link>
                 <button className={location.pathname === "/trayectoria" ? style.onNavBar : style.offNavBar}>Trayectoria</button>
                 </Link> */}
                 <Link to = "/contacto">
-                <button className={location.pathname === "/contacto" ? style.onNavBar : style.offNavBar}>Contacto</button>
+                <button className={location.pathname === "/contacto" ? style.onNavBar : style.offNavBar}>{idiomaActual === "es" ? "Contacto" : "Contact"}</button>
                 </Link>
+                <button className={style.offNavBar} onClick={handleIdioma} ><img src={idiomaActual === "es" ? "https://api.iconify.design/emojione:flag-for-united-states.svg?color=%2300acca" : "https://api.iconify.design/emojione:flag-for-colombia.svg?color=%2300acca"} alt="flagLanguage" /> {idiomaActual === "es" ? "EN " : "ES"}</button>
             </div>
             <div className={style.divIconMenu}>
                 <button className={style.offNavBar} onClick={toggleMenu}>
@@ -55,20 +70,21 @@ const NavBar = () => {
             <div ref={menuRef} className={style.divMenu}>
                 <div className={style.listMenu}>
                     <NavLink to="/">
-                        <button className={location.pathname === "/" ? style.onNavBar : style.offNavBar} onClick={()=> setIsMenuOpen(false)}>Incio</button>
+                        <button className={location.pathname === "/" ? style.onNavBar : style.offNavBar} onClick={()=> setIsMenuOpen(false)}>{idiomaActual === "es" ? "Inicio" : "Home"}</button>
                     </NavLink>
                     <NavLink to="/nosotros">
-                        <button className={location.pathname === "/nosotros" ? style.onNavBar : style.offNavBar} onClick={()=> setIsMenuOpen(false)}>Nosotros</button>
+                        <button className={location.pathname === "/nosotros" ? style.onNavBar : style.offNavBar} onClick={()=> setIsMenuOpen(false)}>{idiomaActual === "es" ? "Nosotros" : "About Us"}</button>
                     </NavLink>
                     <NavLink to="/servicios"> 
-                        <button className={location.pathname === "/servicios" ? style.onNavBar : style.offNavBar} onClick={()=> setIsMenuOpen(false)}>Servicios</button>
+                        <button className={location.pathname === "/servicios" ? style.onNavBar : style.offNavBar} onClick={()=> setIsMenuOpen(false)}>{idiomaActual === "es" ? "Servicios" : "Services"}</button>
                     </NavLink>
                     {/* <NavLink to="/trayectoria"> 
                         <button className={location.pathname === "/trayectoria" ? style.onNavBar : style.offNavBar}>Trayectoria</button>
                     </NavLink> */}
                     <NavLink to="/contacto"> 
-                        <button className={location.pathname === "/contacto" ? style.onNavBar : style.offNavBar} onClick={()=> setIsMenuOpen(false)} >Contacto</button>
+                        <button className={location.pathname === "/contacto" ? style.onNavBar : style.offNavBar} onClick={()=> setIsMenuOpen(false)}>{idiomaActual === "es" ? "Contacto" : "Contact"}</button>
                     </NavLink>
+                    <button className={style.offNavBar} onClick={handleIdioma} ><img src={idiomaActual === "es" ? "https://api.iconify.design/emojione:flag-for-united-states.svg?color=%2300acca" : "https://api.iconify.design/emojione:flag-for-colombia.svg?color=%2300acca"} alt="flagLanguage" /> {idiomaActual === "es" ? "EN " : "ES"}</button>
                 </div>
             </div>)}
         </div>
