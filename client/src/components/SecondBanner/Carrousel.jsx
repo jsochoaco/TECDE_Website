@@ -1,10 +1,37 @@
-import React, { useState } from 'react';
-import styles from './carousel.module.css'; // Importa tus estilos CSS desde un archivo separado
+import React, { useEffect, useState } from 'react';
+import styles from './carousel.module.css';
+import {useSelector } from "react-redux"
 
 
 function Carousel() {
-  const images = ['https://res.cloudinary.com/dfmsezslx/image/upload/v1697070158/undraw_environmental_study_re_q4q8_nzmcc2.svg', 'https://res.cloudinary.com/dfmsezslx/image/upload/v1697070437/TECDE/undraw_team_goals_re_4a3t_yztpyl.svg', 'https://res.cloudinary.com/dfmsezslx/image/upload/v1697071006/TECDE/undraw_sharing_knowledge_03vp_vhbmae.svg'];
-  const texto = ["Nuestro proposito es lograr la democratización y accesibilidad de las tecnologías de última generación para el sector industrial Colombiano y Latinoamericano","Implementamos tecnología de vanguardia en tus procesos y operaciones para transformar tu negocio y guiarlo a nuevas oportunidades de innovación y crecimiento exponencial", "A través del desarrollo de soluciones personalizadas potenciamos las operaciones de tu empresa apoyados en estrategías de innovación y metodologías ágiles"]
+  const idiomaActual = useSelector((state) => state.idioma);
+  const images = [
+    'https://res.cloudinary.com/dfmsezslx/image/upload/v1697070158/undraw_environmental_study_re_q4q8_nzmcc2.svg',
+    'https://res.cloudinary.com/dfmsezslx/image/upload/v1697070437/TECDE/undraw_team_goals_re_4a3t_yztpyl.svg',
+    'https://res.cloudinary.com/dfmsezslx/image/upload/v1697071006/TECDE/undraw_sharing_knowledge_03vp_vhbmae.svg'
+  ];
+  
+  const textIng = [
+    "Our purpose is to achieve the democratization and accessibility of cutting-edge technologies for the Colombian and Latin American industrial sector.",
+    "We implement cutting-edge technology into your processes and operations to transform your business, guiding it toward new opportunities for innovation and exponential growth.",
+    "Through the development of personalized solutions, we enhance your company's operations, supported by innovation strategies and agile methodologies."
+  ];
+  
+  const textEs = [
+    "Nuestro propósito es lograr la democratización y accesibilidad de las tecnologías de última generación para el sector industrial colombiano y latinoamericano.",
+    "Implementamos tecnología de vanguardia en tus procesos y operaciones para transformar tu negocio y guiarlo hacia nuevas oportunidades de innovación y crecimiento exponencial.",
+    "A través del desarrollo de soluciones personalizadas, mejoramos las operaciones de tu empresa con el respaldo de estrategias de innovación y metodologías ágiles."
+  ];
+  
+  var texto = [];
+  if (idiomaActual === "es") {
+      texto = [...textEs];
+  } 
+  else {
+      texto = [...textIng];
+  }
+
+  console.log(texto);
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const nextSlide = () => {

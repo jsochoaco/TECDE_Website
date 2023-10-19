@@ -9,6 +9,7 @@ import Contacto from './paginas/Contacto/Contacto';
 import Servicios from './paginas/Servicios/Servicios';
 import { useDispatch} from "react-redux"
 import { setIdioma } from './redux/actions';
+import Trabaja from './paginas/Trabaja/Trabaja';
 
 function App() {
   const browserLanguage = navigator.language;
@@ -28,6 +29,7 @@ function App() {
         <Route path='/nosotros' element={<Nosotros/>} />
         <Route path='/contacto' element={<Contacto/>} />
         <Route path='/servicios' element={<Servicios/>} />
+        <Route path='/unete' element={<Trabaja/>} />
       </Routes>
       <Footer/>
     </>

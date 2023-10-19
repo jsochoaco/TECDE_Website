@@ -31,11 +31,10 @@ const NavBar = () => {
         if(idiomaActual === "es") {
             dispatch(setIdioma("en"))
         }
-        else if(idiomaActual === "en") {
+        else {
             dispatch(setIdioma("es"))
         }
     }
-
     return (
         <div className={style.divNavbar}>
             <div className={style.divImagen}>
@@ -52,6 +51,9 @@ const NavBar = () => {
                 </Link>
                 <Link to = "/servicios" >
                 <button className={location.pathname === "/servicios" ? style.onNavBar : style.offNavBar}>{idiomaActual === "es" ? "Servicios" : "Services"}</button>
+                </Link>
+                <Link to = "/unete">
+                <button className={location.pathname === "/unete" ? style.onNavBar : style.offNavBar}>{idiomaActual === "es" ? "Únete a TECDE" : "Join to TECDE"}</button>
                 </Link>
                 {/* <Link>
                 <button className={location.pathname === "/trayectoria" ? style.onNavBar : style.offNavBar}>Trayectoria</button>
@@ -74,6 +76,9 @@ const NavBar = () => {
                     </NavLink>
                     <NavLink to="/nosotros">
                         <button className={location.pathname === "/nosotros" ? style.onNavBar : style.offNavBar} onClick={()=> setIsMenuOpen(false)}>{idiomaActual === "es" ? "Nosotros" : "About Us"}</button>
+                    </NavLink>
+                    <NavLink to="/unete"> 
+                        <button className={location.pathname === "/unete" ? style.onNavBar : style.offNavBar} onClick={()=> setIsMenuOpen(false)}>{idiomaActual === "es" ? "Únete" : "Join to TECDE"}</button>
                     </NavLink>
                     <NavLink to="/servicios"> 
                         <button className={location.pathname === "/servicios" ? style.onNavBar : style.offNavBar} onClick={()=> setIsMenuOpen(false)}>{idiomaActual === "es" ? "Servicios" : "Services"}</button>
