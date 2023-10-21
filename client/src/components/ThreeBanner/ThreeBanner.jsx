@@ -1,18 +1,17 @@
 import style from "./threebanner.module.css"
 import { NavLink} from "react-router-dom"
-import { useEffect } from "react";
+import { useEffect, useState, use } from "react";
 import {useSelector } from "react-redux"
 
 const ThreeBanner = () => {
     const idiomaActual = useSelector((state) => state.idioma)
+    const formId = useSelector((state) => state.formId)
     const imagenes = [
         "https://res.cloudinary.com/dfmsezslx/image/upload/v1697130276/TECDE/undraw_code_review_re_woeb_1_eazu2u.svg",
         "https://res.cloudinary.com/dfmsezslx/image/upload/v1697129448/TECDE/undraw_design_components_9vy6_1_xhbrgg.svg",
         "https://res.cloudinary.com/dfmsezslx/image/upload/v1697130444/TECDE/undraw_progressive_app_m-9-ms_1_mrthcz.svg",
         "https://res.cloudinary.com/dfmsezslx/image/upload/v1697129384/TECDE/undraw_visionary_technology_re_jfp7_1_r99eqa.svg"
     ];
-
-
     const textoEs = [
         "Desarrollo de software en la nube",
         "Diseño y consultoria para equipos y plantas",
@@ -40,17 +39,19 @@ const ThreeBanner = () => {
     }));
 
     useEffect(() => {
-        // Cargar el script de Typeform después de que el componente se monte
-        const script = document.createElement("script");
-        script.src = "//embed.typeform.com/next/embed.js";
-        script.async = true;
-        document.body.appendChild(script);
+            const script = document.createElement("script");
+            script.src = `//embed.typeform.com/next/embed.js?t=${Date.now()}`;
+            script.async = true;
+            script.onload = () => {
+                // No establecemos el ID del formulario aquí, ya que depende de formId
+            };
+            document.body.appendChild(script);
 
-        return () => {
-            // Eliminar el script si el componente se desmonta
-            document.body.removeChild(script);
-        };
-    }, []);
+            return () => {
+                // Eliminar el script si el componente se desmonta o si cambia formId
+                document.body.removeChild(script);
+            };
+    }, [formId]);
 
     return (
         <div className={style.divBanner}>
@@ -74,7 +75,7 @@ const ThreeBanner = () => {
                     </div>
                     <div className={style.divForm}>
                         <img className={style.imgForm} src="https://res.cloudinary.com/dfmsezslx/image/upload/v1697132510/TECDE/undraw_work_together_re_5yhn_1_cdppnr.svg" alt="WorToghether" />
-                        <div className={style.butonForm} data-tf-live="01HCJN3BRHRYAX0X5ZF9W7VYPA"></div>
+                        <div className={style.butonForm} data-tf-live={formId}></div>
                     </div>
                 </div>
             </div>

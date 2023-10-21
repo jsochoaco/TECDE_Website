@@ -50,7 +50,7 @@ const Footer = () => {
                         <img className={style.iconoRedes} src="https://api.iconify.design/ic:outline-whatsapp.svg?color=%2300acca" alt="insta"/>
                     </NavLink>
                     <NavLink to="https://api.whatsapp.com/send/?phone=573136146430&text=Hola,%20estoy%20interesado(a)%20en%20saber%20más%20información%20acerca%20de%20TECDE%20Ingeniería%20y%20sus%20servicios%20" className={style.link} target="_blank">
-                        <h5 className={style.red}>{idiomaActual === "es" ? "Envíanos un mensaje": "Send a message"}</h5>
+                        <h5 className={style.red}>{idiomaActual === "es" ? "Escríbenos": "Send a message"}</h5>
                     </NavLink>
                 </div>
                 <div className={style.divContactData}>

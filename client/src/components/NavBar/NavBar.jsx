@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import { useDispatch, useSelector } from "react-redux"
 import style from "./navbar.module.css"
 import { Link, NavLink, useLocation } from "react-router-dom"
-import { setIdioma } from "../../redux/actions";
+import { setIdioma, setDatLiveBoton } from "../../redux/actions";
 
 const NavBar = () => {
     const dispatch = useDispatch()
@@ -30,9 +30,11 @@ const NavBar = () => {
     const handleIdioma = () => {
         if(idiomaActual === "es") {
             dispatch(setIdioma("en"))
+            dispatch(setDatLiveBoton("en"))
         }
         else {
             dispatch(setIdioma("es"))
+            dispatch(setDatLiveBoton("es"))
         }
     }
     return (
@@ -61,7 +63,7 @@ const NavBar = () => {
                 <Link to = "/contacto">
                 <button className={location.pathname === "/contacto" ? style.onNavBar : style.offNavBar}>{idiomaActual === "es" ? "Contacto" : "Contact"}</button>
                 </Link>
-                <button className={style.offNavBar} onClick={handleIdioma} ><img src={idiomaActual === "es" ? "https://api.iconify.design/emojione:flag-for-united-states.svg?color=%2300acca" : "https://api.iconify.design/emojione:flag-for-colombia.svg?color=%2300acca"} alt="flagLanguage" /> {idiomaActual === "es" ? "EN " : "ES"}</button>
+                <button className={style.offNavBar} onClick={handleIdioma} ><img src={idiomaActual === "es" ? "https://api.iconify.design/emojione:flag-for-colombia.svg?color=%2300acca" : "https://api.iconify.design/emojione:flag-for-united-states.svg?color=%2300acca"} alt="flagLanguage" /> {idiomaActual === "es" ? "ES " : "EN"}</button>
             </div>
             <div className={style.divIconMenu}>
                 <button className={style.offNavBar} onClick={toggleMenu}>
@@ -89,7 +91,7 @@ const NavBar = () => {
                     <NavLink to="/contacto"> 
                         <button className={location.pathname === "/contacto" ? style.onNavBar : style.offNavBar} onClick={()=> setIsMenuOpen(false)}>{idiomaActual === "es" ? "Contacto" : "Contact"}</button>
                     </NavLink>
-                    <button className={style.offNavBar} onClick={handleIdioma} ><img src={idiomaActual === "es" ? "https://api.iconify.design/emojione:flag-for-united-states.svg?color=%2300acca" : "https://api.iconify.design/emojione:flag-for-colombia.svg?color=%2300acca"} alt="flagLanguage" /> {idiomaActual === "es" ? "EN " : "ES"}</button>
+                    <button className={style.offNavBar} onClick={()=> {handleIdioma();setIsMenuOpen(false)}}><img src={idiomaActual === "es" ? "https://api.iconify.design/emojione:flag-for-colombia.svg?color=%2300acca" : "https://api.iconify.design/emojione:flag-for-united-states.svg?color=%2300acca"} alt="flagLanguage"/> {idiomaActual === "es" ? "ES " : "EN"}</button>
                 </div>
             </div>)}
         </div>

@@ -1,7 +1,8 @@
-import {SET_IDIOMA} from "./action-types"
+import {SET_IDIOMA, SET_DATALIVE} from "./action-types"
 
 const initialState = {
-    idioma: ""
+    idioma: "",
+    formId: ""
 }
 export const reducer = (state=initialState, action) => {
     switch (action.type) {
@@ -9,6 +10,12 @@ export const reducer = (state=initialState, action) => {
             return {
                 ...state,
                 idioma: action.payload
+            }
+        }
+        case SET_DATALIVE: {
+            return {
+                ...state,
+                formId: action.payload
             }
         }
         default:

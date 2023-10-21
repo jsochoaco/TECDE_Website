@@ -8,7 +8,7 @@ import Footer from './components/Footer/Footer';
 import Contacto from './paginas/Contacto/Contacto';
 import Servicios from './paginas/Servicios/Servicios';
 import { useDispatch} from "react-redux"
-import { setIdioma } from './redux/actions';
+import { setDatLiveBoton, setIdioma } from './redux/actions';
 import Trabaja from './paginas/Trabaja/Trabaja';
 
 function App() {
@@ -19,6 +19,7 @@ function App() {
 
   useEffect(()=> {
     dispatch(setIdioma(languageCode))
+    dispatch(setDatLiveBoton(languageCode))
   }, [browserLanguage])
 
   return (
