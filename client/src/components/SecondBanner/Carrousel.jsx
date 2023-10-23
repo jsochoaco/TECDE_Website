@@ -31,7 +31,6 @@ function Carousel() {
       texto = [...textIng];
   }
 
-  console.log(texto);
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const nextSlide = () => {

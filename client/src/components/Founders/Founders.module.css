@@ -462,7 +462,7 @@
   
   .prevButton,
   .nextButton {
-    display: inline-block;
+    display: flex;
     margin-top: 10px;
     position: absolute;
     background-color: transparent;
@@ -471,7 +471,7 @@
     border-radius: 50%;
     cursor: pointer;
     font-size: 2.5rem;
-    transform: translateY(-50%);
+    z-index: 1; 
   }
   .prevButton {
     left: 33.34%;

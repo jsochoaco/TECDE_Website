@@ -1,128 +1,418 @@
 @media (max-width: 380px) {
-    .divBannerServ {
+    .contenedorGral {
         display: flex;
         justify-content: center;
         align-items: center;
         align-content: center;
         flex-direction: column;
-        margin-bottom: 200px;
         width: 100%;
-        .ServiciosTitulo {
-            margin: 0px;
-            padding: 2%;
-            color: #00acca;
-            text-align: center;
-            font-size: 1.6rem;
-            font-style: normal;
-            line-height: normal;
+        .divBannerServ {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            flex-direction: column;
+            width: 90%;
+            margin-bottom: 30px;
+            .ServiciosTitulo {
+                margin: 0px;
+                padding: 2%;
+                color: #00acca;
+                text-align: center;
+                font-size: 1.8rem; 
+                font-style: normal;
+                line-height: normal;
+            }
+            .Secundario {
+                margin: 0px;
+                color: white;
+                text-align: center;
+                font-size: 1.2rem;
+                font-style: normal;
+                line-height: normal;
+            }
+            .imgUnder {
+                width: 50%;
+                padding: 3%;
+            }
         }
-        .Secundario {
-            margin: 0px;
-            color: white;
-            text-align: center;
-            font-size: 1.2rem;
-            font-style: normal;
-            line-height: normal;
+        .servicio {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            flex-direction: column;
+            width: 100%;
+            margin-bottom: 30px;
+            .principalTitulo {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+                flex-direction: row;
+                width: 100%;
+                .tituloser {
+                    margin: 0px;
+                    padding: 1%;
+                    color: white;
+                    background-color: #00acca;
+                    border-radius: 10px;
+                    text-align: center;
+                    font-size: 1rem;
+                    font-style: normal;
+                    line-height: normal;
+                    width: 100%;
+                }
+                .prevButton,.nextButton {
+                    display: flex;
+                    position: relative;
+                    background-color: transparent;
+                    color: #fff;
+                    border: none;
+                    cursor: pointer;
+                    font-size: 2.5rem;
+                    z-index: 1; 
+                }}
+            .principal {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+                flex-direction: column;
+                width: 100%;
+                margin-top: 20px;
+                margin-bottom: 40px;
+                min-height: 310px;
+                gap: 15px;
+                .imgserv {
+                        width: 250px;
+                        margin: 0px;
+                    }
+                .descripcion {
+                    margin: 0px;
+                    padding: 2%;
+                    color: white;
+                    text-align: justify;
+                    font-size: 1.1rem;
+                    font-style: normal;
+                    line-height: normal;
+                    width: 85%;
+                }
+            }
         }
-        .imgUnder {
-            width: 50%;
-            padding: 3%;
-        }
-    }
+    } 
 }
 @media (min-width: 381px) and (max-width: 767px) {
-    .divBannerServ {
+    .contenedorGral {
         display: flex;
         justify-content: center;
         align-items: center;
         align-content: center;
         flex-direction: column;
-        margin-bottom: 200px;
         width: 100%;
-        .ServiciosTitulo {
-            margin: 0px;
-            padding: 2%;
-            color: #00acca;
-            text-align: center;
-            font-size: 1.6rem;
-            font-style: normal;
-            line-height: normal;
+        .divBannerServ {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            flex-direction: column;
+            width: 100%;
+            margin-bottom: 30px;
+            .ServiciosTitulo {
+                margin: 0px;
+                padding: 2%;
+                color: #00acca;
+                text-align: center;
+                font-size: 1.8rem; 
+                font-style: normal;
+                line-height: normal;
+            }
+            .Secundario {
+                margin: 0px;
+                color: white;
+                text-align: center;
+                font-size: 1.2rem;
+                font-style: normal;
+                line-height: normal;
+            }
+            .imgUnder {
+                width: 50%;
+                padding: 3%;
+            }
         }
-        .Secundario {
-            margin: 0px;
-            color: white;
-            text-align: center;
-            font-size: 1.2rem;
-            font-style: normal;
-            line-height: normal;
-        }
-        .imgUnder {
-            width: 50%;
-            padding: 3%;
+        .servicio {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            flex-direction: column;
+            width: 100%;
+            margin-bottom: 30px;
+            .principalTitulo {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+                flex-direction: row;
+                width: 100%;
+                .tituloser {
+                    margin: 0px;
+                    padding: 1%;
+                    color: white;
+                    background-color: #00acca;
+                    border-radius: 10px;
+                    text-align: center;
+                    font-size: 1.2rem;
+                    font-style: normal;
+                    line-height: normal;
+                    width: 100%;
+                }
+                .prevButton,.nextButton {
+                    display: flex;
+                    position: relative;
+                    background-color: transparent;
+                    color: #fff;
+                    border: none;
+                    cursor: pointer;
+                    font-size: 2.5rem;
+                    z-index: 1; 
+                }}
+            .principal {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+                flex-direction: column;
+                width: 100%;
+                margin-top: 20px;
+                margin-bottom: 40px;
+                min-height: 310px;
+                gap: 15px;
+                .imgserv {
+                        width: 250px;
+                        margin: 0px;
+                    }
+                .descripcion {
+                    margin: 0px;
+                    padding: 2%;
+                    color: white;
+                    text-align: justify;
+                    font-size: 1.1rem;
+                    font-style: normal;
+                    line-height: normal;
+                    width: 85%;
+                }
+            }
         }
     }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
-    .divBannerServ {
+    .contenedorGral {
         display: flex;
         justify-content: center;
         align-items: center;
         align-content: center;
         flex-direction: column;
-        margin-bottom: 50px;
         width: 100%;
-        .ServiciosTitulo {
-            margin: 0px;
-            padding: 2%;
-            color: #00acca;
-            text-align: center;
-            font-size: 2rem;
-            font-style: normal;
-            line-height: normal;
+        .divBannerServ {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            flex-direction: column;
+            width: 100%;
+            margin-bottom: 40px;
+            .ServiciosTitulo {
+                margin: 0px;
+                padding: 2%;
+                color: #00acca;
+                text-align: center;
+                font-size: 2rem; 
+                font-style: normal;
+                line-height: normal;
+            }
+            .Secundario {
+                margin: 0px;
+                color: white;
+                text-align: center;
+                font-size: 1.4rem;
+                font-style: normal;
+                line-height: normal;
+            }
+            .imgUnder {
+                width: 50%;
+                padding: 3%;
+            }
         }
-        .Secundario {
-            margin: 0px;
-            color: white;
-            text-align: center;
-            font-size: 1.3rem;
-            font-style: normal;
-            line-height: normal;
-        }
-        .imgUnder {
-            width: 50%;
-            padding: 3%;
+        .servicio {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            flex-direction: column;
+            width: 100%;
+            margin-bottom: 40px;
+            .principalTitulo {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+                flex-direction: row;
+                width: 100%;
+                .tituloser {
+                    margin: 0px;
+                    padding: 1%;
+                    color: white;
+                    background-color: #00acca;
+                    border-radius: 10px;
+                    text-align: center;
+                    font-size: 1.5rem;
+                    font-style: normal;
+                    line-height: normal;
+                    width: 60%;
+                }
+                .prevButton,.nextButton {
+                    display: flex;
+                    position: relative;
+                    background-color: transparent;
+                    color: #fff;
+                    border: none;
+                    cursor: pointer;
+                    font-size: 2.5rem;
+                    z-index: 1; 
+                }}
+            .principal {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+                flex-direction: row;
+                width: 100%;
+                margin-top: 20px;
+                margin-bottom: 40px;
+                min-height: 320px;
+                gap: 8%;
+                .imgserv {
+                        width: 260px;
+                        margin: 0px;
+                    }
+                .descripcion {
+                    margin: 0px;
+                    padding: 2%;
+                    color: white;
+                    text-align: justify;
+                    font-size: 1.3rem;
+                    font-style: normal;
+                    line-height: normal;
+                    width: 40%;
+                }
+            }
         }
     }
+    
 }
 @media (min-width: 1024px) {
-    .divBannerServ {
+    .contenedorGral {
         display: flex;
         justify-content: center;
         align-items: center;
         align-content: center;
         flex-direction: column;
-        margin-bottom: 50px;
         width: 100%;
-        .ServiciosTitulo {
-            margin: 0px;
-            padding: 2%;
-            color: #00acca;
-            text-align: center;
-            font-size: 2.3rem;
-            font-style: normal;
-            line-height: normal;
+        .divBannerServ {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            flex-direction: column;
+            width: 100%;
+            margin-bottom: 50px;
+            .ServiciosTitulo {
+                margin: 0px;
+                padding: 2%;
+                color: #00acca;
+                text-align: center;
+                font-size: 2.3rem; 
+                font-style: normal;
+                line-height: normal;
+            }
+            .Secundario {
+                margin: 0px;
+                color: white;
+                text-align: center;
+                font-size: 1.6rem;
+                font-style: normal;
+                line-height: normal;
+            }
+            .imgUnder {
+                width: 50%;
+                padding: 3%;
+            }
         }
-        .Secundario {
-            margin: 0px;
-            color: white;
-            text-align: center;
-            font-size: 1.6rem;
-            font-style: normal;
-            line-height: normal;
-        }
-        .imgUnder {
-            width: 50%;
-            padding: 3%;
+        .servicio {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            flex-direction: column;
+            width: 100%;
+            margin-bottom: 50px;
+            .principalTitulo {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+                flex-direction: row;
+                width: 100%;
+                .tituloser {
+                    margin: 0px;
+                    padding: 1%;
+                    color: white;
+                    background-color: #00acca;
+                    border-radius: 10px;
+                    text-align: center;
+                    font-size: 1.8rem;
+                    font-style: normal;
+                    line-height: normal;
+                    width: 40%;
+                }
+                .prevButton,.nextButton {
+                    display: flex;
+                    position: relative;
+                    background-color: transparent;
+                    color: #fff;
+                    border: none;
+                    cursor: pointer;
+                    font-size: 3rem;
+                    z-index: 1; 
+                }}
+            .principal {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+                flex-direction: row;
+                width: 100%;
+                margin-top: 20px;
+                margin-bottom: 50px;
+                min-height: 350px;
+                gap: 10%;
+                .imgserv {
+                        width: 290px;
+                        margin: 0px;
+                    }
+                .descripcion {
+                    margin: 0px;
+                    padding: 2%;
+                    color: white;
+                    text-align: justify;
+                    font-size: 1.6rem;
+                    font-style: normal;
+                    line-height: normal;
+                    width: 40%;
+                }
+            }
         }
     }
+    
 }
