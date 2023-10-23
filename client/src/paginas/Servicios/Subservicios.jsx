@@ -1,8 +1,12 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import style from './subservicios.module.css';
 
 const Subservicios = ({ subservicios }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
+
+  useEffect(()=> {
+    setCurrentIndex(0)
+  },[subservicios])
 
   const handleNextClick = () => {
     if (currentIndex < subservicios.length - 3) {
@@ -29,11 +33,11 @@ const Subservicios = ({ subservicios }) => {
 
   return (
     <div className={style.carruselcontainer}>
-        <button className={style.prevBoton} onClick={handlePrevClick}>&#8249;</button>
+        <button className={style.prevButton} onClick={handlePrevClick}>&#8249;</button>
         <div className={style.carrusel}>
             {renderSubservicios()}
         </div>
-        <button className={style.nextBoton} onClick={handleNextClick}>&#8250;</button>
+        <button className={style.nextButton} onClick={handleNextClick}>&#8250;</button>
     </div>
   );
 };

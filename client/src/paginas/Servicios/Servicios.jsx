@@ -5,8 +5,6 @@ import Subservicios from "./Subservicios"
 
 const Servicios = () => {
     const idiomaActual = useSelector((state) => state.idioma)
-
-
     const serviciosES = [
         {
           titulo: "Diseño de equipos y plantas",
@@ -19,7 +17,7 @@ const Servicios = () => {
             { sub: "Diseño de plan de manufactura", imagen: "url_de_la_imagen_del_subservicio.jpg" },
             { sub: "Ingeniería inversa", imagen: "url_de_la_imagen_del_subservicio.jpg" },
             { sub: "Selección avanzada de materiales", imagen: "url_de_la_imagen_del_subservicio.jpg" },
-            { sub: "Simulaciones multifísicas para prever el comportamiento del equipo", imagen: "url_de_la_imagen_del_subservicio.jpg" },
+            { sub: "Simulaciones multifísicas", imagen: "url_de_la_imagen_del_subservicio.jpg" },
             { sub: "Pruebas técnicas y normativas de materiales", imagen: "url_de_la_imagen_del_subservicio.jpg" },
             { sub: "Formación y capacitación", imagen: "url_de_la_imagen_del_subservicio.jpg" }
           ]
@@ -30,11 +28,11 @@ const Servicios = () => {
           imagen: "https://res.cloudinary.com/dfmsezslx/image/upload/v1698086461/TECDE/undraw_working_re_ddwy_rhkbzj.svg",
           subservicios: [
             { sub: "Intervención de equipos para mejoras operaciones", imagen: "url_de_la_imagen_del_subservicio.jpg" },
-            { sub: "Certificación de diseños implementados por la empresa", imagen: "url_de_la_imagen_del_subservicio.jpg" },
-            { sub: "Diseños colaborativos para la mejorar de equipos y optimización de procesos", imagen: "url_de_la_imagen_del_subservicio.jpg" },
+            { sub: "Certificación de diseños implementados", imagen: "url_de_la_imagen_del_subservicio.jpg" },
+            { sub: "Diseños colaborativos para mejora de equipos", imagen: "url_de_la_imagen_del_subservicio.jpg" },
             { sub: "Diagnostico de procesos productivos y manufactureros", imagen: "url_de_la_imagen_del_subservicio.jpg" },
-            { sub: "Evaluación de eficiencia energética, operativa y productiva", imagen: "url_de_la_imagen_del_subservicio.jpg" },
-            { sub: "Formación y capacitación", imagen: "url_de_la_imagen_del_subservicio.jpg" }
+            { sub: "Evaluación de eficiencia energética y operativa", imagen: "url_de_la_imagen_del_subservicio.jpg" },
+            { sub: "Formación y capacitación", imagen: "url_de_la_imagen_del_subservicio.jpg"}
           ]
         },
         {
@@ -43,12 +41,11 @@ const Servicios = () => {
           imagen: "https://res.cloudinary.com/dfmsezslx/image/upload/v1698086543/TECDE/undraw_code_review_re_woeb_2_yaadex.svg",
           subservicios: [
             { sub: "Digitalización de información y levantamiento de indicadores", imagen: "url_de_la_imagen_del_subservicio.jpg" },
-            { sub: "Software personalizado para funciones especificas de la empresa", imagen: "url_de_la_imagen_del_subservicio.jpg" },
+            { sub: "Software personalizado para funciones especificas", imagen: "url_de_la_imagen_del_subservicio.jpg" },
             { sub: "Integración de sistemas en la nube", imagen: "url_de_la_imagen_del_subservicio.jpg" },
             { sub: "Desarrollo de aplicaciones móviles y web", imagen: "url_de_la_imagen_del_subservicio.jpg" },
             { sub: "Automatización de procesos por medio de herramientas digitales", imagen: "url_de_la_imagen_del_subservicio.jpg" },
             { sub: "Análisis de Datos Avanzado", imagen: "url_de_la_imagen_del_subservicio.jpg" },
-            { sub: "Desarrollo de Aplicaciones IoT", imagen: "url_de_la_imagen_del_subservicio.jpg" },
             { sub: "Desarrollo de Aplicaciones IoT", imagen: "url_de_la_imagen_del_subservicio.jpg" },
             { sub: "Formación y capacitación", imagen: "url_de_la_imagen_del_subservicio.jpg" }
           ]

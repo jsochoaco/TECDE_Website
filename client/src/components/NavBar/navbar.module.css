@@ -2,6 +2,11 @@
 @media (max-width: 380px) {
     .divNavbar {
         display: flex;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        padding: 10px 0;
+        z-index: 1000;
         flex-direction: row;
         justify-content: center;
         align-items: center;
@@ -60,6 +65,11 @@
 @media (min-width: 381px) and (max-width: 767px) {
     .divNavbar {
         display: flex;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        padding: 10px 0;
+        z-index: 100;
         flex-direction: row;
         justify-content: center;
         align-items: center;
@@ -115,6 +125,11 @@
 @media (min-width: 768px) and (max-width: 1023px) {
     .divNavbar {
         display: flex;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        padding: 10px 0;
+        z-index: 100;
         flex-direction: row;
         justify-content: center;
         align-items: center;
@@ -150,6 +165,11 @@
 @media (min-width: 1024px) {
     .divNavbar {
         display: flex;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        padding: 10px 0;
+        z-index: 100;
         flex-direction: row;
         justify-content: left;
         align-items: center;

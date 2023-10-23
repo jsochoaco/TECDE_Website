@@ -1,38 +1,65 @@
 .carruselcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: row;
+  width: 100%;
+  margin-bottom: 50px;
+  .prevButton,.nextButton {
     display: flex;
-    overflow: hidden;
     position: relative;
-    max-width: 100%;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 3rem;
+    z-index: 1;
+  }
+  .prevButton {
+    left: -10%;
+  }
+  
+  .nextButton {
+    right: -10%;
+  }
   }
   
   .carrusel {
     display: flex;
-    transition: transform 0.5s;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    width: 100%;
+    gap: 10%;
+    margin: 0px;
+
   }
   
   .subservicio {
-    width: 300px; /* Ancho de cada subservicio */
-    margin: 10px; /* Margen entre subservicios */
-    padding: 10px;
-    border: 1px solid #ccc;
-    background-color: #fff;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
-    text-align: center;
     display: flex;
-    flex-direction: column;
+    padding: 5px;
+    justify-content: flex-start;
     align-items: center;
-    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    width: 310px;
+    margin: 0px;
+    gap: 3%;
+    border: 2px solid white;
+    height: 400px;
+    .subImg {
+      width: 250px;
+    }
+    .subTit {
+      margin: 0px;
+      padding: 3%;
+      color: white;
+      text-align: center;
+      font-size: 1.4rem;
+      font-style: normal;
+      line-height: normal;
   }
-  
-  button {
-    margin: 10px;
-    background-color: #007BFF;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #0056b3;
+
   }

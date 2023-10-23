@@ -72,7 +72,14 @@
                     cursor: pointer;
                     font-size: 2.5rem;
                     z-index: 1; 
-                }}
+                }
+                .prevButton {
+                    left: -1%;
+                  }
+                  
+                  .nextButton {
+                    right: -1%;
+                  }}
             .principal {
                 display: flex;
                 justify-content: center;
@@ -176,7 +183,15 @@
                     cursor: pointer;
                     font-size: 2.5rem;
                     z-index: 1; 
-                }}
+                }
+                .prevButton {
+                    left: -1%;
+                  }
+                  
+                  .nextButton {
+                    right: -1%;
+                  }
+            }
             .principal {
                 display: flex;
                 justify-content: center;
@@ -280,7 +295,15 @@
                     cursor: pointer;
                     font-size: 2.5rem;
                     z-index: 1; 
-                }}
+                }
+                .prevButton {
+                    left: -5%;
+                  }
+                  
+                  .nextButton {
+                    right: -5%;
+                  }
+            }
             .principal {
                 display: flex;
                 justify-content: center;
@@ -384,8 +407,16 @@
                     border: none;
                     cursor: pointer;
                     font-size: 3rem;
-                    z-index: 1; 
-                }}
+                    z-index: 1;
+                }
+                .prevButton {
+                    left: -10%;
+                  }
+                  
+                  .nextButton {
+                    right: -10%;
+                  }
+            }
             .principal {
                 display: flex;
                 justify-content: center;
