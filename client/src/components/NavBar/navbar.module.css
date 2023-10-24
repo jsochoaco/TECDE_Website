@@ -178,7 +178,7 @@
         gap: 5%;
         background-color: #1c1c21;
         height: 100px;
-        margin-left: 50px;
+        padding-left: 50px;
         .divImagen {
             display: flex;
             .imagenNav {
