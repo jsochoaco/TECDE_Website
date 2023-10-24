@@ -9,26 +9,36 @@ const Subservicios = ({ subservicios }) => {
   },[subservicios])
 
   const handleNextClick = () => {
-    if (currentIndex < subservicios.length - 3) {
-      setCurrentIndex(currentIndex + 1);
-    }
+    setCurrentIndex((currentIndex + 1) % subservicios.length);
+    // if (currentIndex < subservicios.length - 3) {
+    //   setCurrentIndex(currentIndex + 1);
+    // }
   };
 
   const handlePrevClick = () => {
-    if (currentIndex > 0) {
-      setCurrentIndex(currentIndex - 1);
-    }
+    setCurrentIndex((currentIndex - 1 + subservicios.length) % subservicios.length);
+    // if (currentIndex > 0) {
+    //   setCurrentIndex(currentIndex - 1);
+    // }
   };
 
   const renderSubservicios = () => {
-    const subserviciosToShow = subservicios.slice(currentIndex, currentIndex + 3);
-    return subserviciosToShow.map((subservicio, index) => (
-      <div className={style.subservicio} key={index} >
-        <img className={style.subImg} src="https://res.cloudinary.com/dfmsezslx/image/upload/v1698086798/TECDE/undraw_project_complete_lwss_bczidk.svg" alt={subservicio.sub}/>
-        {/* <img className={style.subImg} src={subservicio.imagen} alt={subservicio.sub}/> */}
-        <h3 className={style.subTit}>{subservicio.sub}</h3>
+    return (
+      <>
+      <div className={style.subservicio}>
+        <img className={style.subImg} src={subservicios[[(currentIndex - 1 + subservicios.length) % subservicios.length]].imagen} alt={subservicios[[(currentIndex - 1 + subservicios.length) % subservicios.length]].sub}/>
+        <h3 className={style.subTit}>{subservicios[[(currentIndex - 1 + subservicios.length) % subservicios.length]].sub}</h3>
       </div>
-    ));
+      <div className={style.medio} >
+        <img className={style.subImg} src={subservicios[currentIndex].imagen} alt={subservicios[currentIndex].sub}/>
+        <h3 className={style.subTit}>{subservicios[currentIndex].sub}</h3>
+      </div>
+      <div className={style.subservicio}>
+        <img className={style.subImg} src={subservicios[[(currentIndex + 1) % subservicios.length]].imagen} alt={subservicios[[(currentIndex + 1) % subservicios.length]].sub}/>
+        <h3 className={style.subTit}>{subservicios[[(currentIndex + 1) % subservicios.length]].sub}</h3>
+      </div>
+      </>
+    )
   };
 
   return (

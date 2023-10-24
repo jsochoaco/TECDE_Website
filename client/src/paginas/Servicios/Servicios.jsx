@@ -11,15 +11,15 @@ const Servicios = () => {
           descripcion: "Nuestro equipo de ingenieros altamente capacitados se dedica a crear diseños innovadores, eficientes y personalizados para equipos y plantas industriales, que optimizan la productividad y garantizan la calidad de tus operaciones.",
           imagen: "https://res.cloudinary.com/dfmsezslx/image/upload/v1698086384/TECDE/undraw_designer_girl_re_h54c_bcybiy.svg",
           subservicios: [
-            { sub: "Levantamiento de requerimientos de diseño", imagen: "url_de_la_imagen_del_subservicio.jpg" },
-            { sub: "Diseño a detalle del equipo y/o planta", imagen: "url_de_la_imagen_del_subservicio.jpg" },
-            { sub: "Modelado 3D y 2D", imagen: "url_de_la_imagen_del_subservicio.jpg" },
-            { sub: "Diseño de plan de manufactura", imagen: "url_de_la_imagen_del_subservicio.jpg" },
-            { sub: "Ingeniería inversa", imagen: "url_de_la_imagen_del_subservicio.jpg" },
-            { sub: "Selección avanzada de materiales", imagen: "url_de_la_imagen_del_subservicio.jpg" },
-            { sub: "Simulaciones multifísicas", imagen: "url_de_la_imagen_del_subservicio.jpg" },
-            { sub: "Pruebas técnicas y normativas de materiales", imagen: "url_de_la_imagen_del_subservicio.jpg" },
-            { sub: "Formación y capacitación", imagen: "url_de_la_imagen_del_subservicio.jpg" }
+            { sub: "Levantamiento de requerimientos de diseño", imagen: "https://res.cloudinary.com/dfmsezslx/image/upload/v1698181650/TECDE/Requerimientos_oj8y69.jpg" },
+            { sub: "Ingeniería inversa", imagen: "https://res.cloudinary.com/dfmsezslx/image/upload/c_fill,ar_1:1/v1698183949/TECDE/Ingenieros_dh4via.webp" },
+            { sub: "Diseño a detalle del equipo y/o planta", imagen: "https://res.cloudinary.com/dfmsezslx/image/upload/v1698180001/TECDE/Modelo3d_tbmtoj.png" },
+            { sub: "Diseño de plan de manufactura", imagen: "https://res.cloudinary.com/dfmsezslx/image/upload/v1698183821/TECDE/Manufactuing_zcd8lp.jpg" },
+            { sub: "Modelado 3D y 2D", imagen: "https://res.cloudinary.com/dfmsezslx/image/upload/v1698181864/TECDE/3D_qtk3ir.png" },
+            { sub: "Selección avanzada de materiales", imagen: "https://res.cloudinary.com/dfmsezslx/image/upload/v1698184135/TECDE/Materiales_ogqcl9.jpg" },
+            { sub: "Simulaciones multifísicas", imagen: "" },
+            { sub: "Pruebas técnicas y normativas de materiales", imagen: "https://res.cloudinary.com/dfmsezslx/image/upload/v1698184256/TECDE/malzeme-testleri_xg1bwj.jpg" },
+            { sub: "Formación y capacitación", imagen: "https://res.cloudinary.com/dfmsezslx/image/upload/v1698184377/TECDE/Capacitacion-y-adiestramiento-1-2_xmk7h6.png" }
           ]
         },
         {
@@ -32,7 +32,7 @@ const Servicios = () => {
             { sub: "Diseños colaborativos para mejora de equipos", imagen: "url_de_la_imagen_del_subservicio.jpg" },
             { sub: "Diagnostico de procesos productivos y manufactureros", imagen: "url_de_la_imagen_del_subservicio.jpg" },
             { sub: "Evaluación de eficiencia energética y operativa", imagen: "url_de_la_imagen_del_subservicio.jpg" },
-            { sub: "Formación y capacitación", imagen: "url_de_la_imagen_del_subservicio.jpg"}
+            { sub: "Formación y capacitación", imagen: "https://res.cloudinary.com/dfmsezslx/image/upload/v1698184377/TECDE/Capacitacion-y-adiestramiento-1-2_xmk7h6.png"}
           ]
         },
         {
@@ -47,7 +47,7 @@ const Servicios = () => {
             { sub: "Automatización de procesos por medio de herramientas digitales", imagen: "url_de_la_imagen_del_subservicio.jpg" },
             { sub: "Análisis de Datos Avanzado", imagen: "url_de_la_imagen_del_subservicio.jpg" },
             { sub: "Desarrollo de Aplicaciones IoT", imagen: "url_de_la_imagen_del_subservicio.jpg" },
-            { sub: "Formación y capacitación", imagen: "url_de_la_imagen_del_subservicio.jpg" }
+            { sub: "Formación y capacitación", imagen: "https://res.cloudinary.com/dfmsezslx/image/upload/v1698184377/TECDE/Capacitacion-y-adiestramiento-1-2_xmk7h6.png" }
           ]
         },
         {
@@ -63,7 +63,7 @@ const Servicios = () => {
             { sub: "Diseño y seguimiento de acciones para la gestión de activos", imagen: "url_de_la_imagen_del_subservicio.jpg" },
             { sub: "Seguimiento de inventarios", imagen: "url_de_la_imagen_del_subservicio.jpg" },
             { sub: "Seguimiento de inventarios", imagen: "url_de_la_imagen_del_subservicio.jpg" },
-            { sub: "Formación y capacitación", imagen: "url_de_la_imagen_del_subservicio.jpg" }
+            { sub: "Formación y capacitación", imagen: "https://res.cloudinary.com/dfmsezslx/image/upload/v1698184377/TECDE/Capacitacion-y-adiestramiento-1-2_xmk7h6.png" }
           ]
         },
         {
@@ -76,7 +76,7 @@ const Servicios = () => {
               { sub: "Automatización de Almacenes y Logística", imagen: "url_de_la_imagen_del_subservicio.jpg" },
               { sub: "Automatización de Documentos", imagen: "url_de_la_imagen_del_subservicio.jpg" },
               { sub: "Automatización de Procesos de Control de Calidad", imagen: "url_de_la_imagen_del_subservicio.jpg" },
-              { sub: "Formación y capacitación", imagen: "url_de_la_imagen_del_subservicio.jpg" }
+              { sub: "Formación y capacitación", imagen: "https://res.cloudinary.com/dfmsezslx/image/upload/v1698184377/TECDE/Capacitacion-y-adiestramiento-1-2_xmk7h6.png" }
             ]
         },
         {
@@ -89,7 +89,7 @@ const Servicios = () => {
               { sub: "Gestión de Inventario", imagen: "url_de_la_imagen_del_subservicio.jpg" },
               { sub: "Análisis de Rendimiento de la Producción", imagen: "url_de_la_imagen_del_subservicio.jpg" },
               { sub: "Desarrollo de Estrategias de Producción Sostenible", imagen: "url_de_la_imagen_del_subservicio.jpg" },
-              { sub: "Formación y capacitación", imagen: "url_de_la_imagen_del_subservicio.jpg" }
+              { sub: "Formación y capacitación", imagen: "https://res.cloudinary.com/dfmsezslx/image/upload/v1698184377/TECDE/Capacitacion-y-adiestramiento-1-2_xmk7h6.png" }
             ]
         },
         {
@@ -251,7 +251,7 @@ const Servicios = () => {
                         <p className={styles.descripcion}>{servicios[currentIndex].descripcion}</p>
                 </div>
                 <div className={styles.carruselImport}>
-                    {/* <Subservicios subservicios={servicios[currentIndex].subservicios}/> */}
+                    <Subservicios subservicios={servicios[currentIndex].subservicios}/>
                 </div>
             </div>
         </div>
