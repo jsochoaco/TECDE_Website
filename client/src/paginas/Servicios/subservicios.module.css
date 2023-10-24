@@ -1,0 +1,65 @@
+.carruselcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: row;
+  width: 100%;
+  margin-bottom: 50px;
+  .prevButton,.nextButton {
+    display: flex;
+    position: relative;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 3rem;
+    z-index: 1;
+  }
+  .prevButton {
+    left: -10%;
+  }
+  
+  .nextButton {
+    right: -10%;
+  }
+  }
+  
+  .carrusel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    width: 100%;
+    gap: 10%;
+    margin: 0px;
+
+  }
+  
+  .subservicio {
+    display: flex;
+    padding: 5px;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    width: 310px;
+    margin: 0px;
+    gap: 3%;
+    border: 2px solid white;
+    height: 400px;
+    .subImg {
+      width: 250px;
+    }
+    .subTit {
+      margin: 0px;
+      padding: 3%;
+      color: white;
+      text-align: center;
+      font-size: 1.4rem;
+      font-style: normal;
+      line-height: normal;
+  }
+
+  }

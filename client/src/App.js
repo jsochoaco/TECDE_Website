@@ -24,7 +24,10 @@ function App() {
 
   return (
     <>
+      <div>
       <NavBar/>
+      </div>
+      <div className="contenido">
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/nosotros' element={<Nosotros/>} />
@@ -33,6 +36,7 @@ function App() {
         <Route path='/unete' element={<Trabaja/>} />
       </Routes>
       <Footer/>
+      </div>
     </>
   );
 }

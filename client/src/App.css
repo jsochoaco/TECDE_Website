@@ -9,3 +9,7 @@ body {
 .App-header {
   display: flex;
 }
+
+.contenido {
+  margin-top: 120px;
+}
