@@ -45,12 +45,13 @@
     width: 310px;
     margin: 0px;
     gap: 3%;
-    border: 3px solid #00acca;
+    border: 4px solid #00acca;
     border-radius: 0px 0px 15px 15px;
-    height: 390px;
+    height: 400px;
     .subImg {
       width: 250px;
       height: 250px;
+      margin: 0px;
       background-color: #fff;
     }
     .subTit {
@@ -74,12 +75,13 @@
     gap: 3%;
     border: 2px solid white;
     border-radius: 0px 0px 15px 15px;
-    height: 390px;
+    height: 400px;
     transform: scale(0.85);
     .subImg {
       width: 250px;
       height: 250px;
       background-color: #fff;
+      margin: 0px;
     }
     .subTit {
       margin: 0px;
@@ -90,4 +92,30 @@
       font-style: normal;
       line-height: normal;
   }
+  }
+  .paginationDot {
+    width: 10px; /* Ancho de cada punto */
+    height: 10px; /* Alto de cada punto */
+    background-color: #ccc; /* Color de fondo de los puntos inactivos */
+    border-radius: 50%; /* Para hacer los puntos circulares */
+    margin: 0 5px; /* Espacio entre los puntos */
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  /* Punto de paginación activo */
+  .activeDot {
+    width: 10px; /* Ancho de cada punto */
+    height: 10px; /* Alto de cada punto */
+    background-color: #00acca; /* Color de fondo de los puntos inactivos */
+    border-radius: 50%; /* Para hacer los puntos circulares */
+    margin: 0 5px; /* Espacio entre los puntos */
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  /* Contenedor de los puntos de paginación (ajusta según tus necesidades) */
+  .pagination {
+    text-align: center;
+    margin-top: 10px; /* Espacio entre los puntos y el carrusel */
   }

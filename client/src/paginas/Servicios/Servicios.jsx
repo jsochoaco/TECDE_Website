@@ -14,10 +14,10 @@ const Servicios = () => {
             { sub: "Levantamiento de requerimientos de diseño", imagen: "https://res.cloudinary.com/dfmsezslx/image/upload/v1698181650/TECDE/Requerimientos_oj8y69.jpg" },
             { sub: "Ingeniería inversa", imagen: "https://res.cloudinary.com/dfmsezslx/image/upload/c_fill,ar_1:1/v1698183949/TECDE/Ingenieros_dh4via.webp" },
             { sub: "Diseño a detalle del equipo y/o planta", imagen: "https://res.cloudinary.com/dfmsezslx/image/upload/v1698180001/TECDE/Modelo3d_tbmtoj.png" },
-            { sub: "Diseño de plan de manufactura", imagen: "https://res.cloudinary.com/dfmsezslx/image/upload/v1698183821/TECDE/Manufactuing_zcd8lp.jpg" },
+            { sub: "Diseño de planes de manufactura", imagen: "https://res.cloudinary.com/dfmsezslx/image/upload/v1698183821/TECDE/Manufactuing_zcd8lp.jpg" },
             { sub: "Modelado 3D y 2D", imagen: "https://res.cloudinary.com/dfmsezslx/image/upload/v1698181864/TECDE/3D_qtk3ir.png" },
             { sub: "Selección avanzada de materiales", imagen: "https://res.cloudinary.com/dfmsezslx/image/upload/v1698184135/TECDE/Materiales_ogqcl9.jpg" },
-            { sub: "Simulaciones multifísicas", imagen: "" },
+            { sub: "Simulaciones multifísicas", imagen: "https://res.cloudinary.com/dfmsezslx/image/upload/v1698186148/TECDE/Simulacion_xgfods.png" },
             { sub: "Pruebas técnicas y normativas de materiales", imagen: "https://res.cloudinary.com/dfmsezslx/image/upload/v1698184256/TECDE/malzeme-testleri_xg1bwj.jpg" },
             { sub: "Formación y capacitación", imagen: "https://res.cloudinary.com/dfmsezslx/image/upload/v1698184377/TECDE/Capacitacion-y-adiestramiento-1-2_xmk7h6.png" }
           ]
@@ -27,11 +27,11 @@ const Servicios = () => {
           descripcion: "Nuestra consultoría especializada se enfoca en brindarte soluciones a medida para tus desafíos industriales. Trabajamos contigo para identificar oportunidades de mejora y aplicar estrategias que maximicen la eficiencia de tus equipos y plantas.",
           imagen: "https://res.cloudinary.com/dfmsezslx/image/upload/v1698086461/TECDE/undraw_working_re_ddwy_rhkbzj.svg",
           subservicios: [
-            { sub: "Intervención de equipos para mejoras operaciones", imagen: "url_de_la_imagen_del_subservicio.jpg" },
-            { sub: "Certificación de diseños implementados", imagen: "url_de_la_imagen_del_subservicio.jpg" },
-            { sub: "Diseños colaborativos para mejora de equipos", imagen: "url_de_la_imagen_del_subservicio.jpg" },
-            { sub: "Diagnostico de procesos productivos y manufactureros", imagen: "url_de_la_imagen_del_subservicio.jpg" },
-            { sub: "Evaluación de eficiencia energética y operativa", imagen: "url_de_la_imagen_del_subservicio.jpg" },
+            { sub: "Intervención de equipos para mejoras", imagen: "https://res.cloudinary.com/dfmsezslx/image/upload/v1698190959/TECDE/Interventoria_cmvrug.jpg" },
+            { sub: "Certificación de diseños implementados", imagen: "https://res.cloudinary.com/dfmsezslx/image/upload/v1698191314/TECDE/Certificacion_bdqnpp.png" },
+            { sub: "Diseños colaborativos para mejora de equipos", imagen: "https://res.cloudinary.com/dfmsezslx/image/upload/c_crop,ar_1:1/v1698191770/TECDE/architectural-blueprints_1_vmljip.jpg" },
+            { sub: "Diagnostico de procesos productivos y manufactureros", imagen: "https://res.cloudinary.com/dfmsezslx/image/upload/v1698191473/TECDE/DashManufac_ydwpjs.png" },
+            { sub: "Evaluación de eficiencia energética y operativa", imagen: "https://res.cloudinary.com/dfmsezslx/image/upload/v1698191622/TECDE/eficiencia_jb5tju.jpg" },
             { sub: "Formación y capacitación", imagen: "https://res.cloudinary.com/dfmsezslx/image/upload/v1698184377/TECDE/Capacitacion-y-adiestramiento-1-2_xmk7h6.png"}
           ]
         },

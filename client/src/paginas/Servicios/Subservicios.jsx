@@ -3,23 +3,36 @@ import style from './subservicios.module.css';
 
 const Subservicios = ({ subservicios }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [currentPage, setCurrentPage] = useState(0);
 
-  useEffect(()=> {
-    setCurrentIndex(0)
-  },[subservicios])
+  useEffect(() => {
+    setCurrentIndex(0);
+    setCurrentPage(0);
+  }, [subservicios]);
 
   const handleNextClick = () => {
     setCurrentIndex((currentIndex + 1) % subservicios.length);
-    // if (currentIndex < subservicios.length - 3) {
-    //   setCurrentIndex(currentIndex + 1);
-    // }
+    setCurrentPage((currentPage + 1) % subservicios.length);
   };
 
   const handlePrevClick = () => {
     setCurrentIndex((currentIndex - 1 + subservicios.length) % subservicios.length);
-    // if (currentIndex > 0) {
-    //   setCurrentIndex(currentIndex - 1);
-    // }
+    setCurrentPage((currentPage - 1 + subservicios.length) % subservicios.length);
+  };
+
+  const handlePageClick = (pageIndex) => {
+    setCurrentIndex(pageIndex);
+    setCurrentPage(pageIndex);
+  };
+
+  const renderPaginationDots = () => {
+    return subservicios.map((_, index) => (
+      <span
+        key={index}
+        className={currentPage === index ? style.activeDot : style.paginationDot}
+        onClick={() => handlePageClick(index)}
+      />
+    ));
   };
 
   const renderSubservicios = () => {
@@ -42,13 +55,19 @@ const Subservicios = ({ subservicios }) => {
   };
 
   return (
-    <div className={style.carruselcontainer}>
+    <>
+      <div className={style.carruselcontainer}>
         <button className={style.prevButton} onClick={handlePrevClick}>&#8249;</button>
         <div className={style.carrusel}>
             {renderSubservicios()}
         </div>
         <button className={style.nextButton} onClick={handleNextClick}>&#8250;</button>
-    </div>
+      </div>
+      <div className={style.pagination}>
+        {renderPaginationDots()}
+      </div>
+    </>
+
   );
 };
 
