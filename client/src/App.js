@@ -10,6 +10,7 @@ import Servicios from './paginas/Servicios/Servicios';
 import { useDispatch} from "react-redux"
 import { setDatLiveBoton, setIdioma } from './redux/actions';
 import Trabaja from './paginas/Trabaja/Trabaja';
+import Scroll from './paginas/Scroll';
 
 function App() {
   const browserLanguage = navigator.language;
@@ -24,6 +25,7 @@ function App() {
 
   return (
     <>
+    <Scroll/>
       <div>
       <NavBar/>
       </div>

@@ -135,29 +135,49 @@
         align-items: center;
         flex-shrink: 0;
         align-self: stretch;
-        gap: 3%;
+        gap: 5%;
         background-color: #1c1c21;
         height: 100px;
         .divImagen {
+            width: 75%;
             display: flex;
+            justify-content: center;
+            align-items: center;
             .imagenNav {
-                width: 150px
+                width: 200px
             }
         }
         .divOpciones {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-            flex-shrink: 0;
-            align-self: stretch;
-            gap: 5px;
+            display: none;
         }
         .divIconMenu {
-            display: none;
+            width: 25%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .iconMenu {
+                width: 35px;
+            }
         }
         .divMenu {
-            display: none;
+            position: fixed;
+            top: 0;
+            right: 0;
+            width: 50%;
+            height: 100%;
+            background-color: #1c1c21;
+            border-left: 1.5px solid white;
+            z-index: 1000; /* Asegura que esté por encima de otros elementos */
+            overflow-y: auto; /* Agregar scroll si el contenido es largo */
+            padding: 3%; /* Espacio interior del menú */
+            gap: 20px;
+            .listMenu {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin-top: 20px;
+            }
         }
     }
 }
@@ -206,7 +226,7 @@
 /* Botones de navegación */
 .offNavBar {
     border: none;
-    font-size: 1rem;
+    font-size: 1.1rem;
     padding: 5px 20px 5px 20px;
     border-radius: 50px;
     cursor: pointer;
@@ -230,7 +250,7 @@
 
 .onNavBar {
     border: none;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     padding: 5px 20px 5px 20px;
     border-radius: 50px;
     cursor: pointer;
