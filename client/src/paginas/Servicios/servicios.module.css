@@ -50,7 +50,7 @@
                 align-items: center;
                 align-content: center;
                 flex-direction: row;
-                width: 100%;
+                width: 80%;
                 .tituloser {
                     margin: 0px;
                     padding: 1%;
@@ -61,7 +61,7 @@
                     font-size: 1rem;
                     font-style: normal;
                     line-height: normal;
-                    width: 100%;
+                    width: 80%;
                 }
                 .prevButton,.nextButton {
                     display: flex;
@@ -74,11 +74,11 @@
                     z-index: 1; 
                 }
                 .prevButton {
-                    left: -1%;
+                    left: -2%;
                   }
                   
                   .nextButton {
-                    right: -1%;
+                    right: -2%;
                   }}
             .principal {
                 display: flex;
@@ -89,7 +89,7 @@
                 width: 100%;
                 margin-top: 20px;
                 margin-bottom: 40px;
-                min-height: 310px;
+                min-height: 350px;
                 gap: 15px;
                 .imgserv {
                         width: 250px;

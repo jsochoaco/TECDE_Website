@@ -26,9 +26,7 @@ function App() {
   return (
     <>
     <Scroll/>
-      <div>
       <NavBar/>
-      </div>
       <div className="contenido">
       <Routes>
         <Route path='/' element={<Home/>} />
