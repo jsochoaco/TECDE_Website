@@ -7,6 +7,7 @@
         flex-direction: column;
         margin-top: 20px;
         width: 100%;
+        min-height: 400px;
         .divTextoContacto {
             display: flex;
             padding: 10px;
@@ -61,6 +62,7 @@
         flex-direction: column;
         margin-top: 20px;
         width: 100%;
+        min-height: 400px;
         .divTextoContacto {
             display: flex;
             padding: 10px;
@@ -115,6 +117,7 @@
         flex-direction: column;
         margin-top: 20px;
         width: 100%;
+        min-height: 400px;
         .divTextoContacto {
             display: flex;
             padding: 10px;
@@ -169,6 +172,7 @@
         flex-direction: column;
         margin-top: 20px;
         width: 100%;
+        min-height: 400px;
         .divTextoContacto {
             display: flex;
             flex-direction: column;
