@@ -18,7 +18,7 @@ const FounderCarousel = () => {
           role: 'Director de Tecnología',
           image: 'https://res.cloudinary.com/dfmsezslx/image/upload/v1697494204/TECDE/PNG_Socios_TECDE-03_yswkks.png',
           background: "Ingeniero especializado en Inteligencia Artificial",
-          linkedIn: "https://www.linkedin.com/in/luis-gonzález-b910711b7/"
+          linkedIn: "https://www.linkedin.com/in/luisgonzalez-ai-engineer/"
         },
         {
             name: 'Juan Sebastián Ochoa',
@@ -41,7 +41,7 @@ const FounderCarousel = () => {
           role: 'Chief Technology Officer',
           image: 'https://res.cloudinary.com/dfmsezslx/image/upload/v1697494204/TECDE/PNG_Socios_TECDE-03_yswkks.png',
           background: "Engineer specialized in Artificial Intelligence",
-          linkedIn: "https://www.linkedin.com/in/luis-gonzález-b910711b7/"
+          linkedIn: "https://www.linkedin.com/in/luisgonzalez-ai-engineer/"
         },
         {
           name: 'Juan Sebastián Ochoa',
