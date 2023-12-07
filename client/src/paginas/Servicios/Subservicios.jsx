@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from 'react';
+import { useSelector } from "react-redux"
 import style from './subservicios.module.css';
 
 const Subservicios = ({ subservicios }) => {
+  const idiomaActual = useSelector((state) => state.idioma)
   const [currentIndex, setCurrentIndex] = useState(0);
   const [currentPage, setCurrentPage] = useState(0);
 
@@ -66,6 +68,8 @@ const Subservicios = ({ subservicios }) => {
       <div className={style.pagination}>
         {renderPaginationDots()}
       </div>
+      <h2 className={style.titulobrief}>{idiomaActual === "es" ? "Brochure de proyectos":"Projects brochure"}</h2>
+      <iframe className={style.frame} src="https://drive.google.com/file/d/1cVFPvClBDeTa-rFHrrhjgxpNa7gey9MW/preview" width="80%" height="500px" allow="autoplay"></iframe>
     </>
 
   );

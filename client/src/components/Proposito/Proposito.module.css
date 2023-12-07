@@ -279,3 +279,44 @@
     } 
 }
 
+.callBotonBan {
+    border: none;
+    font-size: 1.6rem;
+    margin-top: 3%;
+    margin-left: 5%;
+    padding: 5px 20px 5px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    position: relative;
+    transition: 0.2s;
+    color: #00ACCA;
+    background-color: white;
+    /* border: 2px solid #00ACCA; */
+    transition: 0.3s;
+    font-family: "Gotham", sans-serif;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 40%;
+    margin: 20px;
+}
+.callBotonBan:hover{
+    color: white;
+    background-color: #00ACCA;
+    transform: scale3d(1.1, 1.1, 0.3);
+    -webkit-transform: scale3d(1.1, 1.1, 0.3);
+    -moz-transform: scale3d(1.1, 1.1, 0.3);
+}
+
+.frame {
+    margin: 20px;
+}
+.titulobrief {
+    width: 80%;
+    margin: 0px;
+    color: #00acca;
+    text-align: center;
+    font-size: 1.3rem;
+    font-style: normal;
+    line-height: normal;
+}

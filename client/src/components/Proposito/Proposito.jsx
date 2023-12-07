@@ -3,6 +3,20 @@ import { useSelector } from "react-redux"
 
 const Proposito = () => {
     const idiomaActual = useSelector((state) => state.idioma)
+
+    const briefUrl = "https://drive.google.com/file/d/1EFo53FXcnAollsiMM_hoaJ2lv0SCUpUk/view?usp=sharing";
+
+    // const handleDescargaClick = () => {
+    //   // Crea un enlace temporal y simula un clic para iniciar la descarga
+    //   const link = document.createElement("a");
+    //   link.href = briefUrl;
+    //   link.target = "_blank";
+    //   link.download = "nombre-del-brief.pdf"; // Puedes personalizar el nombre del archivo aquí
+    //   document.body.appendChild(link);
+    //   link.click();
+    //   document.body.removeChild(link);
+    // };
+
     return (
         <>
         <div className={style.divContenedorProp}>
@@ -30,6 +44,7 @@ const Proposito = () => {
             </h5>
             <h2 className={style.tituloProp}>{idiomaActual === "es" ? "Nuestra experiencia":"Our experience"}</h2>
             </div>
+            <h2 className={style.titulobrief}>{idiomaActual === "es" ? "Conoce más en nuestro brief":"Learn more in our brief"}</h2>  <iframe className={style.frame} src="https://drive.google.com/file/d/1EFo53FXcnAollsiMM_hoaJ2lv0SCUpUk/preview" width="80%" height="500px" allow="autoplay"></iframe>      
         </div>
         </>
 

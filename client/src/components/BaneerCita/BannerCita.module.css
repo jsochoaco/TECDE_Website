@@ -251,3 +251,10 @@
         }
     }
 }
+
+
+.frame {
+    background-color: white;
+    height: 800px;
+    margin: 20px;
+}

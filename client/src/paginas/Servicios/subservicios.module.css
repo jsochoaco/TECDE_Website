@@ -492,3 +492,18 @@
       margin-top: 10px; /* Espacio entre los puntos y el carrusel */
     }
 }
+
+
+.frame {
+  margin: 20px;
+}
+.titulobrief {
+  width: 80%;
+  margin: 0px;
+  color: #00acca;
+  text-align: center;
+  font-size: 1.6rem;
+  font-style: normal;
+  line-height: normal;
+  margin: 50px;
+}

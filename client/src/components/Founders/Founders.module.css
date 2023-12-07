@@ -16,12 +16,12 @@
   line-height: normal;
 }
 .carousel {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-top: 15px;
-    justify-content: center;
-    gap: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+  justify-content: center;
+  gap: 80px;
   }
   
   .carousel-card {
@@ -137,11 +137,11 @@
 }
 .carousel {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     margin-top: 15px;
     justify-content: center;
-    gap: 5%;
+    gap: 80px;
     width: 100%;
   }
   
@@ -266,7 +266,7 @@
   }
   
   .carousel-card {
-    flex: 0 0 33.33%;
+    flex: 0 0 50%;
     transition: transform 0.5s;
     height: 400px;
     display: flex;
@@ -314,6 +314,7 @@
     }
   }
   .carousel-card-small {
+    display: none;
     flex: 0 0 18%;
     transition: transform 0.5s;
     height: 400px;
@@ -330,6 +331,9 @@
         line-height: normal;
         text-align: center;
     }
+  }
+  .carousel-card-small2 {
+    display: none;
   }
   
   .carousel-card.active {
@@ -432,7 +436,7 @@
       }
     }
     .carousel-card-small {
-      display: flex;
+      display: none;
       flex-direction: column;
       align-items: center;
       justify-content: center;
@@ -451,6 +455,19 @@
           font-weight: 10;
           line-height: normal;
           text-align: center;
+      }
+    }
+    .carousel-card-small2 {
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      flex: 0 0 18%;
+      transition: transform 0.5s;
+      height: 400px;
+      .imgFounder {
+          width: 180px;
+          border-radius: 50%;
       }
     }
     

@@ -15,6 +15,7 @@ const BannerCita = () => {
                     <button className={style.botonCalendar}>{idiomaActual === "es" ? "¡Deseo obtener más información!":"I wish to obtain more information!"}</button>
                 </Link>
             </div>
+            <iframe  className={style.frame} src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ3bu5v4FldFNmPmElQkDE-MeDcQgN7qx-9rms2NlpYxQIXMl1E8FdrT7N-wZphJMVfpU5YPJtVC?gv=true" width="80%" height="800px" frameborder="0"></iframe>
         </div>
     )
 }
