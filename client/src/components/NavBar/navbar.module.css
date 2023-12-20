@@ -197,7 +197,7 @@
         justify-content: center;
         justify-items: center;
         gap: 10%;
-        background-color: #1c1c21;
+        background-color: #25252B;
         height: 100px;
         .divImagen {
             display: flex;
@@ -233,7 +233,7 @@
     position: relative;
     transition: 0.2s;
     color: white;
-    background-color: #1c1c21;
+    background-color: #25252B;
     transition: 0.3s;
     text-align: left;
     font-family: 'Poppins', sans-serif;
@@ -259,7 +259,7 @@
     transition: 0.2s;
     color: white;
     font-weight: bolder;
-    background-color: #1c1c21;
+    background-color: #25252B;
     transition: 0.3s;
     text-align: left;
     font-family: 'Poppins', sans-serif;
