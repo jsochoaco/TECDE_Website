@@ -187,18 +187,18 @@
         display: flex;
         position: fixed;
         top: 0;
+        max-width: 1440px;
         width: 100%;
         padding: 10px 0;
         z-index: 100;
         flex-direction: row;
-        justify-content: left;
         align-items: center;
-        flex-shrink: 0;
-        align-self: stretch;
-        gap: 5%;
+        align-content: center;
+        justify-content: center;
+        justify-items: center;
+        gap: 10%;
         background-color: #1c1c21;
         height: 100px;
-        padding-left: 50px;
         .divImagen {
             display: flex;
             .imagenNav {
@@ -212,7 +212,7 @@
             align-items: center;
             flex-shrink: 0;
             align-self: stretch;
-            gap: 30px;
+            gap: 20px;
         }
         .divIconMenu {
             display: none;
@@ -226,13 +226,13 @@
 /* Botones de navegación */
 .offNavBar {
     border: none;
-    font-size: 1.1rem;
+    font-size: 1rem;
     padding: 5px 20px 5px 20px;
     border-radius: 50px;
     cursor: pointer;
     position: relative;
     transition: 0.2s;
-    color: #00acca;
+    color: white;
     background-color: #1c1c21;
     transition: 0.3s;
     text-align: left;
@@ -243,6 +243,7 @@
 }
 .offNavBar:hover{
     color: white;
+    font-weight: bolder;
     transform: scale3d(1.1, 1.1, 0.3);
         -webkit-transform: scale3d(1.1, 1.1, 0.3);
         -moz-transform: scale3d(1.1, 1.1, 0.3);
@@ -250,13 +251,14 @@
 
 .onNavBar {
     border: none;
-    font-size: 1.2rem;
+    font-size: 1.05rem;
     padding: 5px 20px 5px 20px;
     border-radius: 50px;
     cursor: pointer;
     position: relative;
     transition: 0.2s;
     color: white;
+    font-weight: bolder;
     background-color: #1c1c21;
     transition: 0.3s;
     text-align: left;
@@ -267,6 +269,7 @@
 }
 .onNavBar:hover{
     color: white;
+    font-weight: bolder;
     transform: scale3d(1.1, 1.1, 0.3);
         -webkit-transform: scale3d(1.1, 1.1, 0.3);
         -moz-transform: scale3d(1.1, 1.1, 0.3);

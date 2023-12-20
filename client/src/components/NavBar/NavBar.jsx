@@ -26,7 +26,6 @@ const NavBar = () => {
         event.stopPropagation(); // Evita que el evento se propague al documento
         setIsMenuOpen(!isMenuOpen);
     };
-
     const handleIdioma = () => {
         if(idiomaActual === "es") {
             dispatch(setIdioma("en"))
@@ -45,23 +44,23 @@ const NavBar = () => {
                 </NavLink>
             </div>
             <div className={style.divOpciones}>
-                <Link to="/">
+                {location.pathname !== "/" && <Link to="/">
                 <button className={location.pathname === "/" ? style.onNavBar : style.offNavBar}>{idiomaActual === "es" ? "Inicio" : "Home"}</button>
-                </Link>
-                <Link to="/nosotros">
+                </Link> }
+                <Link to="/">
                 <button className={location.pathname === "/nosotros" ? style.onNavBar : style.offNavBar}>{idiomaActual === "es" ? "Nosotros" : "About Us"}</button>
                 </Link>
-                <Link to = "/servicios" >
+                <Link to = "/" >
                 <button className={location.pathname === "/servicios" ? style.onNavBar : style.offNavBar}>{idiomaActual === "es" ? "Servicios" : "Services"}</button>
                 </Link>
-                <Link to = "/unete">
-                <button className={location.pathname === "/unete" ? style.onNavBar : style.offNavBar}>{idiomaActual === "es" ? "Únete a TECDE" : "Join to TECDE"}</button>
+                <Link to = "/">
+                <button className={location.pathname === "/unete" ? style.onNavBar : style.offNavBar}>{idiomaActual === "es" ? "Casos de éxito" : "Success stories"}</button>
                 </Link>
                 {/* <Link>
                 <button className={location.pathname === "/trayectoria" ? style.onNavBar : style.offNavBar}>Trayectoria</button>
                 </Link> */}
-                <Link to = "/contacto">
-                <button className={location.pathname === "/contacto" ? style.onNavBar : style.offNavBar}>{idiomaActual === "es" ? "Contacto" : "Contact"}</button>
+                <Link to = "/">
+                <button className={location.pathname === "/contacto" ? style.onNavBar : style.offNavBar}>{idiomaActual === "es" ? "Contáctanos" : "Contact us"}</button>
                 </Link>
                 <button className={style.offNavBar} onClick={handleIdioma} ><img src={idiomaActual === "es" ? "https://api.iconify.design/emojione:flag-for-colombia.svg?color=%2300acca" : "https://api.iconify.design/emojione:flag-for-united-states.svg?color=%2300acca"} alt="flagLanguage" /> {idiomaActual === "es" ? "ES " : "EN"}</button>
             </div>

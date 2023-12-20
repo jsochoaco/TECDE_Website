@@ -213,27 +213,30 @@
 @media (min-width: 1024px) {
     .divBanner {
         display: flex;
-        justify-content: center;
+        height: 100vh;
+        padding: 10px;
+        max-width: 1440px;
+        min-width: 1024px;
         align-items: center;
         align-content: center;
+        gap: 3% 2%;
+        flex-shrink: 0;
         align-self: stretch;
         flex-wrap: wrap;
-        gap: 1%;
-        width: 100%;
-        height: auto;
-        background-image: linear-gradient(rgba(28, 28, 33, 0.9), rgba(28, 28, 33, 0.9)), url("https://res.cloudinary.com/dfmsezslx/image/upload/v1696731571/TECDE/LogoTECDECuadrado_aj0n5l.png");
-        background-repeat:no-repeat;
-        background-size: cover;
+        background: url("https://res.cloudinary.com/dfmsezslx/image/upload/v1703089628/tc_tecde_zp7jvh.png");
+        background-repeat: no-repeat;
+        background-position: 600px 0px;
+        background-size: 55%;
         border-bottom: 2px solid #00ACCA;
         .divTexto {
             display: flex;
             padding: 4px;
             flex-direction: column;
             justify-content: flex-start;
-            align-items: left;
-            gap: 3px;
+            align-items: center;
+            gap: 2%;
             flex: 1 0 0;
-            width: 60%;
+            width: 70%;
             height: 100%;
             .tituloBanner {
                 margin-top: 5%;
@@ -257,7 +260,7 @@
             }
             .callBotonBan  {
                 border: none;
-                font-size: 1.25rem;
+                font-size: 1.5rem;
                 margin-top: 3%;
                 margin-left: 5%;
                 margin-bottom: 10%;
@@ -272,7 +275,7 @@
                 font-family: "Gotham", sans-serif;
                 text-align: center;
                 font-weight: bold;
-                width: 50%;
+                width: 110%;
                 border-radius: 5px;
             }
             .callBotonBan:hover{

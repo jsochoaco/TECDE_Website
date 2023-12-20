@@ -4,12 +4,16 @@ body {
 }
 .App {
   text-align: center;
+  display: flex;
+  align-items: center;
 
 }
 .App-header {
   display: flex;
+  align-items: center;
 }
 
 .contenido {
   margin-top: 120px;
+  max-width: 1440px;
 }
