@@ -197,6 +197,8 @@
         flex-direction: column;
         gap: 5%;
         width: 100%;
+        background-color: white;
+        border-bottom: #00ACCA solid 3px;
         .divMensaje {
             display: flex;
             padding: 10px;
@@ -252,9 +254,10 @@
     }
 }
 
-
 .frame {
-    background-color: white;
-    height: 800px;
+    width: 85%;
+    height: 900px;
+    background-color: transparent;
     margin: 20px;
+    color: aqua;
 }
