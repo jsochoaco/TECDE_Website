@@ -400,8 +400,9 @@
         align-content: center;
         align-self: stretch;
         flex-wrap: wrap;
-        gap: 5%;
+        gap: 15px;
         width: 100%;
+        min-width: 1024px;
         max-width: 1440px;
         background-color: white;
         .footerContacto {
@@ -410,7 +411,7 @@
             flex-direction: row;
             justify-content: center;
             align-items: flex-start;
-            gap: 30%;
+            gap: 20%;
             flex: 1 0 0;
             .divRedesTotal {
                 display: flex;

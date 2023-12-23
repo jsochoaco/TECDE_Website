@@ -1,5 +1,6 @@
 import style from "./servicios.module.css"
 import {useSelector } from "react-redux"
+import { NavLink } from "react-router-dom"
 
 const BannerServicios = () => {
     const idiomaActual = useSelector((state) => state.idioma)
@@ -26,46 +27,22 @@ const BannerServicios = () => {
     const datosEN = [
         {
             id: 1,
-            dato: "IBM",
-            complemento: "Global technology innovation leader",
-            logo: "https://res.cloudinary.com/dfmsezslx/image/upload/v1703179613/TECDE/img_iz0t6p.png"
+            dato: "Customized Developments",
+            complemento: "At Tecde, we share the belief that every company is unique. We specialize in providing custom software development and products, understanding the specific challenges of your industry. Discover how we tailor solutions to drive Tecde's success and transform your business processes.",
+            logo: "https://res.cloudinary.com/dfmsezslx/image/upload/v1703089628/tc_tecde_zp7jvh.png"
         },
         {
             id: 2,
-            dato: "TEC de Monterrey",
-            complemento: "#1 in Mexico according to Raking QS 2024",
-            logo: "https://res.cloudinary.com/dfmsezslx/image/upload/v1703180510/TECDE/tecnologico-de-monterrey-white_evfvrj.png"
+            dato: "IndustrIA Pro Onboarding",
+            complemento: "Our OnBoarding service for Tecde's IndustrIA Pro is designed to comprehensively prepare your company. We guide your team through a seamless implementation, providing detailed and personalized training, ensuring you make the most of its capabilities.",
+            logo: "https://res.cloudinary.com/dfmsezslx/image/upload/v1703192527/IndustriaPro_rfn8o9.png"
         },
         {
             id: 3,
-            dato: "Universidad Nacional",
-            complemento: "Academic leader in Colombia",
-            logo: "https://res.cloudinary.com/dfmsezslx/image/upload/v1703180612/TECDE/PNG_LOGOSIMBOLO_LATERAL_BLANCO-02_jqahn1.png"
-        },
-        {
-            id: 4,
-            dato: "Dassault Systèmes",
-            complemento: "Leader in product design innovation",
-            logo: "https://res.cloudinary.com/dfmsezslx/image/upload/v1703181028/TECDE/DSY.PA_BIG.D-f1789d0b_cdcuht.png"
-        },
-        // {
-        //     id: 5,
-        //     dato: "Google Cloud",
-        //     complemento: "World's #1 development platform",
-        //     logo: "https://res.cloudinary.com/dfmsezslx/image/upload/v1703181613/TECDE/Logo-Google-Cloud_jm2ys2.png"
-        // },
-        {
-            id: 6,
-            dato: "Mentor Day",
-            complemento: "Spain's first gradual accelerator",
-            logo: "https://res.cloudinary.com/dfmsezslx/image/upload/v1703181752/TECDE/mentorDay-blanco_ado7ms.png"
-        },
-        // {
-        //     id: 7,
-        //     dato: "Henry",
-        //     complemento: "Tech professionals from all over LATAM",
-        //     logo: "https://res.cloudinary.com/dfmsezslx/image/upload/v1703182185/TECDE/logo-white_wu6pp3.png"
-        // },
+            dato: "AI Integration",
+            complemento: "Our AI Integration service redefines business decision-making and data-driven management. We implement advanced solutions that integrate artificial intelligence directly into operations, empowering your business decisions with advanced data analysis and processing.",
+            logo: "https://res.cloudinary.com/dfmsezslx/image/upload/v1703192191/IA_gaoacz.png"
+        }        
     ]
     var datosDisplay = "";
     if (idiomaActual === "es") {
@@ -88,6 +65,9 @@ const BannerServicios = () => {
                         <h4 className={style.dato}>{dato.dato}</h4>
                         <p className={style.complemento}>{dato.complemento}</p>
                         </div>))}
+                        <NavLink to="https://calendar.app.google/kMU77i3fWoS9cb3WA" target="_blank">
+                <button className={style.callBotonBan}>{idiomaActual === "es" ? "SOLICITAR COTIZACIÓN":"REQUEST A QUOTE"}</button>
+                </NavLink>
                     </div>
                 </div>
             </div>

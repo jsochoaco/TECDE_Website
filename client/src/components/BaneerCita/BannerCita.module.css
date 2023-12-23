@@ -7,6 +7,10 @@
         flex-direction: column;
         gap: 5%;
         width: 100%;
+        max-width: 381px;
+        background-color: white;
+        border-bottom: #00ACCA solid 3px;
+        scale: 0.8;
         .divMensaje {
             display: flex;
             padding: 10px;
@@ -70,6 +74,10 @@
         flex-direction: column;
         gap: 5%;
         width: 100%;
+        max-width: 767px;
+        min-width: 381px;
+        background-color: white;
+        border-bottom: #00ACCA solid 3px;
         .divMensaje {
             display: flex;
             padding: 10px;
@@ -134,6 +142,10 @@
         flex-direction: column;
         gap: 5%;
         width: 100%;
+        max-width: 1023px;
+        min-width: 767px;
+        background-color: white;
+        border-bottom: #00ACCA solid 3px;
         .divMensaje {
             display: flex;
             padding: 10px;
@@ -256,8 +268,8 @@
 
 .frame {
     width: 85%;
-    height: 900px;
-    background-color: transparent;
+    height: 800px;
+    background-color: white;
     margin: 20px;
-    color: aqua;
+    color: #00ACCA;
 }

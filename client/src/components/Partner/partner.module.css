@@ -7,8 +7,6 @@
     flex-wrap: wrap;
     gap: 5%;
     width: 100%;
-    max-width: 1440px;
-    min-width: 1024px;
     padding: 0% 0% 3% 0%;
     border-bottom: 2px solid #00ACCA;
     .divTexto {
@@ -105,5 +103,444 @@
     }
     .divFantasma {
         display: none;
+    }
+}
+
+@media (min-width: 1024px) {
+    .divBanner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        align-self: stretch;
+        flex-wrap: wrap;
+        gap: 5%;
+        width: 100%;
+        max-width: 1440px;
+        min-width: 1024px;
+        padding: 0% 0% 3% 0%;
+        border-bottom: 2px solid #00ACCA;
+        .divTexto {
+            display: flex;
+            padding: 10px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            flex: 1 0 0;
+            .tituloBanner {
+                margin: 0px;
+                color: #00ACCA;
+                text-align: left;
+                font-size: 2.4rem;
+                font-style: normal;
+                line-height: normal;
+            }
+        .bannerUs {
+            display: flex;
+            padding: 5px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 3px;
+            width: 100%;
+            .componentUs {
+                width: 75%;
+            }
+            .parrafoBanner {
+                color: white;
+                text-align: left;
+                font-size: 1.25rem;
+                font-style: normal;
+                line-height: normal;
+                text-align: justify;
+                width: fit-content;
+                font-weight: lighter;
+            }
+            .divDatos{ 
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+                justify-items: center;
+                .divDato {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    width: 30%;
+                    height: max-content;
+                    padding: 3% 0% 3% 0%;
+                    gap: 5px;
+                    .numero {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        height: 100px;
+                        width: 180px;
+                        .img {
+                            width: 180px;
+                        }
+                    }
+                    .dato {
+                        margin: 0;
+                        color: white;
+                        text-align: center;
+                        font-family: Poppins;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        font-size: 1.6rem;
+                    }
+                    .complemento {
+                        margin: 0;
+                        color: white;
+                        text-align: center;
+                        font-family: Poppins;
+                        font-style: normal;
+                        font-weight: 100;
+                        line-height: normal;
+                        font-size: 1.1rem;
+                        width: 80%;
+                    }
+    
+                }
+            }
+        }
+        }
+        .divFantasma {
+            display: none;
+        }
+    }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+    .divBanner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        gap: 5%;
+        width: 100%;
+        max-width: 1023px;
+        min-width: 767px;
+        padding: 0% 0% 3% 0%;
+        border-bottom: 2px solid #00ACCA;
+        .divTexto {
+            display: flex;
+            padding: 10px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            flex: 1 0 0;
+            .tituloBanner {
+                margin: 0px;
+                color: #00ACCA;
+                text-align: left;
+                font-size: 2.4rem;
+                font-style: normal;
+                line-height: normal;
+            }
+        .bannerUs {
+            display: flex;
+            padding: 5px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 3px;
+            width: 100%;
+            .componentUs {
+                width: 75%;
+            }
+            .parrafoBanner {
+                color: white;
+                text-align: left;
+                font-size: 1.25rem;
+                font-style: normal;
+                line-height: normal;
+                text-align: justify;
+                width: fit-content;
+                font-weight: lighter;
+            }
+            .divDatos{ 
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+                justify-items: center;
+                .divDato {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    width: 40%;
+                    height: max-content;
+                    padding: 3% 0% 3% 0%;
+                    gap: 5px;
+                    .numero {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        height: 100px;
+                        width: 180px;
+                        .img {
+                            width: 150px;
+                        }
+                    }
+                    .dato {
+                        margin: 0;
+                        color: white;
+                        text-align: center;
+                        font-family: Poppins;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        font-size: 1.3rem;
+                    }
+                    .complemento {
+                        margin: 0;
+                        color: white;
+                        text-align: center;
+                        font-family: Poppins;
+                        font-style: normal;
+                        font-weight: 100;
+                        line-height: normal;
+                        font-size: 0.9rem;
+                        width: 80%;
+                    }
+    
+                }
+            }
+        }
+        }
+        .divFantasma {
+            display: none;
+        }
+    }
+}
+@media (min-width: 381px) and (max-width: 767px) {
+    .divBanner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        gap: 5%;
+        width: 100%;
+        max-width: 1023px;
+        min-width: 767px;
+        padding: 0% 0% 3% 0%;
+        border-bottom: 2px solid #00ACCA;
+        .divTexto {
+            display: flex;
+            padding: 10px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            flex: 1 0 0;
+            .tituloBanner {
+                margin: 0px;
+                color: #00ACCA;
+                text-align: left;
+                font-size: 2.4rem;
+                font-style: normal;
+                line-height: normal;
+            }
+        .bannerUs {
+            display: flex;
+            padding: 5px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 3px;
+            width: 100%;
+            .componentUs {
+                width: 75%;
+            }
+            .parrafoBanner {
+                color: white;
+                text-align: left;
+                font-size: 1.25rem;
+                font-style: normal;
+                line-height: normal;
+                text-align: justify;
+                width: fit-content;
+                font-weight: lighter;
+            }
+            .divDatos{ 
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+                justify-items: center;
+                .divDato {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    width: 80%;
+                    height: max-content;
+                    padding: 3% 0% 3% 0%;
+                    gap: 5px;
+                    .numero {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        height: 100px;
+                        width: 180px;
+                        .img {
+                            width: 150px;
+                        }
+                    }
+                    .dato {
+                        margin: 0;
+                        color: white;
+                        text-align: center;
+                        font-family: Poppins;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        font-size: 1rem;
+                    }
+                    .complemento {
+                        margin: 0;
+                        color: white;
+                        text-align: center;
+                        font-family: Poppins;
+                        font-style: normal;
+                        font-weight: 100;
+                        line-height: normal;
+                        font-size: 0.8rem;
+                        width: 80%;
+                    }
+    
+                }
+            }
+        }
+        }
+        .divFantasma {
+            display: none;
+        }
+    }
+}
+@media (max-width: 380px) {
+    .divBanner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        gap: 5%;
+        width: 100%;
+        max-width: 1023px;
+        min-width: 767px;
+        padding: 0% 0% 3% 0%;
+        border-bottom: 2px solid #00ACCA;
+        .divTexto {
+            display: flex;
+            padding: 10px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            flex: 1 0 0;
+            .tituloBanner {
+                margin: 0px;
+                color: #00ACCA;
+                text-align: left;
+                font-size: 2.4rem;
+                font-style: normal;
+                line-height: normal;
+            }
+        .bannerUs {
+            display: flex;
+            padding: 5px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 3px;
+            width: 100%;
+            .componentUs {
+                width: 75%;
+            }
+            .parrafoBanner {
+                color: white;
+                text-align: left;
+                font-size: 1.25rem;
+                font-style: normal;
+                line-height: normal;
+                text-align: justify;
+                width: fit-content;
+                font-weight: lighter;
+            }
+            .divDatos{ 
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+                justify-items: center;
+                .divDato {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    width: 80%;
+                    height: max-content;
+                    padding: 3% 0% 3% 0%;
+                    gap: 5px;
+                    .numero {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        height: 100px;
+                        width: 180px;
+                        .img {
+                            width: 150px;
+                        }
+                    }
+                    .dato {
+                        margin: 0;
+                        color: white;
+                        text-align: center;
+                        font-family: Poppins;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        font-size: 1rem;
+                    }
+                    .complemento {
+                        margin: 0;
+                        color: white;
+                        text-align: center;
+                        font-family: Poppins;
+                        font-style: normal;
+                        font-weight: 100;
+                        line-height: normal;
+                        font-size: 0.8rem;
+                        width: 80%;
+                    }
+    
+                }
+            }
+        }
+        }
+        .divFantasma {
+            display: none;
+        }
     }
 }

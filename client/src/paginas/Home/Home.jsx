@@ -4,6 +4,7 @@ import SecondBanner from "../../components/SecondBanner/SecondBanner"
 import BannerCita from "../../components/BaneerCita/BannerCita"
 import BannerPartner from "../../components/Partner/Partner"
 import BannerServicios from "../../components/Servicios/ServiciosBanner"
+import Producto from "../../components/Producto/Producto"
 
 
 const Home = () => {
@@ -12,8 +13,9 @@ const Home = () => {
         <div className={style.divContenedor}>
             <Banner/>
             <SecondBanner/>
-            <BannerPartner/>
+            <Producto/>
             <BannerServicios/>
+            <BannerPartner/>
             <BannerCita/>
         </div>
         </>

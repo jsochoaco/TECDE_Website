@@ -28,24 +28,24 @@ const BannerPartner = () => {
             complemento: "Líder en innovación en diseño de producto",
             logo: "https://res.cloudinary.com/dfmsezslx/image/upload/v1703181028/TECDE/DSY.PA_BIG.D-f1789d0b_cdcuht.png"
         },
-        {
-            id: 5,
-            dato: "Google Cloud",
-            complemento: "Plataforma de desarrollo #1 en el mundo",
-            logo: "https://res.cloudinary.com/dfmsezslx/image/upload/v1703181613/TECDE/Logo-Google-Cloud_jm2ys2.png"
-        },
+        // {
+        //     id: 5,
+        //     dato: "Google Cloud",
+        //     complemento: "Plataforma de desarrollo #1 en el mundo",
+        //     logo: "https://res.cloudinary.com/dfmsezslx/image/upload/v1703181613/TECDE/Logo-Google-Cloud_jm2ys2.png"
+        // },
         {
             id: 6,
             dato: "Mentor Day",
             complemento: "Primera aceleradora graduda de España",
             logo: "https://res.cloudinary.com/dfmsezslx/image/upload/v1703181752/TECDE/mentorDay-blanco_ado7ms.png"
         },
-        {
-            id: 7,
-            dato: "Henry",
-            complemento: "Profesionales Tech de todo LATAM",
-            logo: "https://res.cloudinary.com/dfmsezslx/image/upload/v1703182185/TECDE/logo-white_wu6pp3.png"
-        },
+        // {
+        //     id: 7,
+        //     dato: "Henry",
+        //     complemento: "Profesionales Tech de todo LATAM",
+        //     logo: "https://res.cloudinary.com/dfmsezslx/image/upload/v1703182185/TECDE/logo-white_wu6pp3.png"
+        // },
     ]
     const datosEN = [
         {
