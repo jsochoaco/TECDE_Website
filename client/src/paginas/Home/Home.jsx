@@ -1,8 +1,10 @@
+import style from "./home.module.css"
 import Banner from "../../components/Banner/Banner"
 import SecondBanner from "../../components/SecondBanner/SecondBanner"
-import Carousel from "../../components/SecondBanner/Carrousel"
-import style from "./home.module.css"
-import ThreeBanner from "../../components/ThreeBanner/ThreeBanner"
+import BannerCita from "../../components/BaneerCita/BannerCita"
+import BannerPartner from "../../components/Partner/Partner"
+import BannerServicios from "../../components/Servicios/ServiciosBanner"
+import Producto from "../../components/Producto/Producto"
 
 
 const Home = () => {
@@ -11,10 +13,11 @@ const Home = () => {
         <div className={style.divContenedor}>
             <Banner/>
             <SecondBanner/>
-            <Carousel/>
-            <ThreeBanner/>
+            <Producto/>
+            <BannerServicios/>
+            <BannerPartner/>
+            <BannerCita/>
         </div>
-
         </>
 
     )
