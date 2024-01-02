@@ -64,6 +64,14 @@
             }
         }
     }
+    .frame {
+        width: 85%;
+        max-width: 380px;
+        height: 800px;
+        background-color: white;
+        margin: 20px;
+        color: #00ACCA;
+    }
 }
 @media (min-width: 381px) and (max-width: 767px){
     .divContenedorCita {
@@ -130,6 +138,14 @@
                 -moz-transform: scale3d(1.1, 1.1, 0.3);
             }
         }
+    }
+    .frame {
+        max-width: 100%;
+        width: 85%;
+        height: 800px;
+        background-color: white;
+        margin: 20px;
+        color: #00ACCA;
     }
 
 }
@@ -199,6 +215,13 @@
             }
         }
     }
+    .frame {
+        width: 85%;
+        height: 800px;
+        background-color: white;
+        margin: 20px;
+        color: #00ACCA;
+    }
 }
 @media (min-width: 1024px) {
     .divContenedorCita {
@@ -264,12 +287,12 @@
             }
         }
     }
+    .frame {
+        width: 85%;
+        height: 800px;
+        background-color: white;
+        margin: 20px;
+        color: #00ACCA;
+    }
 }
 
-.frame {
-    width: 85%;
-    height: 800px;
-    background-color: white;
-    margin: 20px;
-    color: #00ACCA;
-}

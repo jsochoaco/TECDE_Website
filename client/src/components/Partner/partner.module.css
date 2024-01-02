@@ -334,8 +334,8 @@
         align-content: center;
         gap: 5%;
         width: 100%;
-        max-width: 1023px;
-        min-width: 767px;
+        max-width: 767px;
+        min-width: 381px;
         padding: 0% 0% 3% 0%;
         border-bottom: 2px solid #00ACCA;
         .divTexto {
@@ -443,8 +443,6 @@
         align-content: center;
         gap: 5%;
         width: 100%;
-        max-width: 1023px;
-        min-width: 767px;
         padding: 0% 0% 3% 0%;
         border-bottom: 2px solid #00ACCA;
         .divTexto {
