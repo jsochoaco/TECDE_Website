@@ -1,8 +1,9 @@
 import { useState, useEffect, useRef } from "react";
 import { useDispatch, useSelector } from "react-redux"
 import style from "./navbar.module.css"
-import { Link, NavLink, useLocation } from "react-router-dom"
+import { NavLink, useLocation } from "react-router-dom"
 import { setIdioma, setDatLiveBoton } from "../../redux/actions";
+import { Link } from 'react-scroll';
 
 const NavBar = () => {
     const dispatch = useDispatch()
@@ -39,29 +40,16 @@ const NavBar = () => {
     return (
         <div className={style.divNavbar}>
             <div className={style.divImagen}>
-                <NavLink to="/">
-                <img className={style.imagenNav} src="https://res.cloudinary.com/dfmsezslx/image/upload/v1696731568/TECDE/Tecde_horizontal_white_a2nqve.png" alt="LogoBlancoTECDE" />
-                </NavLink>
+                <Link to="banner" className={style.offNavBar} smooth={true} duration={500} offset={-100}>
+                    <img className={style.imagenNav} src="https://res.cloudinary.com/dfmsezslx/image/upload/v1696731568/TECDE/Tecde_horizontal_white_a2nqve.png" alt="LogoBlancoTECDE" />
+                </Link>
             </div>
             <div className={style.divOpciones}>
-                {location.pathname !== "/" && <Link to="/">
-                <button className={location.pathname === "/" ? style.onNavBar : style.offNavBar}>{idiomaActual === "es" ? "Inicio" : "Home"}</button>
-                </Link> }
-                <Link to="/">
-                <button className={location.pathname === "/nosotros" ? style.onNavBar : style.offNavBar}>{idiomaActual === "es" ? "Nosotros" : "About Us"}</button>
-                </Link>
-                <Link to = "/" >
-                <button className={location.pathname === "/servicios" ? style.onNavBar : style.offNavBar}>{idiomaActual === "es" ? "Servicios" : "Services"}</button>
-                </Link>
-                <Link to = "/">
-                <button className={location.pathname === "/unete" ? style.onNavBar : style.offNavBar}>{idiomaActual === "es" ? "Casos de éxito" : "Success stories"}</button>
-                </Link>
-                {/* <Link>
-                <button className={location.pathname === "/trayectoria" ? style.onNavBar : style.offNavBar}>Trayectoria</button>
-                </Link> */}
-                <Link to = "/">
-                <button className={location.pathname === "/contacto" ? style.onNavBar : style.offNavBar}>{idiomaActual === "es" ? "Contáctanos" : "Contact us"}</button>
-                </Link>
+                <Link to="banner" className={style.offNavBar} smooth={true} duration={500} offset={-100}>{idiomaActual === "es" ? "Inicio" : "Home"}</Link>
+                <Link to="secondBanner" className={style.offNavBar} smooth={true} duration={500} offset={-100}>{idiomaActual === "es" ? "Nosotros" : "About Us"}</Link>
+                <Link to="producto" className={style.offNavBar} smooth={true} duration={500} offset={-100}>{idiomaActual === "es" ? "Productos" : "Products"}</Link>
+                <Link to="bannerPartner" className={style.offNavBar} smooth={true} duration={500} offset={-100}>{idiomaActual === "es" ? "Partners" : "Partners"}</Link>
+                <Link to="bannerCita" className={style.offNavBar} smooth={true} duration={500} offset={-100}>{idiomaActual === "es" ? "Contacto" : "Contact us"}</Link>
                 <button className={style.offNavBar} onClick={handleIdioma} ><img src={idiomaActual === "es" ? "https://api.iconify.design/emojione:flag-for-colombia.svg?color=%2300acca" : "https://api.iconify.design/emojione:flag-for-united-states.svg?color=%2300acca"} alt="flagLanguage" /> {idiomaActual === "es" ? "ES " : "EN"}</button>
             </div>
             <div className={style.divIconMenu}>
@@ -72,25 +60,12 @@ const NavBar = () => {
             {isMenuOpen && (
             <div ref={menuRef} className={style.divMenu}>
                 <div className={style.listMenu}>
-                    <NavLink to="/">
-                        <button className={location.pathname === "/" ? style.onNavBar : style.offNavBar} onClick={()=> setIsMenuOpen(false)}>{idiomaActual === "es" ? "Inicio" : "Home"}</button>
-                    </NavLink>
-                    <NavLink to="/nosotros">
-                        <button className={location.pathname === "/nosotros" ? style.onNavBar : style.offNavBar} onClick={()=> setIsMenuOpen(false)}>{idiomaActual === "es" ? "Nosotros" : "About Us"}</button>
-                    </NavLink>
-                    <NavLink to="/unete"> 
-                        <button className={location.pathname === "/unete" ? style.onNavBar : style.offNavBar} onClick={()=> setIsMenuOpen(false)}>{idiomaActual === "es" ? "Únete" : "Join to TECDE"}</button>
-                    </NavLink>
-                    <NavLink to="/servicios"> 
-                        <button className={location.pathname === "/servicios" ? style.onNavBar : style.offNavBar} onClick={()=> setIsMenuOpen(false)}>{idiomaActual === "es" ? "Servicios" : "Services"}</button>
-                    </NavLink>
-                    {/* <NavLink to="/trayectoria"> 
-                        <button className={location.pathname === "/trayectoria" ? style.onNavBar : style.offNavBar}>Trayectoria</button>
-                    </NavLink> */}
-                    <NavLink to="/contacto"> 
-                        <button className={location.pathname === "/contacto" ? style.onNavBar : style.offNavBar} onClick={()=> setIsMenuOpen(false)}>{idiomaActual === "es" ? "Contacto" : "Contact"}</button>
-                    </NavLink>
-                    <button className={style.offNavBar} onClick={()=> {handleIdioma();setIsMenuOpen(false)}}><img src={idiomaActual === "es" ? "https://api.iconify.design/emojione:flag-for-colombia.svg?color=%2300acca" : "https://api.iconify.design/emojione:flag-for-united-states.svg?color=%2300acca"} alt="flagLanguage"/> {idiomaActual === "es" ? "ES " : "EN"}</button>
+                <Link to="banner" className={style.offNavBar} smooth={true} duration={500} offset={-100} onClick={()=> setIsMenuOpen(false)}>{idiomaActual === "es" ? "Inicio" : "Home"}</Link>
+                <Link to="secondBanner" className={style.offNavBar} smooth={true} duration={500} offset={-100} onClick={()=> setIsMenuOpen(false)}>{idiomaActual === "es" ? "Nosotros" : "About Us"}</Link>
+                <Link to="producto" className={style.offNavBar} smooth={true} duration={500} offset={-100} onClick={()=> setIsMenuOpen(false)}>{idiomaActual === "es" ? "Productos" : "Products"}</Link>
+                <Link to="bannerPartner" className={style.offNavBar} smooth={true} duration={500} offset={-100} onClick={()=> setIsMenuOpen(false)}>{idiomaActual === "es" ? "Partners" : "Partners"}</Link>
+                <Link to="bannerCita" className={style.offNavBar} smooth={true} duration={500} offset={-100} onClick={()=> setIsMenuOpen(false)}>{idiomaActual === "es" ? "Contacto" : "Contact us"}</Link>
+                <button className={style.offNavBar} onClick={()=> {handleIdioma();setIsMenuOpen(false)}}><img src={idiomaActual === "es" ? "https://api.iconify.design/emojione:flag-for-colombia.svg?color=%2300acca" : "https://api.iconify.design/emojione:flag-for-united-states.svg?color=%2300acca"} alt="flagLanguage"/> {idiomaActual === "es" ? "ES " : "EN"}</button>
                 </div>
             </div>)}
         </div>

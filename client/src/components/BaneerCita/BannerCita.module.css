@@ -7,10 +7,9 @@
         flex-direction: column;
         gap: 5%;
         width: 100%;
-        max-width: 381px;
+        max-width: 380px;
         background-color: white;
         border-bottom: #00ACCA solid 3px;
-        scale: 0.8;
         .divMensaje {
             display: flex;
             padding: 10px;

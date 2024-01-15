@@ -21,14 +21,14 @@
                 margin: 10% 0% 0% 8%;
                 color: #00ACCA;
                 text-align: left;
-                font-size: 2rem;
+                font-size: 1.8rem;
                 font-style: normal;
                 line-height: normal;
             }
             .parrafoBanner {
                 color: white;
                 margin: 0% 0% 0% 5%;
-                font-size: 1.2rem;
+                font-size: 1.1rem;
                 font-style: normal;
                 font-weight: 10;
                 line-height: normal;
@@ -254,8 +254,6 @@
         z-index: -1; /* Coloca el pseudo-elemento detrás del contenido principal */
     }
 }
-
-
 @media (min-width: 1024px) {
     .divBanner {
         display: flex;

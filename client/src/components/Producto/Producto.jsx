@@ -7,8 +7,8 @@ const Producto = () => {
     const datos = [
         {
             id: 1,
-            dato: "Software ERP",
-            complemento: "Gestiona toda tu operación desde un solo lugar. Centralizando tus datos poidrás  obtener todo el potencial de los mismos",
+            dato: "Analisis de KPIS en lenguaje natural",
+            complemento: "Entiende de manera sencilla que pasa en tu operación y que significa cada indicador. Toma decisiones informadas y cuantificadas",
             logo: "https://res.cloudinary.com/dfmsezslx/image/upload/v1698086543/TECDE/undraw_code_review_re_woeb_2_yaadex.svg"
         },
         {
@@ -27,10 +27,10 @@ const Producto = () => {
     const datosEN = [
         {
             id: 1,
-            dato: "ERP Software",
-            complemento: "Manage your entire operation from a single place. By centralizing your data, you can unlock their full potential.",
+            dato: "Analysis of KPIs in natural language",
+            complemento: "Understand in a straightforward manner what happens in your operation and what each indicator means. Make informed and quantified decisions.",
             logo: "https://res.cloudinary.com/dfmsezslx/image/upload/v1698086543/TECDE/undraw_code_review_re_woeb_2_yaadex.svg"
-        },
+          },
         {
             id: 2,
             dato: "Real-time Metrics",
@@ -66,10 +66,10 @@ const Producto = () => {
                         <p className={style.complemento}>{dato.complemento}</p>
                         </div>))}
                     </div>
-                    <NavLink to="https://calendar.app.google/A596zaWLc5NFA3iQ9" target="_blank">
-                <button className={style.callBotonBan}>{idiomaActual === "es" ? "AGENDA UNA DEMO":"SCHEDULE A DEMO"}</button>
-                </NavLink>
                 </div>
+                <NavLink to="https://calendar.app.google/A596zaWLc5NFA3iQ9" target="_blank">
+                        <button className={style.callBotonBan}>{idiomaActual === "es" ? "AGENDA UNA DEMO":"SCHEDULE A DEMO"}</button>
+                    </NavLink>
             </div>
         </div>
     )

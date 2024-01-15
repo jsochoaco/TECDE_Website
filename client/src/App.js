@@ -30,10 +30,6 @@ function App() {
       <div className="contenido">
       <Routes>
         <Route path='/' element={<Home/>} />
-        {/* <Route path='/nosotros' element={<Nosotros/>} />
-        <Route path='/contacto' element={<Contacto/>} />
-        <Route path='/servicios' element={<Servicios/>} />
-        <Route path='/unete' element={<Trabaja/>} /> */}
       </Routes>
       <Footer/>
       </div>
