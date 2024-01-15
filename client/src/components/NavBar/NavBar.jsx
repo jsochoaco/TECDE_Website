@@ -40,9 +40,9 @@ const NavBar = () => {
     return (
         <div className={style.divNavbar}>
             <div className={style.divImagen}>
-                <Link to="banner" className={style.offNavBar} smooth={true} duration={500} offset={-100}>
+                <NavLink to="/">
                     <img className={style.imagenNav} src="https://res.cloudinary.com/dfmsezslx/image/upload/v1696731568/TECDE/Tecde_horizontal_white_a2nqve.png" alt="LogoBlancoTECDE" />
-                </Link>
+                </NavLink>
             </div>
             <div className={style.divOpciones}>
                 <Link to="banner" className={style.offNavBar} smooth={true} duration={500} offset={-100}>{idiomaActual === "es" ? "Inicio" : "Home"}</Link>
@@ -50,6 +50,9 @@ const NavBar = () => {
                 <Link to="producto" className={style.offNavBar} smooth={true} duration={500} offset={-100}>{idiomaActual === "es" ? "Productos" : "Products"}</Link>
                 <Link to="bannerPartner" className={style.offNavBar} smooth={true} duration={500} offset={-100}>{idiomaActual === "es" ? "Partners" : "Partners"}</Link>
                 <Link to="bannerCita" className={style.offNavBar} smooth={true} duration={500} offset={-100}>{idiomaActual === "es" ? "Contacto" : "Contact us"}</Link>
+                <NavLink to="/blog">
+                    <button className={location.pathname === "/blog" ? style.onNavBar : style.offNavBar}>{idiomaActual === "es" ? "Blog" : "Blog"}</button>
+                </NavLink>
                 <button className={style.offNavBar} onClick={handleIdioma} ><img src={idiomaActual === "es" ? "https://api.iconify.design/emojione:flag-for-colombia.svg?color=%2300acca" : "https://api.iconify.design/emojione:flag-for-united-states.svg?color=%2300acca"} alt="flagLanguage" /> {idiomaActual === "es" ? "ES " : "EN"}</button>
             </div>
             <div className={style.divIconMenu}>
@@ -65,6 +68,9 @@ const NavBar = () => {
                 <Link to="producto" className={style.offNavBar} smooth={true} duration={500} offset={-100} onClick={()=> setIsMenuOpen(false)}>{idiomaActual === "es" ? "Productos" : "Products"}</Link>
                 <Link to="bannerPartner" className={style.offNavBar} smooth={true} duration={500} offset={-100} onClick={()=> setIsMenuOpen(false)}>{idiomaActual === "es" ? "Partners" : "Partners"}</Link>
                 <Link to="bannerCita" className={style.offNavBar} smooth={true} duration={500} offset={-100} onClick={()=> setIsMenuOpen(false)}>{idiomaActual === "es" ? "Contacto" : "Contact us"}</Link>
+                <NavLink to="/blog">
+                    <button className={location.pathname === "/blog" ? style.onNavBar : style.offNavBar} onClick={()=> setIsMenuOpen(false)}>{idiomaActual === "es" ? "Blog" : "Blog"}</button>
+                </NavLink>
                 <button className={style.offNavBar} onClick={()=> {handleIdioma();setIsMenuOpen(false)}}><img src={idiomaActual === "es" ? "https://api.iconify.design/emojione:flag-for-colombia.svg?color=%2300acca" : "https://api.iconify.design/emojione:flag-for-united-states.svg?color=%2300acca"} alt="flagLanguage"/> {idiomaActual === "es" ? "ES " : "EN"}</button>
                 </div>
             </div>)}

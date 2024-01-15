@@ -1,4 +1,4 @@
-import { SET_IDIOMA, SET_DATALIVE } from "./action-types";
+import { SET_IDIOMA, SET_DATALIVE, ACTUAL_BLOG_ES, ACTUAL_BLOG_EN } from "./action-types";
 
 
 export const setIdioma = (idiomaNav) => {
@@ -25,3 +25,20 @@ export const setDatLiveBoton = (idioma) => {
         }
     }
   };
+
+export const setBlogSp = (articulos) => {
+    return function (dispatch) {
+        dispatch({
+            type: "ACTUAL_BLOG_ES",
+            payload: articulos
+        })
+    }
+}
+export const setBlogEn = (articulos) => {
+    return function (dispatch) {
+        dispatch({
+            type: "ACTUAL_BLOG_EN",
+            payload: articulos
+        })
+    }
+}

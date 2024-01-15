@@ -1,0 +1,436 @@
+
+@media (min-width: 1024px) {
+    .divBanner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        justify-items: center;
+        max-width: 1440px;
+        min-width: 1024px;
+        gap: 5%;
+        width: 90%;
+        padding: 3% 0% 3% 0%;
+        .divTexto {
+            display: flex;
+            padding: 10px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            flex: 1 0 0;
+            .tituloBanner {
+                margin: 0px;
+                color: #00ACCA;
+                text-align: center;
+                font-size: 2.4rem;
+                font-style: normal;
+                line-height: normal;
+                width: 80%;
+            }
+            .img {
+                width: 40%;
+            }
+        .bannerUs {
+            display: flex;
+            padding: 5px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 3px;
+            width: 100%;
+            .componentUs {
+                width: 75%;
+            }
+            .parrafoBanner {
+                color: white;
+                text-align: center;
+                font-size: 1.25rem;
+                font-style: normal;
+                line-height: normal;
+                text-align: justify;
+                width: fit-content;
+                font-weight: lighter;
+            }
+            .divDatos{ 
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: flex-start;
+                align-content: center;
+                justify-items: center;
+                gap: 5px;
+                .divDato {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    justify-items: flex-start;
+                    width: 100%;
+                    height: max-content;
+                    padding: 2% 0% 0% 0%;
+                    gap: 5px;
+                    .dato {
+                        margin: 0;
+                        color: white;
+                        text-align: center;
+                        font-family: Poppins;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        font-size: 1.5rem;
+                        width: 60%;
+                    }
+                    .complemento {
+                        margin: 0;
+                        color: white;
+                        text-align: justify;
+                        font-family: Poppins;
+                        font-style: normal;
+                        font-weight: 100;
+                        font-size: 1.2rem;
+                        width: 80%;
+                        line-height: 35px;   
+                    }
+    
+                }
+            }
+        }
+        }
+        .divFantasma {
+            display: none;
+        }
+    }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+    .divBanner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        justify-items: center;
+        max-width: 1023px;
+        min-width: 768px;
+        gap: 5%;
+        width: 90%;
+        padding: 3% 0% 3% 0%;
+        .divTexto {
+            display: flex;
+            padding: 10px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            flex: 1 0 0;
+            .tituloBanner {
+                margin: 0px;
+                color: #00ACCA;
+                text-align: center;
+                font-size: 2.1rem;
+                font-style: normal;
+                line-height: normal;
+                width: 80%;
+            }
+            .img {
+                width: 40%;
+            }
+        .bannerUs {
+            display: flex;
+            padding: 5px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 3px;
+            width: 100%;
+            .parrafoBanner {
+                color: white;
+                text-align: center;
+                font-size: 1.25rem;
+                font-style: normal;
+                line-height: normal;
+                text-align: justify;
+                width: fit-content;
+                font-weight: lighter;
+            }
+            .divDatos{ 
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: flex-start;
+                align-content: center;
+                justify-items: center;
+                gap: 5px;
+                .divDato {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    justify-items: flex-start;
+                    width: 100%;
+                    height: max-content;
+                    padding: 2% 0% 0% 0%;
+                    gap: 5px;
+                    .dato {
+                        margin: 0;
+                        color: white;
+                        text-align: center;
+                        font-family: Poppins;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        font-size: 1.4rem;
+                        width: 80%;
+                    }
+                    .complemento {
+                        margin: 0;
+                        color: white;
+                        text-align: justify;
+                        font-family: Poppins;
+                        font-style: normal;
+                        font-weight: 100;
+                        font-size: 1.1rem;
+                        width:90%;
+                        line-height: 30px;   
+                    }
+    
+                }
+            }
+        }
+        }
+        .divFantasma {
+            display: none;
+        }
+    }
+}
+@media (min-width: 381px) and (max-width: 767px) {
+    .divBanner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        justify-items: center;
+        max-width: 380px;
+        gap: 5%;
+        width: 95%;
+        padding: 3% 0% 3% 0%;
+        .divTexto {
+            display: flex;
+            padding: 10px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            flex: 1 0 0;
+            .tituloBanner {
+                margin: 0px;
+                color: #00ACCA;
+                text-align: center;
+                font-size: 1.6rem;
+                font-style: normal;
+                line-height: normal;
+                width: 80%;
+            }
+            .img {
+                width: 40%;
+            }
+        .bannerUs {
+            display: flex;
+            padding: 5px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 3px;
+            width: 100%;
+            .parrafoBanner {
+                color: white;
+                text-align: center;
+                font-size: 1.2rem;
+                font-style: normal;
+                line-height: normal;
+                text-align: justify;
+                width: fit-content;
+                font-weight: lighter;
+            }
+            .divDatos{ 
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: flex-start;
+                align-content: center;
+                justify-items: center;
+                gap: 5px;
+                .divDato {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    justify-items: flex-start;
+                    width: 100%;
+                    height: max-content;
+                    padding: 2% 0% 0% 0%;
+                    gap: 5px;
+                    .dato {
+                        margin: 0;
+                        color: white;
+                        text-align: center;
+                        font-family: Poppins;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        font-size: 1.1rem;
+                        width: 80%;
+                    }
+                    .complemento {
+                        margin: 0;
+                        color: white;
+                        text-align: justify;
+                        font-family: Poppins;
+                        font-style: normal;
+                        font-weight: 100;
+                        font-size: 0.8rem;
+                        width: 95%;
+                        line-height: normal;   
+                    }
+    
+                }
+            }
+        }
+        }
+        .divFantasma {
+            display: none;
+        }
+    }
+}
+@media (max-width: 380px)  {
+    .divBanner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        justify-items: center;
+        max-width: 380px;
+        gap: 5%;
+        width: 95%;
+        padding: 3% 0% 3% 0%;
+        .divTexto {
+            display: flex;
+            padding: 10px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            flex: 1 0 0;
+            .tituloBanner {
+                margin: 0px;
+                color: #00ACCA;
+                text-align: center;
+                font-size: 1.6rem;
+                font-style: normal;
+                line-height: normal;
+                width: 80%;
+            }
+            .img {
+                width: 40%;
+            }
+        .bannerUs {
+            display: flex;
+            padding: 5px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 3px;
+            width: 100%;
+            .parrafoBanner {
+                color: white;
+                text-align: center;
+                font-size: 1.2rem;
+                font-style: normal;
+                line-height: normal;
+                text-align: justify;
+                width: fit-content;
+                font-weight: lighter;
+            }
+            .divDatos{ 
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: flex-start;
+                align-content: center;
+                justify-items: center;
+                gap: 5px;
+                .divDato {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    justify-items: flex-start;
+                    width: 100%;
+                    height: max-content;
+                    padding: 2% 0% 0% 0%;
+                    gap: 5px;
+                    .dato {
+                        margin: 0;
+                        color: white;
+                        text-align: center;
+                        font-family: Poppins;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        font-size: 1.1rem;
+                        width: 80%;
+                    }
+                    .complemento {
+                        margin: 0;
+                        color: white;
+                        text-align: justify;
+                        font-family: Poppins;
+                        font-style: normal;
+                        font-weight: 100;
+                        font-size: 0.7rem;
+                        width: 95%;
+                        line-height: normal;   
+                    }
+    
+                }
+            }
+        }
+        }
+        .divFantasma {
+            display: none;
+        }
+    }
+}
+
+.callBotonBan  {
+    font-size: 1.2rem;
+    margin-top: 3%;
+    margin-bottom: 10%;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+    transition: 0.2s;
+    color: #25252B;
+    background-color: #00ACCA;
+    border: 2px solid #25252B;
+    transition: 0.3s;
+    font-family: "Gotham", sans-serif;
+    text-align: center;
+    font-weight: bold;
+    width: 110%;
+    border-radius: 50px;
+}
+.callBotonBan:hover{
+    color: #00ACCA;
+    background-color: white;
+    border: 2px solid #00ACCA;
+    transform: scale3d(1.1, 1.1, 0.3);
+    -webkit-transform: scale3d(1.1, 1.1, 0.3);
+    -moz-transform: scale3d(1.1, 1.1, 0.3);
+}

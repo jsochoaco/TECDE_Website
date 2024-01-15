@@ -1,9 +1,12 @@
-import {SET_IDIOMA, SET_DATALIVE} from "./action-types"
+import {SET_IDIOMA, SET_DATALIVE, ACTUAL_BLOG, ACTUAL_BLOG_EN, ACTUAL_BLOG_ES} from "./action-types"
 
 const initialState = {
     idioma: "",
-    formId: ""
+    formId: "",
+    spanishBlogs: [],
+    englishBlogs: []
 }
+
 export const reducer = (state=initialState, action) => {
     switch (action.type) {
         case SET_IDIOMA: {
@@ -18,11 +21,26 @@ export const reducer = (state=initialState, action) => {
                 formId: action.payload
             }
         }
+        case ACTUAL_BLOG_EN: {
+            return {
+                ...state,
+                englishBlogs: action.payload
+            }
+        }
+        case ACTUAL_BLOG_ES: {
+            return {
+                ...state,
+                spanishBlogs: action.payload
+            }
+        }
         default:
             return {
-                ...state
+                ...state,
             }
     }
 }
+
+
+
 
 export default reducer

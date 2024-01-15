@@ -22,18 +22,18 @@ const BannerPartner = () => {
             complemento: "Líder académico en Colombia",
             logo: "https://res.cloudinary.com/dfmsezslx/image/upload/v1703180612/TECDE/PNG_LOGOSIMBOLO_LATERAL_BLANCO-02_jqahn1.png"
         },
-        {
-            id: 4,
-            dato: "Dassault Systèmes",
-            complemento: "Líder en innovación en diseño de producto",
-            logo: "https://res.cloudinary.com/dfmsezslx/image/upload/v1703181028/TECDE/DSY.PA_BIG.D-f1789d0b_cdcuht.png"
-        },
         // {
-        //     id: 5,
-        //     dato: "Google Cloud",
-        //     complemento: "Plataforma de desarrollo #1 en el mundo",
-        //     logo: "https://res.cloudinary.com/dfmsezslx/image/upload/v1703181613/TECDE/Logo-Google-Cloud_jm2ys2.png"
+        //     id: 4,
+        //     dato: "Dassault Systèmes",
+        //     complemento: "Líder en innovación en diseño de producto",
+        //     logo: "https://res.cloudinary.com/dfmsezslx/image/upload/v1703181028/TECDE/DSY.PA_BIG.D-f1789d0b_cdcuht.png"
         // },
+        {
+            id: 5,
+            dato: "Google Cloud",
+            complemento: "Plataforma de desarrollo #1 en el mundo. Miembros del programa GCP Partners",
+            logo: "https://res.cloudinary.com/dfmsezslx/image/upload/v1703181613/TECDE/Logo-Google-Cloud_jm2ys2.png"
+        },
         {
             id: 6,
             dato: "Mentor Day",
@@ -66,18 +66,18 @@ const BannerPartner = () => {
             complemento: "Academic leader in Colombia",
             logo: "https://res.cloudinary.com/dfmsezslx/image/upload/v1703180612/TECDE/PNG_LOGOSIMBOLO_LATERAL_BLANCO-02_jqahn1.png"
         },
-        {
-            id: 4,
-            dato: "Dassault Systèmes",
-            complemento: "Leader in product design innovation",
-            logo: "https://res.cloudinary.com/dfmsezslx/image/upload/v1703181028/TECDE/DSY.PA_BIG.D-f1789d0b_cdcuht.png"
-        },
         // {
-        //     id: 5,
-        //     dato: "Google Cloud",
-        //     complemento: "World's #1 development platform",
-        //     logo: "https://res.cloudinary.com/dfmsezslx/image/upload/v1703181613/TECDE/Logo-Google-Cloud_jm2ys2.png"
+        //     id: 4,
+        //     dato: "Dassault Systèmes",
+        //     complemento: "Leader in product design innovation",
+        //     logo: "https://res.cloudinary.com/dfmsezslx/image/upload/v1703181028/TECDE/DSY.PA_BIG.D-f1789d0b_cdcuht.png"
         // },
+        {
+            id: 5,
+            dato: "Google Cloud",
+            complemento: "World's #1 development platform. Members for the partners GCP Program",
+            logo: "https://res.cloudinary.com/dfmsezslx/image/upload/v1703181613/TECDE/Logo-Google-Cloud_jm2ys2.png"
+        },
         {
             id: 6,
             dato: "Mentor Day",
