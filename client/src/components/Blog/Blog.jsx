@@ -27,7 +27,7 @@ const Blog = () => {
                         <h4 className={style.dato}>{dato.dato}</h4>
                         <p className={style.complemento}>{dato.complemento}</p>
                         <NavLink to={`/blog/${dato.id}/${dato.dato.replace(/ /g, "_")}`} >
-                            <button className={style.callBotonBan }>Ver articulo completo</button>
+                            <button className={style.callBotonBan }>{idiomaActual === "es" ? "Ver aticulo completo":"See all article"}</button>
                         </NavLink>
                         </div>))}
                     </div>
