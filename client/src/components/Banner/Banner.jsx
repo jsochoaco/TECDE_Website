@@ -1,6 +1,6 @@
 import style from "./banner.module.css"
-import { useDispatch, useSelector } from "react-redux"
-import { Link, NavLink, useLocation } from "react-router-dom"
+import {useSelector } from "react-redux"
+import {NavLink} from "react-router-dom"
 
 const Banner = () => {
     const idiomaActual = useSelector((state) => state.idioma)
@@ -18,5 +18,4 @@ const Banner = () => {
         </div>
     )
 }
-
 export default Banner

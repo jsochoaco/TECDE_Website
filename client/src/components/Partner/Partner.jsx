@@ -8,43 +8,43 @@ const BannerPartner = () => {
             id: 1,
             dato: "IBM",
             complemento: "Lider de innovación tecnológica global",
-            logo: "https://res.cloudinary.com/dfmsezslx/image/upload/v1703179613/TECDE/img_iz0t6p.png"
+            logo: "https://res.cloudinary.com/dfmsezslx/image/upload/t_IA_2/v1703179613/TECDE/img_iz0t6p.png"
         },
         {
             id: 2,
             dato: "TEC de Monterrey",
             complemento: "#1 de México según Raking QS 2024",
-            logo: "https://res.cloudinary.com/dfmsezslx/image/upload/v1703180510/TECDE/tecnologico-de-monterrey-white_evfvrj.png"
+            logo: "https://res.cloudinary.com/dfmsezslx/image/upload/t_IA_2/v1703180510/TECDE/tecnologico-de-monterrey-white_evfvrj.png"
         },
         {
             id: 3,
             dato: "Universidad Nacional",
             complemento: "Líder académico en Colombia",
-            logo: "https://res.cloudinary.com/dfmsezslx/image/upload/v1703180612/TECDE/PNG_LOGOSIMBOLO_LATERAL_BLANCO-02_jqahn1.png"
+            logo: "https://res.cloudinary.com/dfmsezslx/image/upload/t_IA_2/v1703180612/TECDE/PNG_LOGOSIMBOLO_LATERAL_BLANCO-02_jqahn1.png"
         },
         // {
         //     id: 4,
         //     dato: "Dassault Systèmes",
         //     complemento: "Líder en innovación en diseño de producto",
-        //     logo: "https://res.cloudinary.com/dfmsezslx/image/upload/v1703181028/TECDE/DSY.PA_BIG.D-f1789d0b_cdcuht.png"
+        //     logo: "https://res.cloudinary.com/dfmsezslx/image/upload/t_IA_2/v1703181028/TECDE/DSY.PA_BIG.D-f1789d0b_cdcuht.png"
         // },
         {
             id: 5,
             dato: "Google Cloud",
             complemento: "Plataforma de desarrollo #1 en el mundo. Miembros del programa GCP Partners",
-            logo: "https://res.cloudinary.com/dfmsezslx/image/upload/v1703181613/TECDE/Logo-Google-Cloud_jm2ys2.png"
+            logo: "https://res.cloudinary.com/dfmsezslx/image/upload/t_IA_2/v1703181613/TECDE/Logo-Google-Cloud_jm2ys2.png"
         },
         {
             id: 6,
             dato: "Mentor Day",
             complemento: "Primera aceleradora graduda de España",
-            logo: "https://res.cloudinary.com/dfmsezslx/image/upload/v1703181752/TECDE/mentorDay-blanco_ado7ms.png"
+            logo: "https://res.cloudinary.com/dfmsezslx/image/upload/t_IA_2/v1703181752/TECDE/mentorDay-blanco_ado7ms.png"
         },
         // {
         //     id: 7,
         //     dato: "Henry",
         //     complemento: "Profesionales Tech de todo LATAM",
-        //     logo: "https://res.cloudinary.com/dfmsezslx/image/upload/v1703182185/TECDE/logo-white_wu6pp3.png"
+        //     logo: "https://res.cloudinary.com/dfmsezslx/image/upload/t_IA_2/v1703182185/TECDE/logo-white_wu6pp3.png"
         // },
     ]
     const datosEN = [
@@ -52,43 +52,43 @@ const BannerPartner = () => {
             id: 1,
             dato: "IBM",
             complemento: "Global technology innovation leader",
-            logo: "https://res.cloudinary.com/dfmsezslx/image/upload/v1703179613/TECDE/img_iz0t6p.png"
+            logo: "https://res.cloudinary.com/dfmsezslx/image/upload/t_IA_2/v1703179613/TECDE/img_iz0t6p.png"
         },
         {
             id: 2,
             dato: "TEC de Monterrey",
             complemento: "#1 in Mexico according to Raking QS 2024",
-            logo: "https://res.cloudinary.com/dfmsezslx/image/upload/v1703180510/TECDE/tecnologico-de-monterrey-white_evfvrj.png"
+            logo: "https://res.cloudinary.com/dfmsezslx/image/upload/t_IA_2/v1703180510/TECDE/tecnologico-de-monterrey-white_evfvrj.png"
         },
         {
             id: 3,
             dato: "Universidad Nacional",
             complemento: "Academic leader in Colombia",
-            logo: "https://res.cloudinary.com/dfmsezslx/image/upload/v1703180612/TECDE/PNG_LOGOSIMBOLO_LATERAL_BLANCO-02_jqahn1.png"
+            logo: "https://res.cloudinary.com/dfmsezslx/image/upload/t_IA_2/v1703180612/TECDE/PNG_LOGOSIMBOLO_LATERAL_BLANCO-02_jqahn1.png"
         },
         // {
         //     id: 4,
         //     dato: "Dassault Systèmes",
         //     complemento: "Leader in product design innovation",
-        //     logo: "https://res.cloudinary.com/dfmsezslx/image/upload/v1703181028/TECDE/DSY.PA_BIG.D-f1789d0b_cdcuht.png"
+        //     logo: "https://res.cloudinary.com/dfmsezslx/image/upload/t_IA_2/v1703181028/TECDE/DSY.PA_BIG.D-f1789d0b_cdcuht.png"
         // },
         {
             id: 5,
             dato: "Google Cloud",
             complemento: "World's #1 development platform. Members for the partners GCP Program",
-            logo: "https://res.cloudinary.com/dfmsezslx/image/upload/v1703181613/TECDE/Logo-Google-Cloud_jm2ys2.png"
+            logo: "https://res.cloudinary.com/dfmsezslx/image/upload/t_IA_2/v1703181613/TECDE/Logo-Google-Cloud_jm2ys2.png"
         },
         {
             id: 6,
             dato: "Mentor Day",
             complemento: "Spain's first gradual accelerator",
-            logo: "https://res.cloudinary.com/dfmsezslx/image/upload/v1703181752/TECDE/mentorDay-blanco_ado7ms.png"
+            logo: "https://res.cloudinary.com/dfmsezslx/image/upload/t_IA_2/v1703181752/TECDE/mentorDay-blanco_ado7ms.png"
         },
         // {
         //     id: 7,
         //     dato: "Henry",
         //     complemento: "Tech professionals from all over LATAM",
-        //     logo: "https://res.cloudinary.com/dfmsezslx/image/upload/v1703182185/TECDE/logo-white_wu6pp3.png"
+        //     logo: "https://res.cloudinary.com/dfmsezslx/image/upload/t_IA_2/v1703182185/TECDE/logo-white_wu6pp3.png"
         // },
     ]
     var datosDisplay = "";

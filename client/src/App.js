@@ -89,7 +89,7 @@ function App() {
                     "contenido": "La Inteligencia Artificial (IA) está emergiendo como un pilar fundamental en la transformación del sector industrial latinoamericano. A lo largo de este artículo, hemos explorado cómo la IA no solo está mejorando la eficiencia y productividad de las industrias, sino también cómo está abriendo nuevas avenidas para la innovación y el desarrollo sostenible. Desde la automatización avanzada en la manufactura hasta la optimización de la cadena de suministro, la IA está redefiniendo lo que es posible en el ámbito industrial.A pesar de los desafíos, como la brecha de habilidades y la infraestructura tecnológica, las oportunidades que la IA ofrece son inmensas. La clave para el éxito reside en una colaboración efectiva entre el sector público, la industria privada y las instituciones académicas, asegurando así el desarrollo de un ecosistema de IA robusto y sostenible.Mirando hacia el futuro, las tendencias indican que la IA seguirá siendo un factor determinante en el panorama industrial de Latinoamérica. Su capacidad para impulsar la innovación, mejorar la sostenibilidad y adaptarse a las necesidades locales, no solo fortalecerá las industrias de la región, sino que también las posicionará en un lugar prominente en el escenario tecnológico mundial."
                   }                      
             ],
-        logo: "https://res.cloudinary.com/dfmsezslx/image/upload/v1705357423/IA_in_industry_and_LATAM_fmztuw.png",
+        logo: "https://res.cloudinary.com/dfmsezslx/image/upload/t_IA_2/v1705357423/IA_in_industry_and_LATAM_fmztuw.png",
         titulo_imagen: "Paisaje Industrial Futurista en Latinoamérica",
         description: "Una representación artística de un paisaje industrial avanzado en Latinoamérica, mostrando instalaciones de manufactura con tecnología de IA, robótica y automatización en un entorno vibrante y culturalmente rico.",
         palabras_clave_imagen: "Industria Futurista, Latinoamérica, Robótica, Automatización, Inteligencia Artificial, Tecnología Avanzada, Innovación."
@@ -177,7 +177,7 @@ function App() {
           contenido: "Shell en el sector petrolero, Tesla en la industria automotriz y Starbucks en alimentos y bebidas son ejemplos destacados de empresas que han aprovechado con éxito el análisis de datos. Cada una ha aplicado estas herramientas para mejorar la eficiencia, anticipar demandas del mercado y ofrecer productos y servicios más personalizados."
         }               
           ],
-      logo: "https://res.cloudinary.com/dfmsezslx/image/upload/v1705360649/IA_Data_vfwhwz.png",
+      logo: "https://res.cloudinary.com/dfmsezslx/image/upload/t_IA_2/v1705360649/IA_Data_vfwhwz.png",
       titulo_imagen: "Integración de Análisis de Datos en el Comercio Industrial",
       description: "Una representación visual de un entorno industrial moderno y dinámico que ilustra la integración del análisis de datos en el comercio. La imagen muestra una combinación de tecnología avanzada, como robótica y interfaces de IA, con trabajadores utilizando herramientas digitales para el análisis de datos.",
       palabras_clave_imagen: "Ambiente Industrial, Análisis de Datos, Tecnología Avanzada, Industria Moderna, Innovación, Eficiencia, Robótica, Interfaces de IA."
@@ -225,7 +225,7 @@ function App() {
           contenido: "En este artículo, hemos explorado algunos de los misterios y desafíos más significativos que rodean a las redes neuronales en la era digital. Desde la interpretabilidad y explicabilidad de sus procesos internos, pasando por los dilemas de la generalización, la optimización y eficiencia, hasta los imperativos de robustez, seguridad y equidad, queda claro que aún hay mucho por descubrir y mejorar en el campo de la inteligencia artificial. Estos desafíos no solo presentan oportunidades fascinantes para el avance científico y tecnológico, sino que también plantean importantes preguntas éticas y prácticas. Al abordar estos misterios, no solo estamos empujando los límites de lo que la tecnología puede lograr, sino también asegurando que su desarrollo se realice de una manera que beneficie a toda la sociedad, manteniendo un compromiso con la seguridad, la justicia y la responsabilidad. A medida que continuamos explorando y desentrañando estos enigmas, es esencial que lo hagamos con una mentalidad que equilibre la innovación con la reflexión crítica. Al hacerlo, podemos asegurarnos de que las redes neuronales y la inteligencia artificial en general no solo sean herramientas poderosas, sino también aliados confiables y éticos en nuestra búsqueda por un futuro mejor y más tecnológicamente avanzado."
         },             
           ],
-      logo: "https://res.cloudinary.com/dfmsezslx/image/upload/v1705624408/IA_REDES_NEURONALES_ertkrw.png",
+      logo: "https://res.cloudinary.com/dfmsezslx/image/upload/t_IA_2/v1705624408/IA_REDES_NEURONALES_ertkrw.png",
       titulo_imagen: "Representación Abstracta de una Red Neuronal",
       description: "Imagen artística que representa una red neuronal con conexiones resplandecientes, simbolizando la complejidad y el misterio de la IA y el aprendizaje profundo.",
       palabras_clave_imagen: "Red Neuronal, IA, Arte Digital, Tecnología, Aprendizaje Profundo, Redes Neuronales Abstractas."
@@ -304,7 +304,7 @@ function App() {
             "contenido": "Artificial Intelligence (AI) is emerging as a fundamental pillar in the transformation of the Latin American industrial sector. Throughout this article, we have explored how AI is not only improving the efficiency and productivity of industries but also opening new avenues for innovation and sustainable development. From advanced automation in manufacturing to supply chain optimization, AI is redefining what is possible in the industrial domain. Despite challenges such as skill gaps and technological infrastructure, the opportunities that AI offers are immense. The key to success lies in effective collaboration between the public sector, private industry, and academic institutions, ensuring the development of a robust and sustainable AI ecosystem. Looking to the future, trends indicate that AI will continue to be a determining factor in the Latin American industrial landscape. Its ability to drive innovation, improve sustainability, and adapt to local needs will not only strengthen the region's industries but also position them prominently in the global technological scene."
           }
         ],
-        "logo": "https://res.cloudinary.com/dfmsezslx/image/upload/v1705357423/IA_in_industry_and_LATAM_fmztuw.png",
+        "logo": "https://res.cloudinary.com/dfmsezslx/image/upload/t_IA_2/v1705624408/IA_REDES_NEURONALES_ertkrw.png",
         titulo_imagen: "Paisaje Industrial Futurista en Latinoamérica",
         description: "Una representación artística de un paisaje industrial avanzado en Latinoamérica, mostrando instalaciones de manufactura con tecnología de IA, robótica y automatización en un entorno vibrante y culturalmente rico.",
         palabras_clave_imagen: "Industria Futurista, Latinoamérica, Robótica, Automatización, Inteligencia Artificial, Tecnología Avanzada, Innovación."
@@ -392,7 +392,7 @@ function App() {
             contenido: "Shell in the petroleum sector, Tesla in the automotive industry, and Starbucks in food and beverages are prominent examples of companies that have successfully leveraged data analysis. Each has applied these tools to improve efficiency, anticipate market demands, and offer more personalized products and services."
           }
         ],
-        logo: "https://res.cloudinary.com/dfmsezslx/image/upload/v1705360649/IA_Data_vfwhwz.png",
+        logo: "https://res.cloudinary.com/dfmsezslx/image/upload/t_IA_2/v1705360649/IA_Data_vfwhwz.png",
         titulo_imagen: "Integration of Data Analysis in Industrial Commerce",
         description: "A visual representation of a modern and dynamic industrial environment illustrating the integration of data analysis in commerce. The image shows a combination of advanced technology, such as robotics and AI interfaces, with workers using digital tools for data analysis.",
         palabras_clave_imagen: "Industrial Environment, Data Analysis, Advanced Technology, Modern Industry, Innovation, Efficiency, Robotics, AI Interfaces."
@@ -439,7 +439,7 @@ function App() {
             subtitulo: "Conclusion: Towards Greater Understanding and Responsibility in Neural Networks",
             contenido: "In this article, we have explored some of the most significant mysteries and challenges surrounding neural networks in the digital era. From the interpretability and explainability of their internal processes, through the dilemmas of generalization, optimization, and efficiency, to the imperatives of robustness, security, and equity, it is clear that there is still much to discover and improve in the field of artificial intelligence. These challenges not only present fascinating opportunities for scientific and technological advancement but also raise important ethical and practical questions. By addressing these mysteries, we are not only pushing the boundaries of what technology can achieve but also ensuring that its development occurs in a way that benefits all of society, maintaining a commitment to safety, justice, and responsibility. As we continue to explore and unravel these enigmas, it is essential that we do so with a mindset that balances innovation with critical reflection. By doing so, we can ensure that neural networks and artificial intelligence, in general, are not only powerful tools but also reliable and ethical allies in our quest for a better and more technologically advanced future."
         }],
-        logo: "https://res.cloudinary.com/dfmsezslx/image/upload/v1705624408/IA_REDES_NEURONALES_ertkrw.png",
+        logo: "https://res.cloudinary.com/dfmsezslx/image/upload/t_IA_2/v1705624408/IA_REDES_NEURONALES_ertkrw.png",
         titulo_imagen: "Abstract Representation of a Neural Network",
         description: "Artistic image representing a neural network with glowing connections, symbolizing the complexity and mystery of AI and deep learning.",
         palabras_clave_imagen: "Neural Network, AI, Digital Art, Technology, Deep Learning, Abstract Neural Networks."

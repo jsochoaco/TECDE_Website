@@ -9,19 +9,19 @@ const BannerServicios = () => {
             id: 1,
             dato: "Desarrollos a la medida",
             complemento: "En Tecde, compartimos la convicción de que cada empresa es única. Nos especializamos en ofrecer desarrollo de software y productos a medida, entendiendo los desafíos específicos de tu industria. Descubre cómo personalizamos soluciones para impulsar el éxito de Tecde y transformar tus procesos empresariales.",
-            logo: "https://res.cloudinary.com/dfmsezslx/image/upload/v1703089628/tc_tecde_zp7jvh.png"
+            logo: "https://res.cloudinary.com/dfmsezslx/image/upload/t_IA_2/v1703089628/tc_tecde_zp7jvh.png"
         },
         {
             id: 2,
             dato: "On boarding IndustrIA Pro",
             complemento: "Nuestro servicio de OnBoarding para IndustrIA Pro de Tecde está diseñado para preparar a tu empresa de manera integral. Guiamos a tu equipo a través de una implementación fluida, proporcionando capacitación detallada y personalizada, asegurando que aproveches al máximo sus capacidades.",
-            logo: "https://res.cloudinary.com/dfmsezslx/image/upload/v1703192527/IndustriaPro_rfn8o9.png"
+            logo: "https://res.cloudinary.com/dfmsezslx/image/upload/t_IA_2/v1703192527/IndustriaPro_rfn8o9.png"
         },
         {
             id: 3,
             dato: "Integración de IA",
             complemento: "Nuestro servicio de Integración de IA redefine la toma de decisiones empresariales y la gestión basada en datos. Implementamos soluciones avanzadas que integran inteligencia artificial directamente en las operaciones, potenciando tus decisiones comerciales con análisis y procesamiento de datos avanzados. ",
-            logo: "https://res.cloudinary.com/dfmsezslx/image/upload/v1703192191/IA_gaoacz.png"
+            logo: "https://res.cloudinary.com/dfmsezslx/image/upload/t_IA_2/v1703192191/IA_gaoacz.png"
         },
     ]
     const datosEN = [

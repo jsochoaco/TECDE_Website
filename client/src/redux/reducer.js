@@ -1,4 +1,4 @@
-import {SET_IDIOMA, SET_DATALIVE, ACTUAL_BLOG, ACTUAL_BLOG_EN, ACTUAL_BLOG_ES} from "./action-types"
+import {SET_IDIOMA, SET_DATALIVE, ACTUAL_BLOG_EN, ACTUAL_BLOG_ES} from "./action-types"
 
 const initialState = {
     idioma: "",

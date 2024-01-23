@@ -5,7 +5,7 @@ import BannerCita from "../../components/BaneerCita/BannerCita"
 import BannerPartner from "../../components/Partner/Partner"
 import BannerServicios from "../../components/Servicios/ServiciosBanner"
 import Producto from "../../components/Producto/Producto"
-import { Link, Element } from 'react-scroll';
+import {Element } from 'react-scroll';
 
 
 const Home = () => {

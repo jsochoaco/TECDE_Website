@@ -1,5 +1,5 @@
 import style from "./Footer.module.css"
-import { Link, NavLink} from "react-router-dom"
+import { NavLink} from "react-router-dom"
 import { useSelector } from "react-redux"
 
 const Footer = () => {

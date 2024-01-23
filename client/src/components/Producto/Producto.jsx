@@ -9,19 +9,19 @@ const Producto = () => {
             id: 1,
             dato: "Analisis de KPIS en lenguaje natural",
             complemento: "Entiende de manera sencilla que pasa en tu operación y que significa cada indicador. Toma decisiones informadas y cuantificadas",
-            logo: "https://res.cloudinary.com/dfmsezslx/image/upload/v1698086543/TECDE/undraw_code_review_re_woeb_2_yaadex.svg"
+            logo: "https://res.cloudinary.com/dfmsezslx/image/upload/t_IA_2/v1698086543/TECDE/undraw_code_review_re_woeb_2_yaadex.svg"
         },
         {
             id: 2,
             dato: "Métricas en tiempo real",
             complemento: "En un solo lugar  y con un solo toque. Sabrás el estado de tu negocio vayas donde vayas.",
-            logo: "https://res.cloudinary.com/dfmsezslx/image/upload/v1698086711/TECDE/undraw_product_iteration_kjok_fo5lcz.svg"
+            logo: "https://res.cloudinary.com/dfmsezslx/image/upload/t_IA_2/v1698086711/TECDE/undraw_product_iteration_kjok_fo5lcz.svg"
         },
         {
             id: 3,
             dato: "Predicciones y proyecciones",
             complemento: "Un asistente de negocio que te ayuda a tomar mejores decisiones basado en tus propios datos. Tu mano derecha impulsada por IA. ",
-            logo: "https://res.cloudinary.com/dfmsezslx/image/upload/v1698086659/TECDE/undraw_chat_bot_re_e2gj_zymenq.svg"
+            logo: "https://res.cloudinary.com/dfmsezslx/image/upload/t_IA_2/v1698086659/TECDE/undraw_chat_bot_re_e2gj_zymenq.svg"
         },
     ]
     const datosEN = [
@@ -29,19 +29,19 @@ const Producto = () => {
             id: 1,
             dato: "Analysis of KPIs in natural language",
             complemento: "Understand in a straightforward manner what happens in your operation and what each indicator means. Make informed and quantified decisions.",
-            logo: "https://res.cloudinary.com/dfmsezslx/image/upload/v1698086543/TECDE/undraw_code_review_re_woeb_2_yaadex.svg"
+            logo: "https://res.cloudinary.com/dfmsezslx/image/upload/t_IA_2/v1698086543/TECDE/undraw_code_review_re_woeb_2_yaadex.svg"
           },
         {
             id: 2,
             dato: "Real-time Metrics",
             complemento: "In one place and with a single touch. You'll know the state of your business wherever you go.",
-            logo: "https://res.cloudinary.com/dfmsezslx/image/upload/v1698086711/TECDE/undraw_product_iteration_kjok_fo5lcz.svg"
+            logo: "https://res.cloudinary.com/dfmsezslx/image/upload/t_IA_2/v1698086711/TECDE/undraw_product_iteration_kjok_fo5lcz.svg"
         },
         {
             id: 3,
             dato: "Predictions, Projections, and Recommendations",
             complemento: "A business assistant that helps you make better decisions based on your own data. Your right-hand powered by AI.",
-            logo: "https://res.cloudinary.com/dfmsezslx/image/upload/v1698086659/TECDE/undraw_chat_bot_re_e2gj_zymenq.svg"
+            logo: "https://res.cloudinary.com/dfmsezslx/image/upload/t_IA_2/v1698086659/TECDE/undraw_chat_bot_re_e2gj_zymenq.svg"
         }               
     ]
     var datosDisplay = "";

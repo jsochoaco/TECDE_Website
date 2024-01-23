@@ -23,7 +23,7 @@ const NavBar = () => {
       };
     }, []);
 
-    const toggleMenu = () => {
+    const toggleMenu = (event) => {
         event.stopPropagation(); // Evita que el evento se propague al documento
         setIsMenuOpen(!isMenuOpen);
     };
