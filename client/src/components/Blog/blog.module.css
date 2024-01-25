@@ -436,3 +436,8 @@
     -webkit-transform: scale3d(1.1, 1.1, 0.3);
     -moz-transform: scale3d(1.1, 1.1, 0.3);
 }
+
+.img {
+    border: #00ACCA solid 4px;
+    border-radius: 10px;
+}

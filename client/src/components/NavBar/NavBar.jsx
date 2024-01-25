@@ -45,11 +45,23 @@ const NavBar = () => {
                 </NavLink>
             </div>
             <div className={style.divOpciones}>
-                <Link to="banner" className={style.offNavBar} smooth={true} duration={500} offset={-100}>{idiomaActual === "es" ? "Inicio" : "Home"}</Link>
-                <Link to="secondBanner" className={style.offNavBar} smooth={true} duration={500} offset={-100}>{idiomaActual === "es" ? "Nosotros" : "About Us"}</Link>
-                <Link to="producto" className={style.offNavBar} smooth={true} duration={500} offset={-100}>{idiomaActual === "es" ? "Productos" : "Products"}</Link>
-                <Link to="bannerPartner" className={style.offNavBar} smooth={true} duration={500} offset={-100}>{idiomaActual === "es" ? "Partners" : "Partners"}</Link>
-                <Link to="bannerCita" className={style.offNavBar} smooth={true} duration={500} offset={-100}>{idiomaActual === "es" ? "Contacto" : "Contact us"}</Link>
+                {location.pathname.includes("blog") ? (
+                    <NavLink to="/">
+                        <button className={location.pathname === "/" ? style.onNavBar : style.offNavBar}>{idiomaActual === "es" ? "Inicio" : "Home"}</button>
+                    </NavLink>
+                ) :(<Link to="banner" className={style.offNavBar} smooth={true} duration={500} offset={-100}>{idiomaActual === "es" ? "Inicio" : "Home"}</Link>)}
+                {location.pathname.includes("blog") ? (null):(
+                    <Link to="secondBanner" className={style.offNavBar} smooth={true} duration={500} offset={-100}>{idiomaActual === "es" ? "Nosotros" : "About Us"}</Link>
+                )}
+                {location.pathname.includes("blog") ? (null) : (
+                    <Link to="producto" className={style.offNavBar} smooth={true} duration={500} offset={-100}>{idiomaActual === "es" ? "Productos" : "Products"}</Link>
+                )}
+                {location.pathname.includes("blog") ? (null) : (
+                    <Link to="bannerPartner" className={style.offNavBar} smooth={true} duration={500} offset={-100}>{idiomaActual === "es" ? "Partners" : "Partners"}</Link>
+                )}
+                {location.pathname.includes("blog") ? (null) : (
+                    <Link to="bannerCita" className={style.offNavBar} smooth={true} duration={500} offset={-100}>{idiomaActual === "es" ? "Contacto" : "Contact us"}</Link>
+                )}
                 <NavLink to="/blog">
                     <button className={location.pathname === "/blog" ? style.onNavBar : style.offNavBar}>{idiomaActual === "es" ? "Blog" : "Blog"}</button>
                 </NavLink>
