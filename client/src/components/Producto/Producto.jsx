@@ -7,21 +7,33 @@ const Producto = () => {
     const datos = [
         {
             id: 1,
-            dato: "Analisis de KPIS en lenguaje natural",
-            complemento: "Entiende de manera sencilla que pasa en tu operación y que significa cada indicador. Toma decisiones informadas y cuantificadas",
-            logo: "https://res.cloudinary.com/dfmsezslx/image/upload/t_IA_2/v1698086543/TECDE/undraw_code_review_re_woeb_2_yaadex.svg"
+            dato: "Predicciones y proyecciones",
+            complemento: "Algoritmo de aprendizaje automático ML para proyección de comportamiento futuro",
+            logo: "https://api.iconify.design/material-symbols-light:chart-data-rounded.svg?color=%2300acca"
         },
         {
             id: 2,
-            dato: "Métricas en tiempo real",
-            complemento: "En un solo lugar  y con un solo toque. Sabrás el estado de tu negocio vayas donde vayas.",
-            logo: "https://res.cloudinary.com/dfmsezslx/image/upload/t_IA_2/v1698086711/TECDE/undraw_product_iteration_kjok_fo5lcz.svg"
+            dato: "Dashboard Interactivo",
+            complemento: "Dashboard de KPIs y avance en OKRs de negocio",
+            logo: "https://api.iconify.design/mdi:view-dashboard-variant.svg?color=%2300acca"
         },
         {
             id: 3,
-            dato: "Predicciones y proyecciones",
-            complemento: "Un asistente de negocio que te ayuda a tomar mejores decisiones basado en tus propios datos. Tu mano derecha impulsada por IA. ",
-            logo: "https://res.cloudinary.com/dfmsezslx/image/upload/t_IA_2/v1698086659/TECDE/undraw_chat_bot_re_e2gj_zymenq.svg"
+            dato: "Siempre informado",
+            complemento: "Notificaciones, alertas e insights de valor explicados en lenguaje natural",
+            logo: "https://api.iconify.design/material-symbols:circle-notifications.svg?color=%2300acca"
+        },
+        {
+            id: 4,
+            dato: "Generación de informes",
+            complemento: "de desempeño mensual automática y OnDemand",
+            logo: "https://api.iconify.design/material-symbols:edit-document-rounded.svg?color=%2300acca"
+        },
+        {
+            id: 5,
+            dato: "Vinculación de datos",
+            complemento: "Conexión a cualquier fuente de datos estructurados SQL o importación masiva",
+            logo: "https://api.iconify.design/material-symbols:database-sharp.svg?color=%2300acca"
         },
     ]
     const datosEN = [
@@ -54,7 +66,7 @@ const Producto = () => {
     return (
         <div className={style.divBanner}>
             <div className={style.divTexto}>
-                <h3 className={style.tituloBanner}> {idiomaActual === "es" ? "IndustrIA Pro":"IndustrIA Pro"} </h3>
+            <img className={style.imagenTitulo} src="https://res.cloudinary.com/dfmsezslx/image/upload/v1706205839/TECDE/IndustriaProTECDE_mfxevi.png" alt={"TECDE IndustrIA Pro"} />
                 <div className={style.bannerUs}>
                     <div className={style.divDatos}>
                         {datosDisplay.map((dato) => (

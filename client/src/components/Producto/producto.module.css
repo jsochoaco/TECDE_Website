@@ -28,6 +28,9 @@
                 font-style: normal;
                 line-height: normal;
             }
+            .imagenTitulo {
+                width: 50%;
+            }
         .bannerUs {
             display: flex;
             padding: 5px;
@@ -76,7 +79,7 @@
                         width: 180px;
                         .img {
                             padding: 3%;
-                            width: 180px;
+                            width: 110px;
                         }
                     }
                     .dato {
@@ -87,12 +90,12 @@
                         font-style: normal;
                         font-weight: 700;
                         line-height: normal;
-                        font-size: 1.3rem;
+                        font-size: 1.2rem;
                     }
                     .complemento {
                         margin: 0;
                         color: white;
-                        text-align: justify;
+                        text-align: center;
                         font-family: Poppins;
                         font-style: normal;
                         font-weight: 100;
@@ -131,6 +134,9 @@
             align-items: center;
             gap: 5px;
             flex: 1 0 0;
+            .imagenTitulo {
+                width: 60%;
+            }
             .tituloBanner {
                 margin: 0px;
                 color: #00ACCA;
@@ -186,7 +192,7 @@
                         height: 100px;
                         width: 180px;
                         .img {
-                            width: 180px;
+                            width: 100px;
                         }
                     }
                     .dato {
@@ -197,12 +203,12 @@
                         font-style: normal;
                         font-weight: 700;
                         line-height: normal;
-                        font-size: 1.3rem;
+                        font-size: 1.1rem;
                     }
                     .complemento {
                         margin: 0;
                         color: white;
-                        text-align: justify;
+                        text-align: center;
                         font-family: Poppins;
                         font-style: normal;
                         font-weight: 100;
@@ -241,6 +247,9 @@
             align-items: center;
             gap: 5px;
             flex: 1 0 0;
+            .imagenTitulo {
+                width: 60%;
+            }
             .tituloBanner {
                 margin: 0px;
                 color: #00ACCA;
@@ -296,7 +305,7 @@
                         height: 100px;
                         width: 180px;
                         .img {
-                            width: 150px;
+                            width: 100px;
                         }
                     }
                     .dato {
@@ -307,17 +316,17 @@
                         font-style: normal;
                         font-weight: 700;
                         line-height: normal;
-                        font-size: 1.2rem;
+                        font-size: 1rem;
                     }
                     .complemento {
                         margin: 0;
                         color: white;
-                        text-align: justify;
+                        text-align: center;
                         font-family: Poppins;
                         font-style: normal;
                         font-weight: 100;
                         line-height: normal;
-                        font-size: 0.9rem;
+                        font-size: 0.8rem;
                         width: 80%;
                     }
     
@@ -351,6 +360,9 @@
             justify-items: center;
             align-content: center;
             gap: 5px;
+            .imagenTitulo {
+                width: 60%;
+            }
             .tituloBanner {
                 margin: 0px;
                 color: #00ACCA;
@@ -405,7 +417,7 @@
                         justify-content: center;
                         width: 200px;
                         .img {
-                            width: 180px;
+                            width: 110px;
                         }
                     }
                     .dato {
@@ -416,17 +428,17 @@
                         font-style: normal;
                         font-weight: 700;
                         line-height: normal;
-                        font-size: 1.05rem;
+                        font-size: 1rem;
                     }
                     .complemento {
                         margin: 0;
                         color: white;
-                        text-align: justify;
+                        text-align: center;
                         font-family: Poppins;
                         font-style: normal;
                         font-weight: 100;
                         line-height: normal;
-                        font-size: 0.9rem;
+                        font-size: 0.8rem;
                         width: 90%;
                     }
     
