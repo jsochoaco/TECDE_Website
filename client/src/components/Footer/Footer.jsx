@@ -1,5 +1,5 @@
 import style from "./Footer.module.css"
-import { Link, NavLink} from "react-router-dom"
+import { NavLink} from "react-router-dom"
 import { useSelector } from "react-redux"
 
 const Footer = () => {
@@ -65,7 +65,7 @@ const Footer = () => {
         </div>
         <div className={style.divMarca}>
             <h5 className={style.marcaTECDE}>TECDE Ingeniería 2023</h5>
-            <h6 className={style.marcaPropia}>{idiomaActual === "es" ? "Un desarrollo de ": "A development of "} <Link to="https://www.linkedin.com/in/juanochoa-fullstack/" className={style.nameDev} target="_blank"><strong>Juan Sebastián Ochoa Cortés</strong></Link></h6>
+            {/* <h6 className={style.marcaPropia}>{idiomaActual === "es" ? "Un desarrollo de ": "A development of "} <Link to="https://www.linkedin.com/in/juanochoa-fullstack/" className={style.nameDev} target="_blank"><strong>Juan Sebastián Ochoa Cortés</strong></Link></h6> */}
         </div>
         </div>
     )

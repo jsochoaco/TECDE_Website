@@ -7,6 +7,9 @@
         flex-direction: column;
         gap: 5%;
         width: 100%;
+        max-width: 380px;
+        background-color: white;
+        border-bottom: #00ACCA solid 3px;
         .divMensaje {
             display: flex;
             padding: 10px;
@@ -60,6 +63,14 @@
             }
         }
     }
+    .frame {
+        width: 85%;
+        max-width: 380px;
+        height: 800px;
+        background-color: white;
+        margin: 20px;
+        color: #00ACCA;
+    }
 }
 @media (min-width: 381px) and (max-width: 767px){
     .divContenedorCita {
@@ -70,6 +81,10 @@
         flex-direction: column;
         gap: 5%;
         width: 100%;
+        max-width: 767px;
+        min-width: 381px;
+        background-color: white;
+        border-bottom: #00ACCA solid 3px;
         .divMensaje {
             display: flex;
             padding: 10px;
@@ -123,6 +138,14 @@
             }
         }
     }
+    .frame {
+        max-width: 100%;
+        width: 85%;
+        height: 800px;
+        background-color: white;
+        margin: 20px;
+        color: #00ACCA;
+    }
 
 }
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -134,6 +157,10 @@
         flex-direction: column;
         gap: 5%;
         width: 100%;
+        max-width: 1023px;
+        min-width: 767px;
+        background-color: white;
+        border-bottom: #00ACCA solid 3px;
         .divMensaje {
             display: flex;
             padding: 10px;
@@ -187,6 +214,13 @@
             }
         }
     }
+    .frame {
+        width: 85%;
+        height: 800px;
+        background-color: white;
+        margin: 20px;
+        color: #00ACCA;
+    }
 }
 @media (min-width: 1024px) {
     .divContenedorCita {
@@ -197,6 +231,8 @@
         flex-direction: column;
         gap: 5%;
         width: 100%;
+        background-color: white;
+        border-bottom: #00ACCA solid 3px;
         .divMensaje {
             display: flex;
             padding: 10px;
@@ -250,11 +286,12 @@
             }
         }
     }
+    .frame {
+        width: 85%;
+        height: 800px;
+        background-color: white;
+        margin: 20px;
+        color: #00ACCA;
+    }
 }
 
-
-.frame {
-    background-color: white;
-    height: 800px;
-    margin: 20px;
-}

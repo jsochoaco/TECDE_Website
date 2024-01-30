@@ -1,15 +1,21 @@
 body {
-  background-color: #1c1c21;
+  background-color: #25252B;
   font-family: 'Poppins', sans-serif;
 }
 .App {
   text-align: center;
+  display: flex;
+  align-items: center;
 
 }
 .App-header {
   display: flex;
+  align-items: center;
 }
 
 .contenido {
   margin-top: 120px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }

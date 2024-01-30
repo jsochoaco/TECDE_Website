@@ -175,6 +175,12 @@
 }
 @media (min-width: 1024px) {
     .carousel {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      align-content: center;
+      justify-content: center;
+      justify-items: center;
         position: relative;
         width: 100%;
         max-width: 900px;
