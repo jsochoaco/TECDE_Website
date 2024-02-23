@@ -35,6 +35,16 @@
                 width: 90%;
                 text-align: left;
             }
+            .parrafoBanner1 {
+                color: white;
+                margin: 0% 0% 0% 5%;
+                font-size: 1.4rem;
+                font-style: normal;
+                font-weight: 10;
+                line-height: normal;
+                width: 90%;
+                text-align: left;
+            }
             .callBotonBan  {
                 font-size: 1.2rem;
                 margin-top: 3%;
@@ -110,10 +120,20 @@
                 font-style: normal;
                 line-height: normal;
             }
+            .parrafoBanner1 {
+                color: white;
+                margin: 0% 0% 0% 5%;
+                font-size: 1.5rem;
+                font-style: normal;
+                font-weight: 10;
+                line-height: normal;
+                width: 90%;
+                text-align: left;
+            }
             .parrafoBanner {
                 color: white;
                 margin: 0% 0% 0% 3%;
-                font-size: 1rem;
+                font-size: 1.1rem;
                 font-style: normal;
                 font-weight: 10;
                 line-height: normal;
@@ -195,6 +215,16 @@
                 font-size: 2.5rem;
                 font-style: normal;
                 line-height: normal;
+            }
+            .parrafoBanner1 {
+                color: white;
+                margin: 0% 0% 0% 5%;
+                font-size: 1.8rem;
+                font-style: normal;
+                font-weight: 10;
+                line-height: normal;
+                width: 90%;
+                text-align: left;
             }
             .parrafoBanner {
                 color: white;
@@ -278,7 +308,7 @@
             flex-direction: column;
             justify-content: flex-start;
             align-items: center;
-            gap: 20px;
+            gap: 5px;
             flex: 1 0 0;
             width: 70%;
             height: 100%;
@@ -290,15 +320,28 @@
                 font-style: normal;
                 line-height: normal;
             }
-            .parrafoBanner {
+            .parrafoBanner1 {
                 color: white;
-                margin: 0% 0% 0% 5%;
-                text-align: left;
-                font-size: 1.2rem;
+                margin: 0% 0% 0% 0%;
+                font-size: 1.8rem;
                 font-style: normal;
                 font-weight: 10;
                 line-height: normal;
-                text-align: justify;
+                width: 90%;
+                text-align: left;
+            }
+            .parrafoBanner {
+                color:#00ACCA;
+                margin: 3% 0% 0% 12.5%;
+                text-align: left;
+                font-size: 1.2rem;
+                font-weight:bolder;
+                text-align: left;
+                background-color: white;
+                border-radius: 10px;
+                width: 100%;
+                padding: 5px;
+
             }
             .callBotonBan  {
                 font-size: 1.2rem;

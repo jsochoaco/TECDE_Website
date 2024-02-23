@@ -1,0 +1,40 @@
+.tituloTecnologia {
+  display: flex;
+  color: #00ACCA;
+  text-align: left;
+  font-size: 2.5rem;
+  font-style: normal;
+  line-height: normal;
+}
+.carousel {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.carouselInner {
+    display: flex;
+    /* Ajusta esto para que sea 200% si mostramos todas las imágenes duplicadas */
+    animation: scroll 90s linear infinite;
+    background-color: white;
+    height: 200px;
+    align-items: center;
+    gap: 100px;
+  }
+
+  .slide {
+    flex: 0 0 auto;
+  }
+  .slide img{
+    width: 190px
+  }
+
+  @keyframes scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      /* Se mueve la mitad del total porque duplicamos las imágenes */
+      transform: translateX(-50%);
+    }
+  }
+  

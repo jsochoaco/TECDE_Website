@@ -7,8 +7,9 @@ const Banner = () => {
     return (
         <div className={style.divBanner}>
             <div className={style.divTexto}>
-                <h1 className={style.tituloBanner}>{idiomaActual === "es" ? "Tu empresa y su operación en tus manos":"Your company and its operation in your hands"}</h1>
-                <h2 className={style.parrafoBanner}>{idiomaActual === "es" ? "Te ofrecemos acceso y entendimiento de tu activo intangible más valioso: tus datos. Con el acceso correcto a la información, nunca más sentirás tu negocio fuera de control y podrás tomar cada decisión con mayor claridad":"We offer you access to and understanding of your most valuable intangible asset: your data. With the right access to information, you will never again feel your business out of control and will be able to make every decision with greater clarity."}</h2>
+                <h1 className={style.tituloBanner}>{idiomaActual === "es" ? "Potenciamos tu empresa con soluciones tecnológicas avanzadas ":"We enhance your business with advanced technological solutions"}</h1>
+                <h2 className={style.parrafoBanner1}>{idiomaActual === "es" ? "para la gestión y procesamiento de datos":"for data management and processing."}</h2>
+                <h3 className={style.parrafoBanner}>{idiomaActual === "es" ? "Aumentamos tu capacidad de tomar decisiones informadas y disminuimos los tiempos y procesos que necesitas para acceder a tus datos":"We increase your capacity to make informed decisions and reduce the time and processes to access your data"}</h3>
                 <NavLink to="https://calendar.app.google/A596zaWLc5NFA3iQ9" target="_blank">
                 <button className={style.callBotonBan}>{idiomaActual === "es" ? "AGENDA UNA DEMO":"SCHEDULE A DEMO"}</button>
                 </NavLink>

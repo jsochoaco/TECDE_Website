@@ -123,13 +123,12 @@
         position: fixed;
         top: 0;
         width: 100%;
+        max-width: 768px;
         padding: 10px 0;
         z-index: 100;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        flex-shrink: 0;
-        align-self: stretch;
         gap: 5%;
         background-color: #25252B;
         height: 100px;
@@ -183,9 +182,9 @@
         position: fixed;
         top: 0;
         max-width: 1440px;
-        width: 100%;
+        width: 1000%;
         padding: 10px 0;
-        z-index: 100;
+        z-index: 100000;
         flex-direction: row;
         align-items: center;
         align-content: center;
