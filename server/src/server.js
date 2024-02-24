@@ -12,24 +12,10 @@ server.use(express.json()); // Express para analizar las solicitudes entrantes c
 const corsOptions = {
   origin: ["https://tecde.co", "http://localhost:3000", "http://localhost:3001", "https://api.tecde.co"],
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
-  credentials: true, // Habilitar credenciales en las solicitudes (si es necesario)
-  optionsSuccessStatus: 204, // Algunos navegadores pueden requerir esto para gestionar correctamente las solicitudes OPTIONS.
+  credentials: true,
+  optionsSuccessStatus: 204, 
 };
 server.use(cors(corsOptions));
-// Middleware para verificar la API key en parámetros de consulta
-// const apiKeyMiddleware = (req, res, next) => {
-//     const apiKey = req.headers.authorization;
-//     const apiHash = TOKEN_API 
-//     if (apiKey && apiKey === apiHash) {
-//       next();
-//     } else {
-//       res.status(401).json({ error: 'Acceso no autorizado' });
-//     }
-// };
-// server.use('security/G4xYHYKzB7OrzqYH5yYvl5UxpId22gPf', (req, res, next) => {
-//   next();
-// });
-server.use(apiKeyMiddleware); // Aplicar middleware antes de las rutas
-server.use(routers); // Módulo de rutas importado para manejar las rutas y las solicitudes en la aplicación.
+server.use(routers);
 
-module.exports = server; // Exportamos la instancia de la aplicación
+module.exports = server;

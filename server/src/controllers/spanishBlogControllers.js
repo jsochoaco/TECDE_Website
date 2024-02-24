@@ -35,14 +35,14 @@ const updateSpanishBlog = async (data, id) => {
     try {
         const elementId = id;
         const element = await SpanishBlog.findByPk(elementId);
-
-        if (element) {
-            element = data
-            await element.save();
-            return element;
-        } else {
-            return null;
-        }
+        if (!element) return null;
+        Object.keys(data).forEach(key => {
+          if (data[key] !== undefined) {
+            element[key] = data[key];
+          }
+        });
+        await element.save();
+        return element;
     } catch (error) {
         console.error("Error updating element: ", error);
         throw error;
@@ -86,7 +86,6 @@ module.exports = {
     getAllSpanishBlogs,
     getSpanishBlogById,
     updateSpanishBlog,
-    updateAuthorization,
     deleteSpanishBlog,
     updateState
 };

@@ -5,8 +5,9 @@ const {
     updateUser,
     updateAuthorization,
     deleteUser,
-    getUserByEmail
-} = require("../controllers/userController"); // Asumiendo que tus controladores están en un archivo llamado userController.js
+    getUserByEmail,
+    updateNews
+} = require("../controllers/usersControllers"); // Asumiendo que tus controladores están en un archivo llamado userController.js
 
 // Crear un nuevo usuario
 const createUserHandler = async (req, res) => {
@@ -23,7 +24,7 @@ const createUserHandler = async (req, res) => {
 const getAllUsersHandler = async (req, res) => {
     try {
         const users = await getAllUsers();
-        res.json({ success: true, users });
+        res.json({ success: true, users: users});
     } catch (error) {
         res.status(500).json({ success: false, message: "Error fetching all users", error: error.message });
     }
@@ -34,7 +35,7 @@ const getUserByIdHandler = async (req, res) => {
     try {
         const user = await getUserById(req.params.id);
         if (user) {
-            res.json({ success: true, user });
+            res.json({ success: true, user: user });
         } else {
             res.status(404).json({ success: false, message: "User not found" });
         }
@@ -48,7 +49,7 @@ const getUserByEmailHandler = async (req, res) => {
     try {
         const user = await getUserByEmail(req.params.email);
         if (user) {
-            res.json({ success: true, user });
+            res.json({ success: true, user: user });
         } else {
             res.status(404).json({ success: false, message: "User not found" });
         }
@@ -62,7 +63,7 @@ const updateUserHandler = async (req, res) => {
     try {
         const user = await updateUser(req.body, req.params.id);
         if (user) {
-            res.json({ success: true, message: "User updated", user });
+            res.json({ success: true, message: "User updated", user: user });
         } else {
             res.status(404).json({ success: false, message: "User not found" });
         }
@@ -76,7 +77,7 @@ const updateAuthorizationHandler = async (req, res) => {
     try {
         const user = await updateAuthorization(req.params.id);
         if (user) {
-            res.json({ success: true, message: "User authorization updated", user });
+            res.json({ success: true, message: "User authorization updated", user: user });
         } else {
             res.status(404).json({ success: false, message: "User not found" });
         }
@@ -85,6 +86,19 @@ const updateAuthorizationHandler = async (req, res) => {
     }
 };
 
+// Actualizar la autorización de un usuario
+const updateNewsHandler = async (req, res) => {
+    try {
+        const user = await updateNews(req.params.id);
+        if (user) {
+            res.json({ success: true, message: "User authorization updated", user: user });
+        } else {
+            res.status(404).json({ success: false, message: "User not found" });
+        }
+    } catch (error) {
+        res.status(500).json({ success: false, message: "Error updating user authorization", error: error.message });
+    }
+};
 // Eliminar un usuario
 const deleteUserHandler = async (req, res) => {
     try {
@@ -106,5 +120,6 @@ module.exports = {
     getUserByEmailHandler,
     updateUserHandler,
     updateAuthorizationHandler,
-    deleteUserHandler
+    deleteUserHandler,
+    updateNewsHandler
 };

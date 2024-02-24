@@ -54,10 +54,21 @@ const updateUser = async (data, idUser) => {
         const user = await User.findByPk(userId);
 
         if (user) {
-            user.name = data.name;
-            user.surname = data.email;
-            user.email = data.phone;
-            user.phone = data.company;
+            if (data.name && data.name !== user.name) {
+                user.name = data.name;
+            }
+            if (data.email && data.email !== user.email) {
+                user.email = data.email;
+            }
+            if (data.phone && data.phone !== user.phone) {
+                user.phone = data.phone;
+            }
+            if (data.enabled !== undefined && data.enabled !== user.enabled) {
+                user.enabled = data.enabled;
+            }
+            if (data.newsLetter !== undefined && data.newsLetter !== user.newsLetter) {
+                user.newsLetter = data.newsLetter;
+            }
             await user.save();
             return user;
         } else {
@@ -75,6 +86,23 @@ const updateAuthorization = async (idUser) => {
 
         if (user) {
             user.enabled = !user.enabled;
+            await user.save();
+            return user;
+        } else {
+            return null;
+        }
+    } catch (error) {
+        console.error("Error updating user authorization", error);
+        throw error;
+    }
+};
+
+const updateNews= async (idUser) => {
+    try {
+        const user = await User.findByPk(idUser);
+
+        if (user) {
+            user.newsLetter = !user.newsLetter;
             await user.save();
             return user;
         } else {
@@ -109,5 +137,6 @@ module.exports = {
     updateUser,
     updateAuthorization,
     deleteUser,
-    getUserByEmail
+    getUserByEmail,
+    updateNews
 };

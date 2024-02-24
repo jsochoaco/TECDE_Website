@@ -15,6 +15,10 @@ module.exports = (sequelize) => {
       type: DataTypes.STRING,
       allowNull: false
     },
+    articulo: {
+      type: DataTypes.ARRAY(DataTypes.JSON),
+      allowNull: true
+    },
     keyWords: {
       type: DataTypes.STRING,
       allowNull: false

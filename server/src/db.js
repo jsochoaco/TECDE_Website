@@ -26,12 +26,8 @@ let entries = Object.entries(sequelize.models);
 let capsEntries = entries.map((entry) => [entry[0][0].toUpperCase() + entry[0].slice(1), entry[1]]);
 sequelize.models = Object.fromEntries(capsEntries);
 // Obtener el modelos desde sequelize
-const { User, SpanishBlog, EnglishBlog, SpanishSection, EnglishSection } = sequelize.models;
+const { User, SpanishBlog, EnglishBlog } = sequelize.models;
 // Aca vendrian las relaciones/asociaciones
-SpanishBlog.hasMany(SpanishSection, { foreignKey: 'spanishBlogId' });
-SpanishSection.belongsTo(SpanishBlog, { foreignKey: 'spanishBlogId' });
-EnglishBlog.hasMany(EnglishSection, { foreignKey: 'englishBlogId' });
-EnglishSection.belongsTo(EnglishBlog, { foreignKey: 'englishBlogId' });
 EnglishBlog.hasOne(SpanishBlog, {foreignKey: 'englishBlogId'});
 SpanishBlog.belongsTo(EnglishBlog, {foreignKey: 'englishBlogId'});
 

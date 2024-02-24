@@ -5,7 +5,7 @@ const {
     updateSpanishBlog,
     updateState,
     deleteSpanishBlog
-  } = require("../controllers/spanishBlogController"); // Asumiendo que tus controladores están en un archivo llamado spanishBlogController.js
+  } = require("../controllers/spanishBlogControllers"); // Asumiendo que tus controladores están en un archivo llamado spanishBlogController.js
   
   // Crear un nuevo blog en español
   const createSpanishBlogHandler = async (req, res) => {
@@ -22,7 +22,7 @@ const {
   const getAllSpanishBlogsHandler = async (req, res) => {
     try {
       const blogs = await getAllSpanishBlogs();
-      res.json({ success: true, blogs });
+      res.status(201).json({ success: true, blogs: blogs });
     } catch (error) {
       res.status(500).json({ success: false, message: "Error fetching all spanish blogs", error: error.message });
     }
@@ -33,7 +33,7 @@ const {
     try {
       const blog = await getSpanishBlogById(req.params.id);
       if (blog) {
-        res.json({ success: true, blog });
+        res.status(201).json({ success: true, blog: blog });
       } else {
         res.status(404).json({ success: false, message: "Spanish blog not found" });
       }
@@ -47,7 +47,7 @@ const {
     try {
       const blog = await updateSpanishBlog(req.body, req.params.id);
       if (blog) {
-        res.json({ success: true, message: "Spanish blog updated", blog });
+        res.status(201).json({ success: true, message: "Spanish blog updated", blog: blog});
       } else {
         res.status(404).json({ success: false, message: "Spanish blog not found" });
       }
@@ -61,7 +61,7 @@ const {
     try {
       const blog = await updateState(req.params.id);
       if (blog) {
-        res.json({ success: true, message: "Spanish blog state updated", blog });
+        res.status(201).json({ success: true, message: "Spanish blog state updated", blog: blog });
       } else {
         res.status(404).json({ success: false, message: "Spanish blog not found" });
       }
@@ -75,7 +75,7 @@ const {
     try {
       const success = await deleteSpanishBlog(req.params.id);
       if (success) {
-        res.json({ success: true, message: "Spanish blog deleted" });
+        res.status(201).json({ success: true, message: "Spanish blog deleted" });
       } else {
         res.status(404).json({ success: false, message: "Spanish blog not found" });
       }

@@ -14,7 +14,7 @@ module.exports = (sequelize) => {
     },
     email: {
       type: DataTypes.STRING,
-      allowNull: true,
+      allowNull: false,
     },
     phone: {
       type: DataTypes.STRING,
@@ -28,6 +28,11 @@ module.exports = (sequelize) => {
       type: DataTypes.BOOLEAN,
       allowNull: true,
       defaultValue: true
+    },
+    newsLetter:  {
+      type: DataTypes.BOOLEAN,
+      allowNull: true,
+      defaultValue: false
     },
   }, {
     tableName: 'users',

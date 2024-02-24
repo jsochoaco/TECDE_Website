@@ -23,6 +23,10 @@ module.exports = (sequelize) => {
       type: DataTypes.STRING,
       allowNull: false
     },
+    articulo: {
+      type: DataTypes.ARRAY(DataTypes.JSON),
+      allowNull: true
+    },
     complemento: {
       type: DataTypes.TEXT,
       allowNull: false
