@@ -2,26 +2,26 @@ import style from "./producto.module.css"
 import {useSelector } from "react-redux"
 import { NavLink } from "react-router-dom"
 
-const Producto = () => {
+const Productoexia = () => {
     const idiomaActual = useSelector((state) => state.idioma)
     const datos = [
         {
             id: 1,
-            dato: "Predicciones y proyecciones",
-            complemento: "Algoritmo de aprendizaje automático ML para proyección de comportamiento futuro",
-            logo: "https://api.iconify.design/material-symbols-light:chart-data-rounded.svg?color=%2300acca"
+            dato: "Extrae la información de documentos",
+            complemento: "Facturas, talonarios, etiquetas, entre otros pueden sacarse para reportes personalizados ",
+            logo: "https://api.iconify.design/material-symbols:eye-tracking-sharp.svg?color=%2300acca"
         },
         {
             id: 2,
-            dato: "Dashboard Interactivo",
-            complemento: "Dashboard de KPIs y avance en OKRs de negocio",
-            logo: "https://api.iconify.design/mdi:view-dashboard-variant.svg?color=%2300acca"
+            dato: "Cualquier formato común de documentos",
+            complemento: "Sube documentos en PDF, imagenes y documentos docx",
+            logo: "https://api.iconify.design/fa6-solid:file-pdf.svg?color=%2300acca"
         },
         {
             id: 3,
-            dato: "Siempre informado",
-            complemento: "Notificaciones, alertas e insights de valor explicados en lenguaje natural",
-            logo: "https://api.iconify.design/material-symbols:circle-notifications.svg?color=%2300acca"
+            dato: "Genera reportes",
+            complemento: "de tus facturas como información de cierres y balances para contabilidad",
+            logo: "https://api.iconify.design/icon-park-solid:table-report.svg?color=%2300acca"
         }
     ]
     const datosEN = [
@@ -54,7 +54,7 @@ const Producto = () => {
     return (
         <div className={style.divBanner}>
             <div className={style.divTexto}>
-            <img className={style.imagenTitulo} src="https://res.cloudinary.com/dfmsezslx/image/upload/v1710369520/TECDE/Industriapro_smbdli.png" alt={"TECDE IndustrIA Pro"} />
+            <img className={style.imagenTitulo} src="https://res.cloudinary.com/dfmsezslx/image/upload/v1710369520/TECDE/exiapro2_rg2w3v.png" alt={"TECDE IndustrIA Pro"} />
                 <div className={style.bannerUs}>
                     <div className={style.divDatos}>
                         {datosDisplay.map((dato) => (
@@ -75,4 +75,4 @@ const Producto = () => {
     )
 }
 
-export default Producto
+export default Productoexia

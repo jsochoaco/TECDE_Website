@@ -13,8 +13,8 @@ const BannerServicios = () => {
         },
         {
             id: 2,
-            dato: "On boarding IndustrIA Pro",
-            complemento: "Nuestro servicio de OnBoarding para IndustrIA Pro de Tecde está diseñado para preparar a tu empresa de manera integral. Guiamos a tu equipo a través de una implementación fluida, proporcionando capacitación detallada y personalizada, asegurando que aproveches al máximo sus capacidades.",
+            dato: "On boarding Productos",
+            complemento: "Nuestro servicio de OnBoarding para cualquiera de los productos de de Tecde está diseñado para preparar a tu empresa de manera integral. Guiamos a tu equipo a través de una implementación fluida, proporcionando capacitación detallada y personalizada, asegurando que aproveches al máximo sus capacidades.",
             logo: "https://res.cloudinary.com/dfmsezslx/image/upload/t_IA_2/v1703192527/IndustriaPro_rfn8o9.png"
         },
         {
@@ -33,8 +33,8 @@ const BannerServicios = () => {
         },
         {
             id: 2,
-            dato: "IndustrIA Pro Onboarding",
-            complemento: "Our OnBoarding service for Tecde's IndustrIA Pro is designed to comprehensively prepare your company. We guide your team through a seamless implementation, providing detailed and personalized training, ensuring you make the most of its capabilities.",
+            dato: "Products Onboarding",
+            complemento: "Our OnBoarding service for Tecde's products is designed to comprehensively prepare your company. We guide your team through a seamless implementation, providing detailed and personalized training, ensuring you make the most of its capabilities.",
             logo: "https://res.cloudinary.com/dfmsezslx/image/upload/v1703192527/IndustriaPro_rfn8o9.png"
         },
         {

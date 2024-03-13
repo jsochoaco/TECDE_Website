@@ -41,7 +41,7 @@ const NavBar = () => {
         <div className={style.divNavbar}>
             <div className={style.divImagen}>
                 <NavLink to="/">
-                    <img className={style.imagenNav} src="https://res.cloudinary.com/dfmsezslx/image/upload/v1696731568/TECDE/Tecde_horizontal_white_a2nqve.png" alt="LogoBlancoTECDE" />
+                    <img className={style.imagenNav} src="https://res.cloudinary.com/dfmsezslx/image/upload/v1710370582/TECDE/tecdewi_wsxgik.png" alt="LogoBlancoTECDE" />
                 </NavLink>
             </div>
             <div className={style.divOpciones}>

@@ -1,17 +1,27 @@
-.tituloTecnologia {
-  display: flex;
-  color: #00ACCA;
-  text-align: left;
-  font-size: 2.5rem;
-  font-style: normal;
-  line-height: normal;
-}
-.carousel {
+@media (min-width: 1024px) {
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1440px;
+    background-color: white;
+  }
+
+  .tituloTecnologia {
+    display: flex;
+    color: #00ACCA;
+    font-size: 2.5rem;
+  }
+
+  .carousel {
     display: flex;
     flex-direction: column;
     background-color: white;
-}
-.carouselInner {
+    max-width: 1440px;
+  }
+
+  .carouselInner {
     display: flex;
     /* Ajusta esto para que sea 200% si mostramos todas las imágenes duplicadas */
     animation: scroll 90s linear infinite;
@@ -19,12 +29,14 @@
     height: 200px;
     align-items: center;
     gap: 100px;
+    max-width: 1440px;
   }
 
   .slide {
     flex: 0 0 auto;
   }
-  .slide img{
+
+  .slide img {
     width: 190px
   }
 
@@ -32,9 +44,172 @@
     from {
       transform: translateX(0);
     }
+
     to {
       /* Se mueve la mitad del total porque duplicamos las imágenes */
-      transform: translateX(-50%);
+      transform: translateX(-80%);
     }
   }
-  
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 800px;
+    background-color: white;
+  }
+
+  .tituloTecnologia {
+    display: flex;
+    color: #00ACCA;
+    font-size: 2.5rem;
+  }
+
+  .carousel {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    max-width: 800px;
+  }
+
+  .carouselInner {
+    display: flex;
+    /* Ajusta esto para que sea 200% si mostramos todas las imágenes duplicadas */
+    animation: scroll 90s linear infinite;
+    background-color: white;
+    height: 200px;
+    align-items: center;
+    gap: 100px;
+    max-width: 800px;
+  }
+
+  .slide {
+    flex: 0 0 auto;
+  }
+
+  .slide img {
+    width: 190px
+  }
+
+  @keyframes scroll {
+    from {
+      transform: translateX(0);
+    }
+
+    to {
+      /* Se mueve la mitad del total porque duplicamos las imágenes */
+      transform: translateX(-80%);
+    }
+  }
+}
+
+@media (min-width: 381px) and (max-width: 767px) {
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 450px;
+    background-color: white;
+  }
+
+  .tituloTecnologia {
+    display: flex;
+    color: #00ACCA;
+    font-size: 1.5rem;
+  }
+
+  .carousel {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    max-width: 450px;
+  }
+
+  .carouselInner {
+    display: flex;
+    /* Ajusta esto para que sea 200% si mostramos todas las imágenes duplicadas */
+    animation: scroll 90s linear infinite;
+    background-color: white;
+    height: 120px;
+    align-items: center;
+    gap: 80px;
+    max-width: 450px;
+  }
+
+  .slide {
+    flex: 0 0 auto;
+  }
+
+  .slide img {
+    width: 100px
+  }
+
+  @keyframes scroll {
+    from {
+      transform: translateX(0);
+    }
+
+    to {
+      /* Se mueve la mitad del total porque duplicamos las imágenes */
+      transform: translateX(-80%);
+    }
+  }
+}
+
+@media (max-width: 381px) {
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 381px;
+    background-color: white;
+  }
+
+  .tituloTecnologia {
+    display: flex;
+    color: #00ACCA;
+    font-size: 1.5rem;
+  }
+
+  .carousel {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    max-width: 381px;
+  }
+
+  .carouselInner {
+    display: flex;
+    /* Ajusta esto para que sea 200% si mostramos todas las imágenes duplicadas */
+    animation: scroll 90s linear infinite;
+    background-color: white;
+    height: 120px;
+    align-items: center;
+    gap: 80px;
+    max-width: 381px;
+  }
+
+  .slide {
+    flex: 0 0 auto;
+  }
+
+  .slide img {
+    width: 100px
+  }
+
+  @keyframes scroll {
+    from {
+      transform: translateX(0);
+    }
+
+    to {
+      /* Se mueve la mitad del total porque duplicamos las imágenes */
+      transform: translateX(-80%);
+    }
+  }
+}

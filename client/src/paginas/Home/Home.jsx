@@ -6,6 +6,8 @@ import BannerServicios from "../../components/Servicios/ServiciosBanner"
 import Producto from "../../components/Producto/Producto"
 import {Element } from 'react-scroll';
 import Tecnologias from "../../components/tecnologias/Tecnologias"
+import Productoexia from "../../components/Producto/Productoexia"
+import Productofluxia from "../../components/Producto/Productofluxia"
 
 
 const Home = () => {
@@ -33,9 +35,15 @@ const Home = () => {
         <Element name="producto">
           <Producto />
         </Element>
-        <Element name="bannerPartner">
-          <Tecnologias images={imagenesLista} />
+        <Element>
+          <Productofluxia />
         </Element>
+        <Element>
+          <Productoexia/>
+        </Element>
+        {/* <Element name="bannerPartner">
+          <Tecnologias images={imagenesLista} />
+        </Element> */}
         <Element name="bannerServicios">
           <BannerServicios/>
         </Element>
