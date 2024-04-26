@@ -36,9 +36,6 @@ const Home = () => {
           <Producto />
         </Element>
         <Element>
-          <Productofluxia />
-        </Element>
-        <Element>
           <Productoexia/>
         </Element>
         {/* <Element name="bannerPartner">

@@ -5,19 +5,19 @@ const SecondBanner = () => {
     const idiomaActual = useSelector((state) => state.idioma)
     const datos = [
         {
-            numero: "7",
+            numero: "10",
             id: 1,
             dato: "empresas",
             complemento: "han confiado su operación en la tecnología de TECDE"
         },
         {
-            numero: "5",
+            numero: "7",
             id: 2,
             dato: "productos ",
             complemento: "desarrollados a la medida"
         },
         {
-            numero: "85%",
+            numero: "80%",
             id: 3,
             dato: "de nuestros clientes",
             complemento: "continúan mes a mes confiando en TECDE"
@@ -25,19 +25,19 @@ const SecondBanner = () => {
     ]
     const datosEN = [
         {
-            numero: "7",
+            numero: "10",
             id: 1,
             dato: "companies",
             complemento: "have entrusted their operations to TECDE's technology"
         },
         {
-            numero: "5",
+            numero: "7",
             id: 2,
             dato: "customized products",
             complemento: "developed to meet specific needs"
         },
         {
-            numero: "85%",
+            numero: "80%",
             id: 3,
             dato: "of our clients",
             complemento: "continue to trust TECDE month after month"
