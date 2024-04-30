@@ -12,15 +12,15 @@ const NavBar = () => {
     const location = useLocation()
     const menuRef = useRef(null);
     useEffect(() => {
-      function handleDocumentClick(event) {
-        if (menuRef.current && !menuRef.current.contains(event.target)) {
-          setIsMenuOpen(false);
+        function handleDocumentClick(event) {
+            if (menuRef.current && !menuRef.current.contains(event.target)) {
+                setIsMenuOpen(false);
+            }
         }
-      }
-      document.addEventListener('click', handleDocumentClick);
-      return () => {
-        document.removeEventListener('click', handleDocumentClick);
-      };
+        document.addEventListener('click', handleDocumentClick);
+        return () => {
+            document.removeEventListener('click', handleDocumentClick);
+        };
     }, []);
 
     const toggleMenu = (event) => {
@@ -28,7 +28,7 @@ const NavBar = () => {
         setIsMenuOpen(!isMenuOpen);
     };
     const handleIdioma = () => {
-        if(idiomaActual === "es") {
+        if (idiomaActual === "es") {
             dispatch(setIdioma("en"))
             dispatch(setDatLiveBoton("en"))
         }
@@ -49,15 +49,15 @@ const NavBar = () => {
                     <NavLink to="/">
                         <button className={location.pathname === "/" ? style.onNavBar : style.offNavBar}>{idiomaActual === "es" ? "Inicio" : "Home"}</button>
                     </NavLink>
-                ) :(<Link to="banner" className={style.offNavBar} smooth={true} duration={500} offset={-100}>{idiomaActual === "es" ? "Inicio" : "Home"}</Link>)}
-                {location.pathname.includes("blog") ? (null):(
+                ) : (<Link to="banner" className={style.offNavBar} smooth={true} duration={500} offset={-100}>{idiomaActual === "es" ? "Inicio" : "Home"}</Link>)}
+                {location.pathname.includes("blog") ? (null) : (
                     <Link to="secondBanner" className={style.offNavBar} smooth={true} duration={500} offset={-100}>{idiomaActual === "es" ? "Nosotros" : "About Us"}</Link>
                 )}
                 {location.pathname.includes("blog") ? (null) : (
                     <Link to="producto" className={style.offNavBar} smooth={true} duration={500} offset={-100}>{idiomaActual === "es" ? "Productos" : "Products"}</Link>
                 )}
                 {location.pathname.includes("blog") ? (null) : (
-                    <Link to="bannerPartner" className={style.offNavBar} smooth={true} duration={500} offset={-100}>{idiomaActual === "es" ? "Partners" : "Partners"}</Link>
+                    <Link to="bannerServicios" className={style.offNavBar} smooth={true} duration={500} offset={-100}>{idiomaActual === "es" ? "Servicios" : "Services"}</Link>
                 )}
                 {location.pathname.includes("blog") ? (null) : (
                     <Link to="bannerCita" className={style.offNavBar} smooth={true} duration={500} offset={-100}>{idiomaActual === "es" ? "Contacto" : "Contact us"}</Link>
@@ -73,19 +73,19 @@ const NavBar = () => {
                 </button>
             </div>
             {isMenuOpen && (
-            <div ref={menuRef} className={style.divMenu}>
-                <div className={style.listMenu}>
-                <Link to="banner" className={style.offNavBar} smooth={true} duration={500} offset={-100} onClick={()=> setIsMenuOpen(false)}>{idiomaActual === "es" ? "Inicio" : "Home"}</Link>
-                <Link to="secondBanner" className={style.offNavBar} smooth={true} duration={500} offset={-100} onClick={()=> setIsMenuOpen(false)}>{idiomaActual === "es" ? "Nosotros" : "About Us"}</Link>
-                <Link to="producto" className={style.offNavBar} smooth={true} duration={500} offset={-100} onClick={()=> setIsMenuOpen(false)}>{idiomaActual === "es" ? "Productos" : "Products"}</Link>
-                <Link to="bannerPartner" className={style.offNavBar} smooth={true} duration={500} offset={-100} onClick={()=> setIsMenuOpen(false)}>{idiomaActual === "es" ? "Partners" : "Partners"}</Link>
-                <Link to="bannerCita" className={style.offNavBar} smooth={true} duration={500} offset={-100} onClick={()=> setIsMenuOpen(false)}>{idiomaActual === "es" ? "Contacto" : "Contact us"}</Link>
-                <NavLink to="/blog">
-                    <button className={location.pathname === "/blog" ? style.onNavBar : style.offNavBar} onClick={()=> setIsMenuOpen(false)}>{idiomaActual === "es" ? "Blog" : "Blog"}</button>
-                </NavLink>
-                <button className={style.offNavBar} onClick={()=> {handleIdioma();setIsMenuOpen(false)}}><img src={idiomaActual === "es" ? "https://api.iconify.design/emojione:flag-for-colombia.svg?color=%2300acca" : "https://api.iconify.design/emojione:flag-for-united-states.svg?color=%2300acca"} alt="flagLanguage"/> {idiomaActual === "es" ? "ES " : "EN"}</button>
-                </div>
-            </div>)}
+                <div ref={menuRef} className={style.divMenu}>
+                    <div className={style.listMenu}>
+                        <Link to="banner" className={style.offNavBar} smooth={true} duration={500} offset={-100} onClick={() => setIsMenuOpen(false)}>{idiomaActual === "es" ? "Inicio" : "Home"}</Link>
+                        <Link to="secondBanner" className={style.offNavBar} smooth={true} duration={500} offset={-100} onClick={() => setIsMenuOpen(false)}>{idiomaActual === "es" ? "Nosotros" : "About Us"}</Link>
+                        <Link to="producto" className={style.offNavBar} smooth={true} duration={500} offset={-100} onClick={() => setIsMenuOpen(false)}>{idiomaActual === "es" ? "Productos" : "Products"}</Link>
+                        <Link to="bannerPartner" className={style.offNavBar} smooth={true} duration={500} offset={-100} onClick={() => setIsMenuOpen(false)}>{idiomaActual === "es" ? "Partners" : "Partners"}</Link>
+                        <Link to="bannerCita" className={style.offNavBar} smooth={true} duration={500} offset={-100} onClick={() => setIsMenuOpen(false)}>{idiomaActual === "es" ? "Contacto" : "Contact us"}</Link>
+                        <NavLink to="/blog">
+                            <button className={location.pathname === "/blog" ? style.onNavBar : style.offNavBar} onClick={() => setIsMenuOpen(false)}>{idiomaActual === "es" ? "Blog" : "Blog"}</button>
+                        </NavLink>
+                        <button className={style.offNavBar} onClick={() => { handleIdioma(); setIsMenuOpen(false) }}><img src={idiomaActual === "es" ? "https://api.iconify.design/emojione:flag-for-colombia.svg?color=%2300acca" : "https://api.iconify.design/emojione:flag-for-united-states.svg?color=%2300acca"} alt="flagLanguage" /> {idiomaActual === "es" ? "ES " : "EN"}</button>
+                    </div>
+                </div>)}
         </div>
     )
 }
